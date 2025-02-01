@@ -1,0 +1,802 @@
+[
+  {
+    "portuguese": "Quer comer aqui ou é para levar? - É para levar",
+    "russian": "Будете есть здесь или с собой? - С собой"
+  },
+  {
+    "portuguese": "Podemos sentar-nos aqui?",
+    "russian": "Можно нам сесть здесь?"
+  },
+  {
+    "portuguese": "Tem uma reserva? - Não tenho.",
+    "russian": "У вас есть бронь? - Нет."
+  },
+  {
+    "portuguese": "Tenho uma reserva em nome de Anna",
+    "russian": "У меня есть бронь на имя Анна"
+  },
+  {
+    "portuguese": "É preciso reservar uma mesa com antecedência?",
+    "russian": "Нужно бронировать стол заранее?"
+  },
+  {
+    "portuguese": "Tem mesa para três pessoas para hoje às 19h00 (sete horas da tarde)?",
+    "russian": "Есть столик на троих на сегодня на 19:00 (семь часов вечера)?"
+  },
+  {
+    "portuguese": "Posso sentar-me cá dentro/lá fora?",
+    "russian": "Можно сесть внутри/снаружи?"
+  },
+  {
+    "portuguese": "Este estabelecimento é pet friendly?",
+    "russian": "Это заведение принимает животных?"
+  },
+  {
+    "portuguese": "Posso tirar esta cadeira?",
+    "russian": "Можно взять этот стул?"
+  },
+  {
+    "portuguese": "Tem cadeira para bebé?",
+    "russian": "У вас есть детский стульчик?"
+  },
+  {
+    "portuguese": "A que horas abre?",
+    "russian": "Во сколько открывается?"
+  },
+  {
+    "portuguese": "Fecha a que horas?",
+    "russian": "Во сколько закрывается?"
+  },
+  {
+    "portuguese": "O que vai beber? E para beber?",
+    "russian": "Что будете пить? Что выпьете?"
+  },
+  {
+    "portuguese": "Precisamos de mais tempo para ver a ementa/carta",
+    "russian": "Нам нужно больше времени посмотреть меню"
+  },
+  {
+    "portuguese": "Dê-me mais dois minutos",
+    "russian": "Дайте мне еще две минуты"
+  },
+  {
+    "portuguese": "Gostava de fazer um pedido",
+    "russian": "Я хотел(а) бы сделать заказ"
+  },
+  {
+    "portuguese": "Tem pratos vegetarianos?",
+    "russian": "У вас есть вегетарианские блюда?"
+  },
+  {
+    "portuguese": "Sou alégico(a) a...",
+    "russian": "У меня аллергия на..."
+  },
+  {
+    "portuguese": "Este prato tem leite / frutos secos / ovos / carne / soja / trigo?",
+    "russian": "В этом блюде есть молоко / орехи / яйца / мясо / соя / пшеница?"
+  },
+  {
+    "portuguese": "Pode trazer um copo de água da torneira?",
+    "russian": "Можете принести стакан воды из-под крана?"
+  },
+  {
+    "portuguese": "Uma água natural, se faz favor / Uma água com gás sem gelo, se faz favor.",
+    "russian": "Негазированную воду, пожалуйста / Газированную воду без льда, пожалуйста."
+  },
+  {
+    "portuguese": "Vou pedir um prato de...",
+    "russian": "Я закажу блюдо..."
+  },
+  {
+    "portuguese": "Os pontos da carne: Mal Passado / Médio-Mal / Médio / Médio-Bem / Bem Passado",
+    "russian": "Степень прожарки мяса: С кровью / Слабой прожарки / Средней прожарки / Почти прожаренное / Полностью прожаренное"
+  },
+  {
+    "portuguese": "Quanto tempo vai demorar?",
+    "russian": "Сколько времени это займет?"
+  },
+  {
+    "portuguese": "Mais nada / (É) só isso",
+    "russian": "Больше ничего / Это всё"
+  },
+  {
+    "portuguese": "Já pedi / Ainda não pedi",
+    "russian": "Я уже заказал(а) / Я еще не заказал(а)"
+  },
+  {
+    "portuguese": "Aqui há wifi?",
+    "russian": "Здесь есть wifi?"
+  },
+  {
+    "portuguese": "Qual é a senha do wifi?",
+    "russian": "Какой пароль от wifi?"
+  },
+  {
+    "portuguese": "Podia ligar / desligar o ar condicionado?",
+    "russian": "Можете включить / выключить кондиционер?"
+  },
+  {
+    "portuguese": "Mais um copo, se faz favor",
+    "russian": "Еще один стакан, пожалуйста"
+  },
+  {
+    "portuguese": "Podia trazer os talheres? Podia trazer um garfo, uma colher, uma faca?",
+    "russian": "Можете принести столовые приборы? Можете принести вилку, ложку, нож?"
+  },
+  {
+    "portuguese": "Pode trazer-me o sal, se faz favor?",
+    "russian": "Можете принести мне соль, пожалуйста?"
+  },
+  {
+    "portuguese": "Onde posso arranjar guardanapos?",
+    "russian": "Где можно взять салфетки?"
+  },
+  {
+    "portuguese": "Obrigado(a). Tudo estava delicioso / saboroso / ótimo / muito bom",
+    "russian": "Спасибо. Всё было восхитительно / вкусно / отлично / очень хорошо"
+  },
+  {
+    "portuguese": "Já terminei / Já terminamos",
+    "russian": "Я закончил(а) / Мы закончили"
+  },
+  {
+    "portuguese": "Não tenho fome",
+    "russian": "Я не голоден/голодна"
+  },
+  {
+    "portuguese": "Obrigado, já não consigo comer mais",
+    "russian": "Спасибо, я больше не могу есть"
+  },
+  {
+    "portuguese": "Estou cheio(a) / Estou satisfeito(a)",
+    "russian": "Я наелся(лась) / Я сыт(а)"
+  },
+  {
+    "portuguese": "Vai querer uma sobremesa?",
+    "russian": "Будете десерт?"
+  },
+  {
+    "portuguese": "Posso usar a vossa casa de banho?",
+    "russian": "Можно воспользоваться вашим туалетом?"
+  },
+  {
+    "portuguese": "Queria pagar",
+    "russian": "Я хотел(а) бы оплатить"
+  },
+  {
+    "portuguese": "Vamos dividir a conta / pagamos em separado",
+    "russian": "Давайте разделим счет / платим отдельно"
+  },
+  {
+    "portuguese": "Traga a conta, se faz favor / Pode trazer a conta?",
+    "russian": "Принесите счет, пожалуйста / Можете принести счет?"
+  },
+  {
+    "portuguese": "Posso pagar com cartão / com multibanco?",
+    "russian": "Можно оплатить картой / банковской картой?"
+  },
+  {
+    "portuguese": "Pode adicionar gorjeta à conta?",
+    "russian": "Можете добавить чаевые к счету?"
+  },
+  {
+    "portuguese": "Não preciso do troco / Pode ficar com o troco",
+    "russian": "Сдачи не надо / Оставьте сдачу себе"
+  },
+  {
+    "portuguese": "Quanto custa? Quanto é?",
+    "russian": "Сколько стоит? Сколько это?"
+  },
+  {
+    "portuguese": "Qual é o preço de um quilo?",
+    "russian": "Какая цена за килограмм?"
+  },
+  {
+    "portuguese": "Posso provar? (comida) / Posso experimentar? (outro)",
+    "russian": "Можно попробовать? (еда) / Можно примерить? (другое)"
+  },
+  {
+    "portuguese": "Pode limpar / arranjar o peixe, se faz favor?",
+    "russian": "Можете почистить / приготовить рыбу, пожалуйста?"
+  },
+  {
+    "portuguese": "Trezentos gramas de camarão, por favor",
+    "russian": "Триста грамм креветок, пожалуйста"
+  },
+  {
+    "portuguese": "Um frango grande com miúdos / sem miúdos",
+    "russian": "Большую курицу с потрохами / без потрохов"
+  },
+  {
+    "portuguese": "Está bom, obrigado(a)",
+    "russian": "Хорошо, спасибо"
+  },
+  {
+    "portuguese": "Pode cortar em pedaços grandes?",
+    "russian": "Можете порезать большими кусками?"
+  },
+  {
+    "portuguese": "Onde posso pesar isto?",
+    "russian": "Где можно это взвесить?"
+  },
+  {
+    "portuguese": "Vou dar uma vista de olhos",
+    "russian": "Я посмотрю"
+  },
+  {
+    "portuguese": "Tem noutra cor?",
+    "russian": "Есть другого цвета?"
+  },
+  {
+    "portuguese": "Tem isto no tamanho M (médio)?",
+    "russian": "У вас есть это размера M (средний)?"
+  },
+  {
+    "portuguese": "Tem o meu tamanho?",
+    "russian": "У вас есть мой размер?"
+  },
+  {
+    "portuguese": "Onde ficam os provadores?",
+    "russian": "Где находятся примерочные?"
+  },
+  {
+    "portuguese": "É preciso tirar senha?",
+    "russian": "Нужно брать талончик?"
+  },
+  {
+    "portuguese": "Qual é o número da sua senha?",
+    "russian": "Какой номер вашего талона?"
+  },
+  {
+    "portuguese": "Quer água fresca ou natural?",
+    "russian": "Хотите холодную или комнатной температуры воду?"
+  },
+  {
+    "portuguese": "Quero fazer um cartão de fidelidade",
+    "russian": "Я хочу оформить карту лояльности"
+  },
+  {
+    "portuguese": "É para oferta?",
+    "russian": "Это для подарка?"
+  },
+  {
+    "portuguese": "Precisa de saco? - Sim, dê-me um saco, se faz favor",
+    "russian": "Нужен пакет? - Да, дайте пакет, пожалуйста"
+  },
+  {
+    "portuguese": "Pode ser com número de contribuinte?",
+    "russian": "Можно с налоговым номером?"
+  },
+  {
+    "portuguese": "(Não) estou na fila",
+    "russian": "Я (не) в очереди"
+  },
+  {
+    "portuguese": "Desculpe, está na fila?",
+    "russian": "Извините, вы в очереди?"
+  },
+  {
+    "portuguese": "Pode trocar os cinquenta (50) euros com notas de dez (10)? Pode trocar cinco (5) euros com moedas?",
+    "russian": "Можете разменять пятьдесят (50) евро на десятки (10)? Можете разменять пять (5) евро на монеты?"
+  },
+  {
+    "portuguese": "Vai ter troco de vinte 20/ trinta 30/ cinquenta 50 euros?",
+    "russian": "У вас будет сдача с двадцати 20/ тридцати 30/ пятидесяти 50 евро?"
+  },
+  {
+    "portuguese": "Desculpe, mas a etiqueta tinha um preço diferente",
+    "russian": "Извините, но на ценнике была другая цена"
+  },
+  {
+    "portuguese": "Onde é a saída?",
+    "russian": "Где выход?"
+  },
+  {
+    "portuguese": "A que horas vão entregar? Quando chega a encomenda?",
+    "russian": "Во сколько доставят? Когда прибудет заказ?"
+  },
+  {
+    "portuguese": "Faz entregas (ao domicílio)?",
+    "russian": "Вы делаете доставку (на дом)?"
+  },
+  {
+    "portuguese": "Pode enviar um e-mail / uma mensagem com esta informação?",
+    "russian": "Можете отправить email / сообщение с этой информацией?"
+  },
+  {
+    "portuguese": "Pode fazer-me uma cópia deste documento?",
+    "russian": "Можете сделать мне копию этого документа?"
+  },
+  {
+    "portuguese": "Preciso de imprimir este ficheiro em preto e branco / a cores",
+    "russian": "Мне нужно распечатать этот файл в черно-белом / цветном варианте"
+  },
+  {
+    "portuguese": "Só uma rúbrica / assinatura. - É aqui?",
+    "russian": "Только подпись / роспись. - Здесь?"
+  },
+  {
+    "portuguese": "Pode escrever isso?",
+    "russian": "Можете это написать?"
+  },
+  {
+    "portuguese": "Como se escreve?",
+    "russian": "Как это пишется?"
+  },
+  {
+    "portuguese": "Escreva aqui o seu número de telefone / e-mail",
+    "russian": "Напишите здесь ваш номер телефона / email"
+  },
+  {
+    "portuguese": "Acho que há um erro aqui",
+    "russian": "Я думаю, здесь ошибка"
+  },
+  {
+    "portuguese": "Temos de chamar a ambulância",
+    "russian": "Нам нужно вызвать скорую помощь"
+  },
+  {
+    "portuguese": "É possível marcar-me para uma data mais próxima?",
+    "russian": "Возможно записать меня на более близкую дату?"
+  },
+  {
+    "portuguese": "Preciso de reagendar a minha consulta médica.",
+    "russian": "Мне нужно перенести мой прием к врачу."
+  },
+  {
+    "portuguese": "Este médico tem um acordo com alguma seguradora?",
+    "russian": "У этого врача есть договор с какой-нибудь страховой компанией?"
+  },
+  {
+    "portuguese": "Quero marcar uma consulta para o meu médico de família",
+    "russian": "Я хочу записаться на прием к моему семейному врачу"
+  },
+  {
+    "portuguese": "A que horas devo chegar?",
+    "russian": "Во сколько мне нужно прийти?"
+  },
+  {
+    "portuguese": "O médico atende às quintas-feiras",
+    "russian": "Врач принимает по четвергам"
+  },
+  {
+    "portuguese": "Tem medicamentos desta lista?",
+    "russian": "У вас есть лекарства из этого списка?"
+  },
+  {
+    "portuguese": "Onde fica...o supermercado/a farmácia?",
+    "russian": "Где находится...супермаркет/аптека?"
+  },
+  {
+    "portuguese": "Passe, se faz favor / Força!",
+    "russian": "Проходите, пожалуйста / Давайте!"
+  },
+  {
+    "portuguese": "Pode passar à frente",
+    "russian": "Можете проходить вперед"
+  },
+  {
+    "portuguese": "Com licença / desculpe",
+    "russian": "Разрешите / извините"
+  },
+  {
+    "portuguese": "Pode tirar uma foto? No horizontal / no vertical",
+    "russian": "Можете сфотографировать? Горизонтально / вертикально"
+  },
+  {
+    "portuguese": "Pode ajudar-me? Preciso da sua ajuda",
+    "russian": "Можете мне помочь? Мне нужна ваша помощь"
+  },
+  {
+    "portuguese": "Onde posso levantar dinheiro?",
+    "russian": "Где я могу снять деньги?"
+  },
+  {
+    "portuguese": "O meu nome é Konstantin e sou programador. O meu nome é Ekaterina e sou psicóloga",
+    "russian": "Меня зовут Константин, я программист. Меня зовут Екатерина, я психолог"
+  },
+  {
+    "portuguese": "Qual é a sua profissão?",
+    "russian": "Какая у вас профессия?"
+  },
+  {
+    "portuguese": "Eu sou de...",
+    "russian": "Я из..."
+  },
+  {
+    "portuguese": "O meu número é 987 654 321 0 (nove, oito, sete, seis, cinco, quatro, três, dois um zero)",
+    "russian": "Мой номер 987 654 321 0 (девять, восемь, семь, шесть, пять, четыре, три, два, один, ноль)"
+  },
+  {
+    "portuguese": "O meu NIF (número de contribuinte) é 123456789",
+    "russian": "Мой ИНН (налоговый номер) 123456789"
+  },
+  {
+    "portuguese": "Bom dia! Boa tarde!",
+    "russian": "Доброе утро! Добрый день!"
+  },
+  {
+    "portuguese": "Até terça!",
+    "russian": "До вторника!"
+  },
+  {
+    "portuguese": "Bom fim de semana!",
+    "russian": "Хороших выходных!"
+  },
+  {
+    "portuguese": "Boa sexta!",
+    "russian": "Хорошей пятницы!"
+  },
+  {
+    "portuguese": "Manda cumprimentos à Alexandra / ao Ricardo!",
+    "russian": "Передавай привет Александре / Рикардо!"
+  },
+  {
+    "portuguese": "Até à próxima! até breve! até amanhã",
+    "russian": "До следующего раза! до скорого! до завтра"
+  },
+  {
+    "portuguese": "Vemo-nos daqui a meia-hora",
+    "russian": "Увидимся через полчаса"
+  },
+  {
+    "portuguese": "Boa noite!",
+    "russian": "Доброй ночи!"
+  },
+  {
+    "portuguese": "Desculpe, não posso falar agora",
+    "russian": "Извините, я не могу сейчас говорить"
+  },
+  {
+    "portuguese": "Quem é? Quem fala?",
+    "russian": "Кто это? Кто говорит?"
+  },
+  {
+    "portuguese": "Estou? Está?",
+    "russian": "Алло? Алло?"
+  },
+  {
+    "portuguese": "Não estou interessado(a), desculpe",
+    "russian": "Я не заинтересован(а), извините"
+  },
+  {
+    "portuguese": "Desculpe, estou muito ocupado(a)",
+    "russian": "Извините, я очень занят(а)"
+  },
+  {
+    "portuguese": "Pode soletrar?",
+    "russian": "Можете произнести по буквам?"
+  },
+  {
+    "portuguese": "Desculpe, não tenho tempo para isso",
+    "russian": "Извините, у меня нет на это времени"
+  },
+  {
+    "portuguese": "Podia falar mais devagar?",
+    "russian": "Можете говорить помедленнее?"
+  },
+  {
+    "portuguese": "Mais uma vez, se faz favor",
+    "russian": "Еще раз, пожалуйста"
+  },
+  {
+    "portuguese": "Pode falar mais baixo / mais alto?",
+    "russian": "Можете говорить тише / громче?"
+  },
+  {
+    "portuguese": "Com quem posso falar sobre...",
+    "russian": "С кем я могу поговорить о..."
+  },
+  {
+    "portuguese": "Parabéns! Feliz Aniversário!",
+    "russian": "Поздравляю! С днем рождения!"
+  },
+  {
+    "portuguese": "Feliz Natal e Bom Ano Novo!",
+    "russian": "Счастливого Рождества и Нового года!"
+  },
+  {
+    "portuguese": "Não falo inglês",
+    "russian": "Я не говорю по-английски"
+  },
+  {
+    "portuguese": "Desculpe, ainda estou a aprender português, fala inglês?",
+    "russian": "Извините, я еще учу португальский, вы говорите по-английски?"
+  },
+  {
+    "portuguese": "Como se diz isto em português?",
+    "russian": "Как это сказать по-португальски?"
+  },
+  {
+    "portuguese": "Conheces o João?",
+    "russian": "Ты знаешь Жоао?"
+  },
+  {
+    "portuguese": "Muito prazer!",
+    "russian": "Очень приятно!"
+  },
+  {
+    "portuguese": "Tem multibanco? / Posso pagar com cartão?",
+    "russian": "У вас есть терминал? / Можно оплатить картой?"
+  },
+  {
+    "portuguese": "Desculpe, o multibanco / a casa de banho está fora de serviço",
+    "russian": "Извините, терминал / туалет не работает"
+  },
+  {
+    "portuguese": "Desculpe pelo incómodo",
+    "russian": "Извините за беспокойство"
+  },
+  {
+    "portuguese": "Não se preocupe / Não te preocupes",
+    "russian": "Не беспокойтесь / Не беспокойся"
+  },
+  {
+    "portuguese": "Eu queria...",
+    "russian": "Я хотел(а) бы..."
+  },
+  {
+    "portuguese": "Desculpe, foi sem querer",
+    "russian": "Извините, это было нечаянно"
+  },
+  {
+    "portuguese": "O que é que se passa?",
+    "russian": "Что происходит?"
+  },
+  {
+    "portuguese": "Não faz mal / não tem problema",
+    "russian": "Ничего страшного / нет проблем"
+  },
+  {
+    "portuguese": "Hoje está calor/está frio",
+    "russian": "Сегодня жарко/холодно"
+  },
+  {
+    "portuguese": "Estás confortável?",
+    "russian": "Тебе удобно?"
+  },
+  {
+    "portuguese": "Então, volto mais tarde",
+    "russian": "Тогда я вернусь позже"
+  },
+  {
+    "portuguese": "Não me importo",
+    "russian": "Мне всё равно"
+  },
+  {
+    "portuguese": "Obrigado(a) pela sua ajuda / agradeço a sua ajuda",
+    "russian": "Спасибо за вашу помощь / благодарю за вашу помощь"
+  },
+  {
+    "portuguese": "Tenho a certeza",
+    "russian": "Я уверен(а)"
+  },
+  {
+    "portuguese": "Espere, por favor",
+    "russian": "Подождите, пожалуйста"
+  },
+  {
+    "portuguese": "Onde fica a casa de banho?",
+    "russian": "Где находится туалет?"
+  },
+  {
+    "portuguese": "Que horas são?",
+    "russian": "Который час?"
+  },
+  {
+    "portuguese": "O que é isto / isso?",
+    "russian": "Что это / то?"
+  },
+  {
+    "portuguese": "Desculpe, você trabalha aqui? O senhor / a senhora trabalha aqui?",
+    "russian": "Извините, вы здесь работаете? Вы (господин / госпожа) здесь работаете?"
+  },
+  {
+    "portuguese": "É muito simpático!",
+    "russian": "Очень приятный!"
+  },
+  {
+    "portuguese": "Posso tirar uma foto?",
+    "russian": "Можно сфотографировать?"
+  },
+  {
+    "portuguese": "Mostra-me como é",
+    "russian": "Покажи мне, как это"
+  },
+  {
+    "portuguese": "Não tenho dinheiro comigo",
+    "russian": "У меня нет с собой денег"
+  },
+  {
+    "portuguese": "Sabe quem é o dono deste cão?",
+    "russian": "Вы знаете, кто хозяин этой собаки?"
+  },
+  {
+    "portuguese": "Pode fechar a porta/janela se faz favor?",
+    "russian": "Можете закрыть дверь/окно, пожалуйста?"
+  },
+  {
+    "portuguese": "Precisa de ajuda?",
+    "russian": "Вам нужна помощь?"
+  },
+  {
+    "portuguese": "Não sei",
+    "russian": "Я не знаю"
+  },
+  {
+    "portuguese": "Tenho de ir",
+    "russian": "Мне нужно идти"
+  },
+  {
+    "portuguese": "Não posso fazer nada",
+    "russian": "Я ничего не могу сделать"
+  },
+  {
+    "portuguese": "O que eu posso fazer? Como posso ajudar?",
+    "russian": "Что я могу сделать? Как я могу помочь?"
+  },
+  {
+    "portuguese": "Obrigado(a). De nada",
+    "russian": "Спасибо. Пожалуйста"
+  },
+  {
+    "portuguese": "Posso entrar?",
+    "russian": "Можно войти?"
+  },
+  {
+    "portuguese": "Não trabalhamos por causa da greve / por causa do feriado",
+    "russian": "Мы не работаем из-за забастовки / из-за праздника"
+  },
+  {
+    "portuguese": "Sinto muito / Lamento / Os meus sentimentos",
+    "russian": "Мне очень жаль / Сожалею / Мои соболезнования"
+  },
+  {
+    "portuguese": "Pois, faz sentido",
+    "russian": "Да, это имеет смысл"
+  },
+  {
+    "portuguese": "Estou muito embaraçado(a)",
+    "russian": "Мне очень неловко"
+  },
+  {
+    "portuguese": "Não estou a perceber / Não percebo",
+    "russian": "Я не понимаю / Я не понимаю"
+  },
+  {
+    "portuguese": "Esta água é potável?",
+    "russian": "Эта вода питьевая?"
+  },
+  {
+    "portuguese": "O que vais fazer hoje? Quais são os teus planos?",
+    "russian": "Что ты будешь делать сегодня? Какие у тебя планы?"
+  },
+  {
+    "portuguese": "Tenho de esperar quanto tempo?",
+    "russian": "Сколько мне нужно ждать?"
+  },
+  {
+    "portuguese": "Tudo bem, não tenho pressa",
+    "russian": "Всё хорошо, я не спешу"
+  },
+  {
+    "portuguese": "A entrada é gratuita às segundas-feiras",
+    "russian": "Вход бесплатный по понедельникам"
+  },
+  {
+    "portuguese": "Trabalha às quartas-feiras? Está aberto às quartas?",
+    "russian": "Вы работаете по средам? Открыто по средам?"
+  },
+  {
+    "portuguese": "Eles não trabalham aos sábados e domingos",
+    "russian": "Они не работают по субботам и воскресеньям"
+  },
+  {
+    "portuguese": "Desculpe pelo atraso",
+    "russian": "Извините за опоздание"
+  },
+  {
+    "portuguese": "Saúde! Santinho! Santinha!",
+    "russian": "Будьте здоровы!"
+  },
+  {
+    "portuguese": "Posso fumar aqui? Pode trazer um cinzeiro?",
+    "russian": "Можно курить здесь? Можно принести пепельник?"
+  },
+  {
+    "portuguese": "O meu carro avariou / O teu computador avariou",
+    "russian": "Мой автомобиль сломался / Твой компьютер сломался"
+  },
+  {
+    "portuguese": "Vai subir ou descer?",
+    "russian": "Вы поднимаетесь или спускаетесь?"
+  },
+  {
+    "portuguese": "Desculpe, tem carregador de telemóvel?",
+    "russian": "Извините, у вас есть зарядка для телефона?"
+  },
+  {
+    "portuguese": "Quem é que está a seguir?",
+    "russian": "Кто следующий?"
+  },
+  {
+    "portuguese": "A entrada é interdita / proibida",
+    "russian": "Вход воспрещен / запрещен"
+  },
+  {
+    "portuguese": "Um bilhete para... se faz favor",
+    "russian": "Один билет до... пожалуйста"
+  },
+  {
+    "portuguese": "Um bilhete de ida e volta",
+    "russian": "Билет туда и обратно"
+  },
+  {
+    "portuguese": "Há algum desconto para crianças / reformados?",
+    "russian": "Есть ли скидки для детей / пенсионеров?"
+  },
+  {
+    "portuguese": "De que plataforma parte o autocarro / a camioneta?",
+    "russian": "С какой платформы отправляется автобус?"
+  },
+  {
+    "portuguese": "Desculpe, acho que este lugar é meu",
+    "russian": "Извините, кажется, это мое место"
+  },
+  {
+    "portuguese": "Quero fazer / carregar um passe mensal",
+    "russian": "Я хочу сделать / пополнить месячный проездной"
+  },
+  {
+    "portuguese": "Pode puxar o banco mais para a frente?",
+    "russian": "Можете подвинуть сиденье вперед?"
+  },
+  {
+    "portuguese": "Podia levar-me para esta morada, se faz favor?",
+    "russian": "Не могли бы вы отвезти меня по этому адресу, пожалуйста?"
+  },
+  {
+    "portuguese": "Vire à direita",
+    "russian": "Поверните направо"
+  },
+  {
+    "portuguese": "Vire à esquerda",
+    "russian": "Поверните налево"
+  },
+  {
+    "portuguese": "Pode seguir o GPS",
+    "russian": "Можете следовать по GPS"
+  },
+  {
+    "portuguese": "Siga em frente.",
+    "russian": "Езжайте прямо."
+  },
+  {
+    "portuguese": "Pode baixar um pouco a música?",
+    "russian": "Можете сделать музыку потише?"
+  },
+  {
+    "portuguese": "Pode parar aqui?",
+    "russian": "Можете остановиться здесь?"
+  },
+  {
+    "portuguese": "Bomba 5 (cinco), 10 (dez) litros de gasolina simples, 95 (noventa e cinco)",
+    "russian": "Колонка 5 (пять), 10 (десять) литров обычного бензина, 95 (девяносто пять)"
+  },
+  {
+    "portuguese": "Bomba 3 (três), vinte euros de gasóleo",
+    "russian": "Колонка 3 (три), на двадцать евро дизельного топлива"
+  },
+  {
+    "portuguese": "Queria encher o depósito",
+    "russian": "Я хотел(а) бы заправить полный бак"
+  },
+  {
+    "portuguese": "Este estacionamento é pago? É gratuito?",
+    "russian": "Эта парковка платная? Бесплатная?"
+  },
+  {
+    "portuguese": "Onde posso pagar o estacionamento?",
+    "russian": "Где можно оплатить парковку?"
+  }
+]
