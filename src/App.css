@@ -219,6 +219,8 @@ p {
   justify-content: space-between;
   align-items: center;
   transition: background-color 0.3s;
+  margin: 0.5rem 0;
+  border-radius: 8px;
 }
 
 .card-stat.learned {
@@ -297,13 +299,6 @@ p {
   color: #FFFFFF;
   font-size: 1rem;
   margin: 1rem 0;
-}
-
-.card-stat {
-  background-color: #FFFFFF;
-  padding: 1rem;
-  margin: 0.5rem 0;
-  border-radius: 8px;
 }
 
 .card-stat-text {
