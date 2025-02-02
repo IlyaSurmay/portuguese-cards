@@ -1,802 +1,1002 @@
 [
   {
     "portuguese": "Quer comer aqui ou é para levar? - É para levar",
-    "russian": "Будете есть здесь или с собой? - С собой"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_5a7031e56e3c4e50bdeb1d397ce0aa92.mp3",
+    "ukrainian": "Хочете поїсти тут чи взяти з собою? - Взяти з собою"
   },
   {
     "portuguese": "Podemos sentar-nos aqui?",
-    "russian": "Можно нам сесть здесь?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_eb151eb660d849cbaf20a584599b7a0a.mp3",
+    "ukrainian": "Можемо сісти тут?"
   },
   {
     "portuguese": "Tem uma reserva? - Não tenho.",
-    "russian": "У вас есть бронь? - Нет."
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_9318b6cb9dec45b38ba0f927ba428ce7.mp3",
+    "ukrainian": "У вас є бронювання? - Немає."
   },
   {
     "portuguese": "Tenho uma reserva em nome de Anna",
-    "russian": "У меня есть бронь на имя Анна"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_572cc36583c24b269f0ac1245ee4b9b1.mp3",
+    "ukrainian": "У мене бронювання на ім'я Анна"
   },
   {
     "portuguese": "É preciso reservar uma mesa com antecedência?",
-    "russian": "Нужно бронировать стол заранее?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_b15a0a47a4314150af196fe4b966b07e.mp3",
+    "ukrainian": "Чи потрібно бронювати стіл заздалегідь?"
   },
   {
     "portuguese": "Tem mesa para três pessoas para hoje às 19h00 (sete horas da tarde)?",
-    "russian": "Есть столик на троих на сегодня на 19:00 (семь часов вечера)?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_f1eb4e94ca5a436695a9936571800d84.mp3",
+    "ukrainian": "Чи є стіл на трьох осіб на сьогодні о 19:00?"
   },
   {
     "portuguese": "Posso sentar-me cá dentro/lá fora?",
-    "russian": "Можно сесть внутри/снаружи?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_6a9cadc62d9845fda2edebf3f03fc41a.mp3",
+    "ukrainian": "Можу сісти всередині/зовні?"
   },
   {
     "portuguese": "Este estabelecimento é pet friendly?",
-    "russian": "Это заведение принимает животных?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_8ae66a70edb64cd7b5841fd161e4f74c.mp3",
+    "ukrainian": "Цей заклад дружній до тварин?"
   },
   {
     "portuguese": "Posso tirar esta cadeira?",
-    "russian": "Можно взять этот стул?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_3f2da350a8a64042b38a079483bdd9a6.mp3",
+    "ukrainian": "Можу забрати цей стілець?"
   },
   {
     "portuguese": "Tem cadeira para bebé?",
-    "russian": "У вас есть детский стульчик?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_31ac6844f3874a01a2d274b839d6f893.mp3",
+    "ukrainian": "Чи є стілець для дитини?"
   },
   {
     "portuguese": "A que horas abre?",
-    "russian": "Во сколько открывается?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_26e172cb3609498a8f6d120dbb3e5d90.mp3",
+    "ukrainian": "О котрій годині відкривається?"
   },
   {
     "portuguese": "Fecha a que horas?",
-    "russian": "Во сколько закрывается?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_7b84fd9e9a7b456a8af1a214d43a1127.mp3",
+    "ukrainian": "О котрій годині закривається?"
   },
   {
     "portuguese": "O que vai beber? E para beber?",
-    "russian": "Что будете пить? Что выпьете?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_29960023569c423d88ef1c4f94e87fcd.mp3",
+    "ukrainian": "Що будете пити? І що пити?"
   },
   {
     "portuguese": "Precisamos de mais tempo para ver a ementa/carta",
-    "russian": "Нам нужно больше времени посмотреть меню"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_f607309cd8b84918a06d9de98f6ab109.mp3",
+    "ukrainian": "Нам потрібно більше часу, щоб переглянути меню"
   },
   {
     "portuguese": "Dê-me mais dois minutos",
-    "russian": "Дайте мне еще две минуты"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_4a9a90443b724570be1c1db620454c28.mp3",
+    "ukrainian": "Дайте мені ще дві хвилини"
   },
   {
     "portuguese": "Gostava de fazer um pedido",
-    "russian": "Я хотел(а) бы сделать заказ"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_40f12f28f16e46fb85c92ade185ea283.mp3",
+    "ukrainian": "Я хотів би зробити замовлення"
   },
   {
     "portuguese": "Tem pratos vegetarianos?",
-    "russian": "У вас есть вегетарианские блюда?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_5b5c9df1f8c147a9919eadbdff95cb01.mp3",
+    "ukrainian": "Чи є вегетаріанські страви?"
   },
   {
     "portuguese": "Sou alégico(a) a...",
-    "russian": "У меня аллергия на..."
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_78e2e93a608a4a668800733252856677.mp3",
+    "ukrainian": "Я алергік на..."
   },
   {
     "portuguese": "Este prato tem leite / frutos secos / ovos / carne / soja / trigo?",
-    "russian": "В этом блюде есть молоко / орехи / яйца / мясо / соя / пшеница?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_602de9939c96482396e744016682096d.mp3",
+    "ukrainian": "Ця страва містить молоко / горіхи / яйця / м'ясо / сою / пшеницю?"
   },
   {
     "portuguese": "Pode trazer um copo de água da torneira?",
-    "russian": "Можете принести стакан воды из-под крана?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_249f71f857a7489a83e22d4bf5c5ee01.mp3",
+    "ukrainian": "Можете принести склянку води з-під крана?"
   },
   {
     "portuguese": "Uma água natural, se faz favor / Uma água com gás sem gelo, se faz favor.",
-    "russian": "Негазированную воду, пожалуйста / Газированную воду без льда, пожалуйста."
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_ce93c0054bee459c849598f01d5c43ca.mp3",
+    "ukrainian": "Природна вода, будь ласка / Газована вода без льоду, будь ласка."
   },
   {
     "portuguese": "Vou pedir um prato de...",
-    "russian": "Я закажу блюдо..."
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_c5b8523cffbc4c8382c92190fce71a15.mp3",
+    "ukrainian": "Я замовлю страву з..."
   },
   {
     "portuguese": "Os pontos da carne: Mal Passado / Médio-Mal / Médio / Médio-Bem / Bem Passado",
-    "russian": "Степень прожарки мяса: С кровью / Слабой прожарки / Средней прожарки / Почти прожаренное / Полностью прожаренное"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_456c69626423410e8aab24b8ee440dcd.mp3",
+    "ukrainian": "Ступені прожарки м'яса: Недосмажене / Середньо-недосмажене / Середнє / Середньо-добре / Добре прожарене"
   },
   {
     "portuguese": "Quanto tempo vai demorar?",
-    "russian": "Сколько времени это займет?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_bedc128f428c4b428988c21440a1d372.mp3",
+    "ukrainian": "Скільки часу це займе?"
   },
   {
     "portuguese": "Mais nada / (É) só isso",
-    "russian": "Больше ничего / Это всё"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_6aeabc8466c2490dadfe519a86ccc0af.mp3",
+    "ukrainian": "Більше нічого / (Це) тільки це"
   },
   {
     "portuguese": "Já pedi / Ainda não pedi",
-    "russian": "Я уже заказал(а) / Я еще не заказал(а)"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_e8b09ece6e8f4ef9941f624250c275ce.mp3",
+    "ukrainian": "Я вже замовив / Я ще не замовив"
   },
   {
     "portuguese": "Aqui há wifi?",
-    "russian": "Здесь есть wifi?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_87265cb9a2ce47e1ab56e0d2fde50b2a.mp3",
+    "ukrainian": "Тут є Wi-Fi?"
   },
   {
     "portuguese": "Qual é a senha do wifi?",
-    "russian": "Какой пароль от wifi?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_636e0e8261e040c99d433b1ab1eecc96.mp3",
+    "ukrainian": "Який пароль від Wi-Fi?"
   },
   {
     "portuguese": "Podia ligar / desligar o ar condicionado?",
-    "russian": "Можете включить / выключить кондиционер?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_0dddc505ef4449a2a1d1778cb8b3f58d.mp3",
+    "ukrainian": "Можете увімкнути / вимкнути кондиціонер?"
   },
   {
     "portuguese": "Mais um copo, se faz favor",
-    "russian": "Еще один стакан, пожалуйста"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_8c9b818222c2418da0933766f628ba3e.mp3",
+    "ukrainian": "Ще один стакан, будь ласка"
   },
   {
     "portuguese": "Podia trazer os talheres? Podia trazer um garfo, uma colher, uma faca?",
-    "russian": "Можете принести столовые приборы? Можете принести вилку, ложку, нож?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_8e14acbefe05429aacd006038bfb0199.mp3",
+    "ukrainian": "Можете принести столові прибори? Можете принести виделку, ложку, ніж?"
   },
   {
     "portuguese": "Pode trazer-me o sal, se faz favor?",
-    "russian": "Можете принести мне соль, пожалуйста?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_ee373eb155494785a868e0ffd7efa3ee.mp3",
+    "ukrainian": "Можете принести мені сіль, будь ласка?"
   },
   {
     "portuguese": "Onde posso arranjar guardanapos?",
-    "russian": "Где можно взять салфетки?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_824c1cbbb540496a95dce8c9d1b9939b.mp3",
+    "ukrainian": "Де я можу знайти серветки?"
   },
   {
     "portuguese": "Obrigado(a). Tudo estava delicioso / saboroso / ótimo / muito bom",
-    "russian": "Спасибо. Всё было восхитительно / вкусно / отлично / очень хорошо"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_679261ea13d440beabbf3236c3884a1a.mp3",
+    "ukrainian": "Дякую. Все було смачно / смачно / чудово / дуже добре"
   },
   {
     "portuguese": "Já terminei / Já terminamos",
-    "russian": "Я закончил(а) / Мы закончили"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_03f82d7449944a179f84782a0bc147b8.mp3",
+    "ukrainian": "Я вже закінчив / Ми вже закінчили"
   },
   {
     "portuguese": "Não tenho fome",
-    "russian": "Я не голоден/голодна"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_9fbe949756384095a493adae3484b42a.mp3",
+    "ukrainian": "Я не голодний"
   },
   {
     "portuguese": "Obrigado, já não consigo comer mais",
-    "russian": "Спасибо, я больше не могу есть"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_9609d564a00c4ef3863715f0c06c0c19.mp3",
+    "ukrainian": "Дякую, я більше не можу їсти"
   },
   {
     "portuguese": "Estou cheio(a) / Estou satisfeito(a)",
-    "russian": "Я наелся(лась) / Я сыт(а)"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_c3aaf0011d44454dbb709fdf90c561e5.mp3",
+    "ukrainian": "Я ситий / Я задоволений"
   },
   {
     "portuguese": "Vai querer uma sobremesa?",
-    "russian": "Будете десерт?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_8660670de57d4f1f845003d6f7c3f905.mp3",
+    "ukrainian": "Ви хочете десерт?"
   },
   {
     "portuguese": "Posso usar a vossa casa de banho?",
-    "russian": "Можно воспользоваться вашим туалетом?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_f84004a706be46b98d33333087b0286d.mp3",
+    "ukrainian": "Можу я скористатися вашою ванною кімнатою?"
   },
   {
     "portuguese": "Queria pagar",
-    "russian": "Я хотел(а) бы оплатить"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_8a39c8b23499487f83dfdeb67efa3ab3.mp3",
+    "ukrainian": "Я хотів би заплатити"
   },
   {
     "portuguese": "Vamos dividir a conta / pagamos em separado",
-    "russian": "Давайте разделим счет / платим отдельно"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_a305c889e64d4f498e9665fec41c1a79.mp3",
+    "ukrainian": "Давайте розділимо рахунок / платимо окремо"
   },
   {
     "portuguese": "Traga a conta, se faz favor / Pode trazer a conta?",
-    "russian": "Принесите счет, пожалуйста / Можете принести счет?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_937adffa402c41db9479671cc7974742.mp3",
+    "ukrainian": "Принесіть рахунок, будь ласка / Можете принести рахунок?"
   },
   {
     "portuguese": "Posso pagar com cartão / com multibanco?",
-    "russian": "Можно оплатить картой / банковской картой?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_8165133d302c4d609aba9a37ab205c58.mp3",
+    "ukrainian": "Можу я заплатити карткою / через банкомат?"
   },
   {
     "portuguese": "Pode adicionar gorjeta à conta?",
-    "russian": "Можете добавить чаевые к счету?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_34baf939ae6249cd8027ae343f9c1b9d.mp3",
+    "ukrainian": "Можете додати чайові до рахунку?"
   },
   {
     "portuguese": "Não preciso do troco / Pode ficar com o troco",
-    "russian": "Сдачи не надо / Оставьте сдачу себе"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_f9aa7bd8fb46467aa87d469143b3bcdb.mp3",
+    "ukrainian": "Мені не потрібна здача / Можете залишити здачу собі"
   },
   {
     "portuguese": "Quanto custa? Quanto é?",
-    "russian": "Сколько стоит? Сколько это?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_fba8e0c11702450ebd1e13f7bb446c7a.mp3",
+    "ukrainian": "Скільки коштує? Скільки це?"
   },
   {
     "portuguese": "Qual é o preço de um quilo?",
-    "russian": "Какая цена за килограмм?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_42d5580ef6024056ac0bd7375bdc2416.mp3",
+    "ukrainian": "Яка ціна за кілограм?"
   },
   {
     "portuguese": "Posso provar? (comida) / Posso experimentar? (outro)",
-    "russian": "Можно попробовать? (еда) / Можно примерить? (другое)"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_296b00a9b93c456b8b198686197a9ca5.mp3",
+    "ukrainian": "Можу я спробувати? (їжа) / Можу я спробувати? (інше)"
   },
   {
     "portuguese": "Pode limpar / arranjar o peixe, se faz favor?",
-    "russian": "Можете почистить / приготовить рыбу, пожалуйста?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_c966b07852b84b2fb1a4165963417d41.mp3",
+    "ukrainian": "Можете почистити / підготувати рибу, будь ласка?"
   },
   {
     "portuguese": "Trezentos gramas de camarão, por favor",
-    "russian": "Триста грамм креветок, пожалуйста"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_16e1a51bad494ae3aa4a504a12e406f9.mp3",
+    "ukrainian": "Триста грамів креветок, будь ласка"
   },
   {
     "portuguese": "Um frango grande com miúdos / sem miúdos",
-    "russian": "Большую курицу с потрохами / без потрохов"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_c729e55d789e42f282d963609b8c8198.mp3",
+    "ukrainian": "Велика курка з потрохами / без потрохів"
   },
   {
     "portuguese": "Está bom, obrigado(a)",
-    "russian": "Хорошо, спасибо"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_f53054581a43493b89b1f43b4023780a.mp3",
+    "ukrainian": "Все добре, дякую"
   },
   {
     "portuguese": "Pode cortar em pedaços grandes?",
-    "russian": "Можете порезать большими кусками?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_e3860defc757467aa21b268f59a57737.mp3",
+    "ukrainian": "Можете нарізати великими шматками?"
   },
   {
     "portuguese": "Onde posso pesar isto?",
-    "russian": "Где можно это взвесить?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_c52a0cb1f7094e5bb575c1a053191421.mp3",
+    "ukrainian": "Де я можу це зважити?"
   },
   {
     "portuguese": "Vou dar uma vista de olhos",
-    "russian": "Я посмотрю"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_4a947b4180864bb2a2cda12e01595f67.mp3",
+    "ukrainian": "Я подивлюся"
   },
   {
     "portuguese": "Tem noutra cor?",
-    "russian": "Есть другого цвета?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_974aa3a02e31435c8c0367a0f2583e5f.mp3",
+    "ukrainian": "Є в іншому кольорі?"
   },
   {
     "portuguese": "Tem isto no tamanho M (médio)?",
-    "russian": "У вас есть это размера M (средний)?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_3379d0fcd3f74df2a5a9c48aa8391b46.mp3",
+    "ukrainian": "Є це в розмірі M (середній)?"
   },
   {
     "portuguese": "Tem o meu tamanho?",
-    "russian": "У вас есть мой размер?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_475eaeff05284d7fbd9df63a1274f01b.mp3",
+    "ukrainian": "Є мій розмір?"
   },
   {
     "portuguese": "Onde ficam os provadores?",
-    "russian": "Где находятся примерочные?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_3da22c03f58b4e248ca53e5e1e609986.mp3",
+    "ukrainian": "Де знаходяться примірочні?"
   },
   {
     "portuguese": "É preciso tirar senha?",
-    "russian": "Нужно брать талончик?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_80bbc41fc4b74a509214dcc8d3554b57.mp3",
+    "ukrainian": "Потрібно взяти номерок?"
   },
   {
     "portuguese": "Qual é o número da sua senha?",
-    "russian": "Какой номер вашего талона?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_1155160164c4499991b4380d62a3993a.mp3",
+    "ukrainian": "Який номер вашого номерка?"
   },
   {
     "portuguese": "Quer água fresca ou natural?",
-    "russian": "Хотите холодную или комнатной температуры воду?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_61a017301e6647099e55a1f7fb49a67c.mp3",
+    "ukrainian": "Хочете свіжу чи природну воду?"
   },
   {
     "portuguese": "Quero fazer um cartão de fidelidade",
-    "russian": "Я хочу оформить карту лояльности"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_3a8d52f1daa647fbafab89ba990c2c62.mp3",
+    "ukrainian": "Я хочу зробити картку лояльності"
   },
   {
     "portuguese": "É para oferta?",
-    "russian": "Это для подарка?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_616d330dd0df43869bcb448225f31407.mp3",
+    "ukrainian": "Це для подарунка?"
   },
   {
     "portuguese": "Precisa de saco? - Sim, dê-me um saco, se faz favor",
-    "russian": "Нужен пакет? - Да, дайте пакет, пожалуйста"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_f2c4095a191c4bfe983e02997bf9c230.mp3",
+    "ukrainian": "Потрібен пакет? - Так, дайте мені пакет, будь ласка"
   },
   {
     "portuguese": "Pode ser com número de contribuinte?",
-    "russian": "Можно с налоговым номером?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_b0ca839d86c148abbe588cfce44fd922.mp3",
+    "ukrainian": "Може бути з номером платника податків?"
   },
   {
     "portuguese": "(Não) estou na fila",
-    "russian": "Я (не) в очереди"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_018bdb6683fa478e81a438dac9c5ea09.mp3",
+    "ukrainian": "(Не) стою в черзі"
   },
   {
     "portuguese": "Desculpe, está na fila?",
-    "russian": "Извините, вы в очереди?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_5bd41a6a05874258a53fc139b09ef8ab.mp3",
+    "ukrainian": "Вибачте, ви в черзі?"
   },
   {
     "portuguese": "Pode trocar os cinquenta (50) euros com notas de dez (10)? Pode trocar cinco (5) euros com moedas?",
-    "russian": "Можете разменять пятьдесят (50) евро на десятки (10)? Можете разменять пять (5) евро на монеты?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_1268a624b95d4e49b1f3eab0941a4aaa.mp3",
+    "ukrainian": "Можете обміняти п'ятдесят (50) євро на купюри по десять (10)? Можете обміняти п'ять (5) євро на монети?"
   },
   {
     "portuguese": "Vai ter troco de vinte 20/ trinta 30/ cinquenta 50 euros?",
-    "russian": "У вас будет сдача с двадцати 20/ тридцати 30/ пятидесяти 50 евро?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_3371dfab3261415f92efa47ce91bddae.mp3",
+    "ukrainian": "Чи буде здача з двадцяти 20/ тридцяти 30/ п'ятдесяти 50 євро?"
   },
   {
     "portuguese": "Desculpe, mas a etiqueta tinha um preço diferente",
-    "russian": "Извините, но на ценнике была другая цена"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_bd4cd6090bba495187b4d9e5646565d0.mp3",
+    "ukrainian": "Вибачте, але на етикетці була інша ціна"
   },
   {
     "portuguese": "Onde é a saída?",
-    "russian": "Где выход?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_5b8bb183be8143789a0cb4153422a200.mp3",
+    "ukrainian": "Де вихід?"
   },
   {
     "portuguese": "A que horas vão entregar? Quando chega a encomenda?",
-    "russian": "Во сколько доставят? Когда прибудет заказ?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_08fa7264f849493fa407e9fa9f46db8c.mp3",
+    "ukrainian": "О котрій годині доставлять? Коли прибуде замовлення?"
   },
   {
     "portuguese": "Faz entregas (ao domicílio)?",
-    "russian": "Вы делаете доставку (на дом)?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_749deff8f9e54476a41e18838c698b0e.mp3",
+    "ukrainian": "Ви робите доставки (додому)?"
   },
   {
     "portuguese": "Pode enviar um e-mail / uma mensagem com esta informação?",
-    "russian": "Можете отправить email / сообщение с этой информацией?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_4dc5ba5817564e70b8a474a02c49364f.mp3",
+    "ukrainian": "Можете надіслати електронний лист / повідомлення з цією інформацією?"
   },
   {
     "portuguese": "Pode fazer-me uma cópia deste documento?",
-    "russian": "Можете сделать мне копию этого документа?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_97ea87be8f504a77af8734fda5e125d9.mp3",
+    "ukrainian": "Можете зробити мені копію цього документа?"
   },
   {
     "portuguese": "Preciso de imprimir este ficheiro em preto e branco / a cores",
-    "russian": "Мне нужно распечатать этот файл в черно-белом / цветном варианте"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_38fa56e835194f52809c098a92530cc4.mp3",
+    "ukrainian": "Мені потрібно роздрукувати цей файл у чорно-білому / кольоровому вигляді"
   },
   {
     "portuguese": "Só uma rúbrica / assinatura. - É aqui?",
-    "russian": "Только подпись / роспись. - Здесь?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_0bcbab5198904ecabeaf45ba9913b78f.mp3",
+    "ukrainian": "Тільки підпис / підпис. - Це тут?"
   },
   {
     "portuguese": "Pode escrever isso?",
-    "russian": "Можете это написать?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_bd87262c4bec48d58ab4a7bb186b7ca9.mp3",
+    "ukrainian": "Можете це написати?"
   },
   {
     "portuguese": "Como se escreve?",
-    "russian": "Как это пишется?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_149ea14cd9da45008bb944b5795e0174.mp3",
+    "ukrainian": "Як це пишеться?"
   },
   {
     "portuguese": "Escreva aqui o seu número de telefone / e-mail",
-    "russian": "Напишите здесь ваш номер телефона / email"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_09cf413885584f768ec4e15669754613.mp3",
+    "ukrainian": "Напишіть тут свій номер телефону / електронну пошту"
   },
   {
     "portuguese": "Acho que há um erro aqui",
-    "russian": "Я думаю, здесь ошибка"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_42173e4b83e94a01a36e3a68bb15b35d.mp3",
+    "ukrainian": "Я думаю, що тут є помилка"
   },
   {
     "portuguese": "Temos de chamar a ambulância",
-    "russian": "Нам нужно вызвать скорую помощь"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_1833c99356c444179b0181de3abdaa84.mp3",
+    "ukrainian": "Нам потрібно викликати швидку допомогу"
   },
   {
     "portuguese": "É possível marcar-me para uma data mais próxima?",
-    "russian": "Возможно записать меня на более близкую дату?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_f5f0f8c277c94b2dbee69f030e5f2428.mp3",
+    "ukrainian": "Чи можливо записати мене на ближчу дату?"
   },
   {
     "portuguese": "Preciso de reagendar a minha consulta médica.",
-    "russian": "Мне нужно перенести мой прием к врачу."
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_37ab0b57ec22440dacbab811128641a0.mp3",
+    "ukrainian": "Мені потрібно перенести мій медичний прийом."
   },
   {
     "portuguese": "Este médico tem um acordo com alguma seguradora?",
-    "russian": "У этого врача есть договор с какой-нибудь страховой компанией?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_674095d00208478f949e28d12beb20f9.mp3",
+    "ukrainian": "Цей лікар має угоду з якоюсь страховою компанією?"
   },
   {
     "portuguese": "Quero marcar uma consulta para o meu médico de família",
-    "russian": "Я хочу записаться на прием к моему семейному врачу"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_7f140a98c12b4d4eb11ad2a6db71bd4a.mp3",
+    "ukrainian": "Я хочу записатися на прийом до свого сімейного лікаря"
   },
   {
     "portuguese": "A que horas devo chegar?",
-    "russian": "Во сколько мне нужно прийти?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_3b7ed50fb9fd45719ce37de8fa8c1805.mp3",
+    "ukrainian": "О котрій годині я повинен прибути?"
   },
   {
     "portuguese": "O médico atende às quintas-feiras",
-    "russian": "Врач принимает по четвергам"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_7cfaae8cc5754f8a9205ce79998c00ee.mp3",
+    "ukrainian": "Лікар приймає по четвергах"
   },
   {
     "portuguese": "Tem medicamentos desta lista?",
-    "russian": "У вас есть лекарства из этого списка?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_4c8fec3279df4761addd4bb5bb2bb1ef.mp3",
+    "ukrainian": "Чи є ліки з цього списку?"
   },
   {
     "portuguese": "Onde fica...o supermercado/a farmácia?",
-    "russian": "Где находится...супермаркет/аптека?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_29730fba25754bb8a8230ba3d58615f6.mp3",
+    "ukrainian": "Де знаходиться...супермаркет/аптека?"
   },
   {
     "portuguese": "Passe, se faz favor / Força!",
-    "russian": "Проходите, пожалуйста / Давайте!"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_38eb5197335d4c9f8b46713538ccf973.mp3",
+    "ukrainian": "Проходьте, будь ласка / Вперед!"
   },
   {
     "portuguese": "Pode passar à frente",
-    "russian": "Можете проходить вперед"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_217ae499ac314dce92d485513deae240.mp3",
+    "ukrainian": "Можете пройти вперед"
   },
   {
     "portuguese": "Com licença / desculpe",
-    "russian": "Разрешите / извините"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_c581693c69654860aa81c82147432153.mp3",
+    "ukrainian": "Вибачте / перепрошую"
   },
   {
     "portuguese": "Pode tirar uma foto? No horizontal / no vertical",
-    "russian": "Можете сфотографировать? Горизонтально / вертикально"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_22a1071faf1b44c6936816fbc198ffc6.mp3",
+    "ukrainian": "Можете зробити фото? Горизонтально / вертикально"
   },
   {
     "portuguese": "Pode ajudar-me? Preciso da sua ajuda",
-    "russian": "Можете мне помочь? Мне нужна ваша помощь"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_608f6a6fb4874f1d88a512ee62186868.mp3",
+    "ukrainian": "Можете мені допомогти? Мені потрібна ваша допомога"
   },
   {
     "portuguese": "Onde posso levantar dinheiro?",
-    "russian": "Где я могу снять деньги?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_ef9b211dc26949beb87a628b54bcd975.mp3",
+    "ukrainian": "Де я можу зняти гроші?"
   },
   {
     "portuguese": "O meu nome é Konstantin e sou programador. O meu nome é Ekaterina e sou psicóloga",
-    "russian": "Меня зовут Константин, я программист. Меня зовут Екатерина, я психолог"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_ccceb5c37f0b4ffb9ded2a18bba6f75a.mp3",
+    "ukrainian": "Мене звати Костянтин, я програміст. Мене звати Катерина, я психолог"
   },
   {
     "portuguese": "Qual é a sua profissão?",
-    "russian": "Какая у вас профессия?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_5b49caad34d7412ea2003f277bac9b02.mp3",
+    "ukrainian": "Яка ваша професія?"
   },
   {
     "portuguese": "Eu sou de...",
-    "russian": "Я из..."
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_af1a2b184d5e4fef87c05f2bc57102c4.mp3",
+    "ukrainian": "Я з..."
   },
   {
     "portuguese": "O meu número é 987 654 321 0 (nove, oito, sete, seis, cinco, quatro, três, dois um zero)",
-    "russian": "Мой номер 987 654 321 0 (девять, восемь, семь, шесть, пять, четыре, три, два, один, ноль)"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_1d8ce18bdd73410ebba73ed87aefc040.mp3",
+    "ukrainian": "Мій номер 987 654 321 0 (дев'ять, вісім, сім, шість, п'ять, чотири, три, два, один, нуль)"
   },
   {
     "portuguese": "O meu NIF (número de contribuinte) é 123456789",
-    "russian": "Мой ИНН (налоговый номер) 123456789"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_4faccf603a5b45489c470d5fa4aaf8f8.mp3",
+    "ukrainian": "Мій NIF (номер платника податків) 123456789"
   },
   {
     "portuguese": "Bom dia! Boa tarde!",
-    "russian": "Доброе утро! Добрый день!"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_be3c106d7e7042debd51b3aeb3a33e2d.mp3",
+    "ukrainian": "Доброго ранку! Добрий день!"
   },
   {
     "portuguese": "Até terça!",
-    "russian": "До вторника!"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_9eb7de46397f4aef99fbbae7edc02ab1.mp3",
+    "ukrainian": "До вівторка!"
   },
   {
     "portuguese": "Bom fim de semana!",
-    "russian": "Хороших выходных!"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_380adaa1fbfe417fb0ebcea7e41173ed.mp3",
+    "ukrainian": "Гарних вихідних!"
   },
   {
     "portuguese": "Boa sexta!",
-    "russian": "Хорошей пятницы!"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_07731fa679e34148a525d0752ad8005d.mp3",
+    "ukrainian": "Гарної п'ятниці!"
   },
   {
     "portuguese": "Manda cumprimentos à Alexandra / ao Ricardo!",
-    "russian": "Передавай привет Александре / Рикардо!"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_eb712e463a964931a073f5c5a02a820e.mp3",
+    "ukrainian": "Передай вітання Олександрі / Рікардо!"
   },
   {
     "portuguese": "Até à próxima! até breve! até amanhã",
-    "russian": "До следующего раза! до скорого! до завтра"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_3cdb9abf78e64a079bc144b0d4571189.mp3",
+    "ukrainian": "До наступного разу! до скорого! до завтра"
   },
   {
     "portuguese": "Vemo-nos daqui a meia-hora",
-    "russian": "Увидимся через полчаса"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_dbe3b56654f744ba98e52ed2f88eb45a.mp3",
+    "ukrainian": "Побачимося через півгодини"
   },
   {
     "portuguese": "Boa noite!",
-    "russian": "Доброй ночи!"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_fd49b8364d5c4dfbb81422cfa8031987.mp3",
+    "ukrainian": "Доброї ночі!"
   },
   {
     "portuguese": "Desculpe, não posso falar agora",
-    "russian": "Извините, я не могу сейчас говорить"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_766438e94c4d4fa5b48399cd79014973.mp3",
+    "ukrainian": "Вибачте, я не можу зараз говорити"
   },
   {
     "portuguese": "Quem é? Quem fala?",
-    "russian": "Кто это? Кто говорит?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_e9527f358abc409c892786b209748778.mp3",
+    "ukrainian": "Хто це? Хто говорить?"
   },
   {
     "portuguese": "Estou? Está?",
-    "russian": "Алло? Алло?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_02fba3532aa84196aaec3f587aff0b2b.mp3",
+    "ukrainian": "Я? Ви?"
   },
   {
     "portuguese": "Não estou interessado(a), desculpe",
-    "russian": "Я не заинтересован(а), извините"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_69bacfe89ac64668b0c5f872da9ea878.mp3",
+    "ukrainian": "Мені не цікаво, вибачте"
   },
   {
     "portuguese": "Desculpe, estou muito ocupado(a)",
-    "russian": "Извините, я очень занят(а)"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_45f124182c4e4cc8ba794e692b0457ad.mp3",
+    "ukrainian": "Вибачте, я дуже зайнятий(а)"
   },
   {
     "portuguese": "Pode soletrar?",
-    "russian": "Можете произнести по буквам?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_58a7c54f876a4601926cdf1ed2c6fecc.mp3",
+    "ukrainian": "Можете по буквах?"
   },
   {
     "portuguese": "Desculpe, não tenho tempo para isso",
-    "russian": "Извините, у меня нет на это времени"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_853e79b739634978b061a7a2db50507c.mp3",
+    "ukrainian": "Вибачте, у мене немає на це часу"
   },
   {
     "portuguese": "Podia falar mais devagar?",
-    "russian": "Можете говорить помедленнее?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_d5c474cf2bc6485dbfddfb53f9a6a89a.mp3",
+    "ukrainian": "Можете говорити повільніше?"
   },
   {
     "portuguese": "Mais uma vez, se faz favor",
-    "russian": "Еще раз, пожалуйста"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_083a149f81d7420d92454fbaaaf90adc.mp3",
+    "ukrainian": "Ще раз, будь ласка"
   },
   {
     "portuguese": "Pode falar mais baixo / mais alto?",
-    "russian": "Можете говорить тише / громче?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_254e3e982cb24a718438f02d97067ee3.mp3",
+    "ukrainian": "Можете говорити тихіше / голосніше?"
   },
   {
     "portuguese": "Com quem posso falar sobre...",
-    "russian": "С кем я могу поговорить о..."
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_e7b6fd919d664e08abee814452e38e20.mp3",
+    "ukrainian": "З ким я можу поговорити про..."
   },
   {
     "portuguese": "Parabéns! Feliz Aniversário!",
-    "russian": "Поздравляю! С днем рождения!"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_38c078eefcfd41fc93de43566d1480d0.mp3",
+    "ukrainian": "Вітаю! З Днем Народження!"
   },
   {
     "portuguese": "Feliz Natal e Bom Ano Novo!",
-    "russian": "Счастливого Рождества и Нового года!"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_f65b3e63c00f4b828902d9605be7e9aa.mp3",
+    "ukrainian": "Щасливого Різдва та Нового Року!"
   },
   {
     "portuguese": "Não falo inglês",
-    "russian": "Я не говорю по-английски"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_0c3dbcb3eaf74ac1a15e34a2b657ac3b.mp3",
+    "ukrainian": "Я не говорю англійською"
   },
   {
     "portuguese": "Desculpe, ainda estou a aprender português, fala inglês?",
-    "russian": "Извините, я еще учу португальский, вы говорите по-английски?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_110ce40514334220b24b0a8f79dc6969.mp3",
+    "ukrainian": "Вибачте, я ще вчу португальську, ви говорите англійською?"
   },
   {
     "portuguese": "Como se diz isto em português?",
-    "russian": "Как это сказать по-португальски?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_b38840fc959d474781aeaeb197b269ef.mp3",
+    "ukrainian": "Як це сказати португальською?"
   },
   {
     "portuguese": "Conheces o João?",
-    "russian": "Ты знаешь Жоао?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_9f3f36ab4a2848d49ef8c04e6f140303.mp3",
+    "ukrainian": "Ти знаєш Жоао?"
   },
   {
     "portuguese": "Muito prazer!",
-    "russian": "Очень приятно!"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_1b9382421d6a405e933b1caee8675f79.mp3",
+    "ukrainian": "Дуже приємно!"
   },
   {
     "portuguese": "Tem multibanco? / Posso pagar com cartão?",
-    "russian": "У вас есть терминал? / Можно оплатить картой?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_40f77a169a394efda4c8ab2656667057.mp3",
+    "ukrainian": "Є банкомат? / Можу я заплатити карткою?"
   },
   {
     "portuguese": "Desculpe, o multibanco / a casa de banho está fora de serviço",
-    "russian": "Извините, терминал / туалет не работает"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_fb362df38cf64fa3b93275506824f438.mp3",
+    "ukrainian": "Вибачте, банкомат / ванна кімната не працює"
   },
   {
     "portuguese": "Desculpe pelo incómodo",
-    "russian": "Извините за беспокойство"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_bb8c1cb8805548baaec910de0b80d634.mp3",
+    "ukrainian": "Вибачте за незручності"
   },
   {
     "portuguese": "Não se preocupe / Não te preocupes",
-    "russian": "Не беспокойтесь / Не беспокойся"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_c0e528c1d2fb44bdb69f4f0d3f9f9dd3.mp3",
+    "ukrainian": "Не хвилюйтеся / Не хвилюйся"
   },
   {
     "portuguese": "Eu queria...",
-    "russian": "Я хотел(а) бы..."
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_7da12d97923e499fb1d8dc24dae90859.mp3",
+    "ukrainian": "Я хотів би..."
   },
   {
     "portuguese": "Desculpe, foi sem querer",
-    "russian": "Извините, это было нечаянно"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_8246bdfb4fc34c91bfbe069fee4677c2.mp3",
+    "ukrainian": "Вибачте, це було ненавмисно"
   },
   {
     "portuguese": "O que é que se passa?",
-    "russian": "Что происходит?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_665788668455430da0c3cabf1d836221.mp3",
+    "ukrainian": "Що відбувається?"
   },
   {
     "portuguese": "Não faz mal / não tem problema",
-    "russian": "Ничего страшного / нет проблем"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_4c117b3680894af9a9794222a8dceb70.mp3",
+    "ukrainian": "Нічого страшного / немає проблем"
   },
   {
     "portuguese": "Hoje está calor/está frio",
-    "russian": "Сегодня жарко/холодно"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_098e2b98ed0a4e6ab089029bde055cd0.mp3",
+    "ukrainian": "Сьогодні жарко/холодно"
   },
   {
     "portuguese": "Estás confortável?",
-    "russian": "Тебе удобно?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_d716fdbcd29a41dc94433e3589804d06.mp3",
+    "ukrainian": "Тобі зручно?"
   },
   {
     "portuguese": "Então, volto mais tarde",
-    "russian": "Тогда я вернусь позже"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_41477c7f4ef44290a2a8a82a8944f4d0.mp3",
+    "ukrainian": "Тоді я повернуся пізніше"
   },
   {
     "portuguese": "Não me importo",
-    "russian": "Мне всё равно"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_159fecbbd8d644e1a008a4352516038d.mp3",
+    "ukrainian": "Мені все одно"
   },
   {
     "portuguese": "Obrigado(a) pela sua ajuda / agradeço a sua ajuda",
-    "russian": "Спасибо за вашу помощь / благодарю за вашу помощь"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_4941b7668f174736a0703636358e327b.mp3",
+    "ukrainian": "Дякую за вашу допомогу / вдячний за вашу допомогу"
   },
   {
     "portuguese": "Tenho a certeza",
-    "russian": "Я уверен(а)"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_458041e1b45e43b595c16410bccef2e2.mp3",
+    "ukrainian": "Я впевнений"
   },
   {
     "portuguese": "Espere, por favor",
-    "russian": "Подождите, пожалуйста"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_9b5dbe2b2602482493a03f5ebae87a99.mp3",
+    "ukrainian": "Зачекайте, будь ласка"
   },
   {
     "portuguese": "Onde fica a casa de banho?",
-    "russian": "Где находится туалет?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_ee34078657f54832a1e5cbef6e9a90c9.mp3",
+    "ukrainian": "Де знаходиться ванна кімната?"
   },
   {
     "portuguese": "Que horas são?",
-    "russian": "Который час?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_6e3ef33d7e2e4da7981bbe704d7b8986.mp3",
+    "ukrainian": "Котра година?"
   },
   {
     "portuguese": "O que é isto / isso?",
-    "russian": "Что это / то?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_06ee3b92bef84e379280ff321e35ee31.mp3",
+    "ukrainian": "Що це / це?"
   },
   {
     "portuguese": "Desculpe, você trabalha aqui? O senhor / a senhora trabalha aqui?",
-    "russian": "Извините, вы здесь работаете? Вы (господин / госпожа) здесь работаете?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_831228be0065425aa03ad097d22c3c63.mp3",
+    "ukrainian": "Вибачте, ви тут працюєте? Ви / пані тут працюєте?"
   },
   {
     "portuguese": "É muito simpático!",
-    "russian": "Очень приятный!"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_38c44d2eb276411ca1af17f129b43a70.mp3",
+    "ukrainian": "Це дуже приємно!"
   },
   {
     "portuguese": "Posso tirar uma foto?",
-    "russian": "Можно сфотографировать?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_d482b2770bfb4a93bcb2baac0b805b87.mp3",
+    "ukrainian": "Можу я зробити фото?"
   },
   {
     "portuguese": "Mostra-me como é",
-    "russian": "Покажи мне, как это"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_92ba3d2359ff4eccab583c5ac917dbab.mp3",
+    "ukrainian": "Покажи мені, як це"
   },
   {
     "portuguese": "Não tenho dinheiro comigo",
-    "russian": "У меня нет с собой денег"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_a6003448b7b7438a8042ecad33c799a9.mp3",
+    "ukrainian": "У мене немає грошей з собою"
   },
   {
     "portuguese": "Sabe quem é o dono deste cão?",
-    "russian": "Вы знаете, кто хозяин этой собаки?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_7e92d8202da34e9cbf411a3650858221.mp3",
+    "ukrainian": "Ви знаєте, хто власник цього собаки?"
   },
   {
     "portuguese": "Pode fechar a porta/janela se faz favor?",
-    "russian": "Можете закрыть дверь/окно, пожалуйста?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_9bea8c8c137442ffa1ac53cac6ccd546.mp3",
+    "ukrainian": "Можете закрити двері/вікно, будь ласка?"
   },
   {
     "portuguese": "Precisa de ajuda?",
-    "russian": "Вам нужна помощь?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_a9c6adc05284485f84422e4ce9c4dd53.mp3",
+    "ukrainian": "Потрібна допомога?"
   },
   {
     "portuguese": "Não sei",
-    "russian": "Я не знаю"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_cd166d345bf94a7d9a71d0e6502305a1.mp3",
+    "ukrainian": "Я не знаю"
   },
   {
     "portuguese": "Tenho de ir",
-    "russian": "Мне нужно идти"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_310f3ea62b7c43908f5d211cc3bb6eae.mp3",
+    "ukrainian": "Мені потрібно йти"
   },
   {
     "portuguese": "Não posso fazer nada",
-    "russian": "Я ничего не могу сделать"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_e408a6bccb5e4c5a8f41c25f59ac427e.mp3",
+    "ukrainian": "Я нічого не можу зробити"
   },
   {
     "portuguese": "O que eu posso fazer? Como posso ajudar?",
-    "russian": "Что я могу сделать? Как я могу помочь?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_c16f2c0cfc114ccaa2b7e6b6f27c2537.mp3",
+    "ukrainian": "Що я можу зробити? Як я можу допомогти?"
   },
   {
     "portuguese": "Obrigado(a). De nada",
-    "russian": "Спасибо. Пожалуйста"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_e107e48495ed443ca39180bceb22b8cc.mp3",
+    "ukrainian": "Дякую. Нема за що"
   },
   {
     "portuguese": "Posso entrar?",
-    "russian": "Можно войти?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_5d68937144f644139be1ba030d7914d2.mp3",
+    "ukrainian": "Можу я увійти?"
   },
   {
     "portuguese": "Não trabalhamos por causa da greve / por causa do feriado",
-    "russian": "Мы не работаем из-за забастовки / из-за праздника"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_b48fd12aa76340dd905821a79ce9092c.mp3",
+    "ukrainian": "Ми не працюємо через страйк / через свято"
   },
   {
     "portuguese": "Sinto muito / Lamento / Os meus sentimentos",
-    "russian": "Мне очень жаль / Сожалею / Мои соболезнования"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_aba3e321486e46268c0c2fdc4e4f4541.mp3",
+    "ukrainian": "Мені дуже шкода / Я шкодую / Мої співчуття"
   },
   {
     "portuguese": "Pois, faz sentido",
-    "russian": "Да, это имеет смысл"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_c1fce221c9834910bf861e57653f6c85.mp3",
+    "ukrainian": "Так, це має сенс"
   },
   {
     "portuguese": "Estou muito embaraçado(a)",
-    "russian": "Мне очень неловко"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_f7239170ab52443c94a0936c36ad2a9d.mp3",
+    "ukrainian": "Мені дуже соромно"
   },
   {
     "portuguese": "Não estou a perceber / Não percebo",
-    "russian": "Я не понимаю / Я не понимаю"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_f9c4b5c2e75f4ac1bd6866b94d32d691.mp3",
+    "ukrainian": "Я не розумію / Я не розумію"
   },
   {
     "portuguese": "Esta água é potável?",
-    "russian": "Эта вода питьевая?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_cea94df2be964c478058828619520bd1.mp3",
+    "ukrainian": "Ця вода питна?"
   },
   {
     "portuguese": "O que vais fazer hoje? Quais são os teus planos?",
-    "russian": "Что ты будешь делать сегодня? Какие у тебя планы?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_e1e270aa95a8416d88d1cc46563ea9a6.mp3",
+    "ukrainian": "Що ти будеш робити сьогодні? Які твої плани?"
   },
   {
     "portuguese": "Tenho de esperar quanto tempo?",
-    "russian": "Сколько мне нужно ждать?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_3347ab7d4aee4e279cbd8441861b8129.mp3",
+    "ukrainian": "Скільки часу мені потрібно чекати?"
   },
   {
     "portuguese": "Tudo bem, não tenho pressa",
-    "russian": "Всё хорошо, я не спешу"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_7ea63e48b28f49008d65d480cc020a82.mp3",
+    "ukrainian": "Все добре, я не поспішаю"
   },
   {
     "portuguese": "A entrada é gratuita às segundas-feiras",
-    "russian": "Вход бесплатный по понедельникам"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_833350a42cfb4072bb0aa44b4d00382d.mp3",
+    "ukrainian": "Вхід безкоштовний по понеділках"
   },
   {
     "portuguese": "Trabalha às quartas-feiras? Está aberto às quartas?",
-    "russian": "Вы работаете по средам? Открыто по средам?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_526c8d1386c641aab7ff658d5180082c.mp3",
+    "ukrainian": "Ви працюєте по середах? Відкрито по середах?"
   },
   {
     "portuguese": "Eles não trabalham aos sábados e domingos",
-    "russian": "Они не работают по субботам и воскресеньям"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_f51963d3fda94fa0a5052473ea9f9008.mp3",
+    "ukrainian": "Вони не працюють у суботу та неділю"
   },
   {
     "portuguese": "Desculpe pelo atraso",
-    "russian": "Извините за опоздание"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_a8c848b882664ac592c426374f6e2c87.mp3",
+    "ukrainian": "Вибачте за затримку"
   },
   {
     "portuguese": "Saúde! Santinho! Santinha!",
-    "russian": "Будьте здоровы!"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_a54d70133a9f40c6aeee38424301b846.mp3",
+    "ukrainian": "На здоров'я! Будь здоровий! Будь здорова!"
   },
   {
     "portuguese": "Posso fumar aqui? Pode trazer um cinzeiro?",
-    "russian": "Можно курить здесь? Можно принести пепельник?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_c7d678000a66442c8d9d458cddb09000.mp3",
+    "ukrainian": "Можу я тут курити? Можете принести попільничку?"
   },
   {
     "portuguese": "O meu carro avariou / O teu computador avariou",
-    "russian": "Мой автомобиль сломался / Твой компьютер сломался"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_30a8bc6055f4406c9e2beeec281e4e20.mp3",
+    "ukrainian": "Моя машина зламалася / Твій комп'ютер зламався"
   },
   {
     "portuguese": "Vai subir ou descer?",
-    "russian": "Вы поднимаетесь или спускаетесь?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_338e6b67f8264401bc450f4493332364.mp3",
+    "ukrainian": "Ви піднімаєтеся чи спускаєтеся?"
   },
   {
     "portuguese": "Desculpe, tem carregador de telemóvel?",
-    "russian": "Извините, у вас есть зарядка для телефона?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_d0defe1a0082480882725103694e1ae9.mp3",
+    "ukrainian": "Вибачте, у вас є зарядний пристрій для телефону?"
   },
   {
     "portuguese": "Quem é que está a seguir?",
-    "russian": "Кто следующий?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_a9f15f4c4fff448c82fdfe4dd5f16b45.mp3",
+    "ukrainian": "Хто наступний?"
   },
   {
     "portuguese": "A entrada é interdita / proibida",
-    "russian": "Вход воспрещен / запрещен"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_7e477ef3e2064fd0a89eda04a9759507.mp3",
+    "ukrainian": "Вхід заборонено / заборонено"
   },
   {
     "portuguese": "Um bilhete para... se faz favor",
-    "russian": "Один билет до... пожалуйста"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_3f2dd0bbd71a4c0e8b1cd58f9d32b79a.mp3",
+    "ukrainian": "Квиток до... будь ласка"
   },
   {
     "portuguese": "Um bilhete de ida e volta",
-    "russian": "Билет туда и обратно"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_658b500e49a745fb8fefe3cdb27eb4e0.mp3",
+    "ukrainian": "Квиток туди і назад"
   },
   {
     "portuguese": "Há algum desconto para crianças / reformados?",
-    "russian": "Есть ли скидки для детей / пенсионеров?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_d89a2725a2b4465283270df5c57bf2d3.mp3",
+    "ukrainian": "Є якісь знижки для дітей / пенсіонерів?"
   },
   {
     "portuguese": "De que plataforma parte o autocarro / a camioneta?",
-    "russian": "С какой платформы отправляется автобус?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_fa2da20e52694b0cacaa9137e650cdec.mp3",
+    "ukrainian": "З якої платформи відправляється автобус / вантажівка?"
   },
   {
     "portuguese": "Desculpe, acho que este lugar é meu",
-    "russian": "Извините, кажется, это мое место"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_5765b6f1c47c4b3d9cf79c2eced22d7f.mp3",
+    "ukrainian": "Вибачте, я думаю, що це моє місце"
   },
   {
     "portuguese": "Quero fazer / carregar um passe mensal",
-    "russian": "Я хочу сделать / пополнить месячный проездной"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_8fa68e6a209b42f595b8c0cdbf976ca9.mp3",
+    "ukrainian": "Я хочу зробити / поповнити місячний проїзний"
   },
   {
     "portuguese": "Pode puxar o banco mais para a frente?",
-    "russian": "Можете подвинуть сиденье вперед?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_37222b55b89341779a5b199b15d8f3f4.mp3",
+    "ukrainian": "Можете посунути сидіння вперед?"
   },
   {
     "portuguese": "Podia levar-me para esta morada, se faz favor?",
-    "russian": "Не могли бы вы отвезти меня по этому адресу, пожалуйста?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_9495cc81ee944bc7bec6bd98573545f1.mp3",
+    "ukrainian": "Можете відвезти мене за цією адресою, будь ласка?"
   },
   {
     "portuguese": "Vire à direita",
-    "russian": "Поверните направо"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_eff6787546b04d65a55f2bf0d356496e.mp3",
+    "ukrainian": "Поверніть праворуч"
   },
   {
     "portuguese": "Vire à esquerda",
-    "russian": "Поверните налево"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_8b698018b15041f4a96a93e9cbb01ea4.mp3",
+    "ukrainian": "Поверніть ліворуч"
   },
   {
     "portuguese": "Pode seguir o GPS",
-    "russian": "Можете следовать по GPS"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_37fa764a338d499abe0ff0d046ba4cc6.mp3",
+    "ukrainian": "Можете слідувати за GPS"
   },
   {
     "portuguese": "Siga em frente.",
-    "russian": "Езжайте прямо."
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_0ebbced98a9047c5899bd798d55c8ff5.mp3",
+    "ukrainian": "Продовжуйте прямо."
   },
   {
     "portuguese": "Pode baixar um pouco a música?",
-    "russian": "Можете сделать музыку потише?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_e1eefeade3b342e282f701dfb44ce850.mp3",
+    "ukrainian": "Можете трохи зменшити музику?"
   },
   {
     "portuguese": "Pode parar aqui?",
-    "russian": "Можете остановиться здесь?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_738a665407e24ff78b20a2d84c807fb9.mp3",
+    "ukrainian": "Можете зупинитися тут?"
   },
   {
     "portuguese": "Bomba 5 (cinco), 10 (dez) litros de gasolina simples, 95 (noventa e cinco)",
-    "russian": "Колонка 5 (пять), 10 (десять) литров обычного бензина, 95 (девяносто пять)"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_9ea43dee7296491b9dc1f3862730bde2.mp3",
+    "ukrainian": "Колонка 5 (п'ять), 10 (десять) літрів простої бензини, 95 (дев'яносто п'ять)"
   },
   {
     "portuguese": "Bomba 3 (três), vinte euros de gasóleo",
-    "russian": "Колонка 3 (три), на двадцать евро дизельного топлива"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_01b242bc4509417489c2f9033e36bd50.mp3",
+    "ukrainian": "Колонка 3 (три), двадцять євро дизельного пального"
   },
   {
     "portuguese": "Queria encher o depósito",
-    "russian": "Я хотел(а) бы заправить полный бак"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_e729c6924f9a468fa1ad052a30dce53e.mp3",
+    "ukrainian": "Я хотів би заповнити бак"
   },
   {
     "portuguese": "Este estacionamento é pago? É gratuito?",
-    "russian": "Эта парковка платная? Бесплатная?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_12df7c28b6e34d84a61fee04f874551f.mp3",
+    "ukrainian": "Це паркування платне? Безкоштовне?"
   },
   {
     "portuguese": "Onde posso pagar o estacionamento?",
-    "russian": "Где можно оплатить парковку?"
+    "audioSrc": "https://static.wixstatic.com/mp3/18fb24_ee5a6d49f1ff42e0a40c6a7cba5e86cc.mp3",
+    "ukrainian": "Де я можу заплатити за паркування?"
   }
 ]

@@ -261,3 +261,7 @@
   background-color: #f8f9fa;
   border-radius: 8px;
 }
+
+.button-container {
+  margin-bottom: 10px; /* Adjust the value as needed */
+}
