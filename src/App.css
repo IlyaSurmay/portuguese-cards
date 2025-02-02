@@ -1,11 +1,15 @@
 #root {
-  max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
 * {
   box-sizing: border-box;
+}
+
+p {
+  color: #000000;
 }
 
 .logo {
@@ -55,7 +59,6 @@
   margin-bottom: 2rem;
   display: flex;
   justify-content: center;
-  gap: 1rem;
 }
 
 .controls button {
@@ -69,11 +72,12 @@
 }
 
 .flashcard {
+  margin: 0 auto;
   width: 100%;
-  height: 300px;
+  max-width: 500px;
+  height: 500px;
   perspective: 1000px;
   cursor: pointer;
-  margin: 2rem 0;
 }
 
 .flashcard-inner {
@@ -102,6 +106,7 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 1rem;
+  overflow: hidden;
 }
 
 .flashcard-back {
@@ -194,6 +199,7 @@
   border-radius: 4px;
   padding: 0.5rem 1rem;
   cursor: pointer;
+  justify-self: center;
 }
 
 .cards-list {
@@ -203,7 +209,6 @@
   gap: 1rem;
   max-height: 70vh;
   overflow-y: auto;
-  padding: 1rem;
 }
 
 .card-stat {
@@ -264,4 +269,91 @@
 
 .button-container {
   margin-bottom: 10px; /* Adjust the value as needed */
+}
+
+/* Text colors */
+.text-white {
+  color: #FFFFFF;
+}
+
+.text-dark {
+  color: #000000;
+}
+
+.text-gray {
+  color: #666666;
+}
+
+/* Progress page styles */
+.stats-title {
+  color: #FFFFFF;
+}
+
+.stats-summary {
+  color: #FFFFFF;
+}
+
+.progress-text {
+  color: #FFFFFF;
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+.card-stat {
+  background-color: #FFFFFF;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+}
+
+.card-stat-text {
+  color: #000000;
+}
+
+.card-stat-progress {
+  color: #666666;
+}
+
+/* Flashcard text */
+.flashcard h2 {
+  color: #000000;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  margin: 0;
+  padding: 1rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
+  text-align: center;
+}
+
+/* Add styles for side buttons */
+.side-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  z-index: 1;
+}
+
+/* Add specific positioning for each button */
+.side-button:first-child {
+  left: -25px;
+}
+
+.side-button:last-child {
+  right: -25px;
+}
+
+/* Add these styles */
+.flashcard-container {
+  position: relative;
+  width: 100%;
+  margin: 2rem 0;
 }

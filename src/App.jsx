@@ -126,10 +126,8 @@ function App() {
   }
 
   if (showStats) {
-    // Sort cards for display while maintaining original data order
     const displayCards = [...cards].sort((a, b) => {
       if (sortByProgress) {
-        // Sort by times learned (descending) and then by original index
         if (b.timesLearned !== a.timesLearned) {
           return b.timesLearned - a.timesLearned
         }
@@ -139,7 +137,7 @@ function App() {
 
     return (
       <div className="app-container">
-        <h2>Learning Progress</h2>
+        <h2 className="stats-title">Learning Progress</h2>
         <div className="stats-controls">
           <button 
             onClick={() => setSortByProgress(!sortByProgress)}
@@ -179,35 +177,34 @@ function App() {
   return (
     <div className="app-container">
       <div className="controls">
-        <button onClick={handlePrevious}>Previous</button>
-        <button onClick={handleNext}>Next</button>
         <button onClick={toggleStats} className="stats-button">
           View Progress
         </button>
       </div>
 
-      <div className="progress">
-        Learned: {totalLearned} of {cards.length}
+      <div className="text-white">
+        <div>Learned: {totalLearned} of {cards.length}</div>
+        <div className="progress-text">
+          Progress: {Math.round((totalLearned / cards.length) * 100)}%
+        </div>
       </div>
 
-      <div 
-        className={`flashcard ${isFlipped ? 'flipped' : ''}`} 
-        onClick={handleFlip}
-      >
-        <div className="flashcard-inner">
-          <div className="flashcard-front">
-            <h2>{currentCard.portuguese}</h2>
-            <div className="card-progress">
-              Progress: {currentCard.timesLearned}/5
+      <div className="flashcard-container">
+        <button onClick={handlePrevious} className="side-button">←</button>
+        <div 
+          className={`flashcard ${isFlipped ? 'flipped' : ''}`} 
+          onClick={handleFlip}
+        >
+          <div className="flashcard-inner">
+            <div className="flashcard-front">
+              <h2>{currentCard.portuguese}</h2>
             </div>
-          </div>
-          <div className="flashcard-back">
-            <h2>{currentCard.ukrainian}</h2>
-            <div className="card-progress">
-              Progress: {currentCard.timesLearned}/5
+            <div className="flashcard-back">
+              <h2>{currentCard.ukrainian}</h2>
             </div>
           </div>
         </div>
+        <button onClick={handleNext} className="side-button">→</button>
       </div>
 
       <div className="button-container">
