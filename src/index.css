@@ -1,68 +1,49 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+  color: #223a35;
+  background: #f6f4ed;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --surface: #fff;
+  --muted: #526b63;
+  --border: #cddbd4;
+  --accent: #146b60;
 }
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 280px; min-height: 100vh; min-height: 100dvh; }
+button, select, input { font: inherit; }
+button, .file-button {
+  min-height: 44px;
+  padding: 0.65rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface);
+  color: inherit;
   cursor: pointer;
-  transition: border-color 0.25s;
+  touch-action: manipulation;
 }
-button:hover {
-  border-color: #646cff;
+button:hover, .file-button:hover { border-color: var(--accent); }
+button:disabled { cursor: default; opacity: 0.55; }
+button:focus-visible, select:focus-visible, summary:focus-visible, .file-button:focus-within {
+  outline: 3px solid #c08222;
+  outline-offset: 3px;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
+a { color: var(--accent); }
+h1, h2, p { overflow-wrap: anywhere; }
+h1 { font-size: clamp(1.5rem, 5vw, 2rem); line-height: 1.2; margin: 0; }
+h2 { font-size: 1.25rem; }
+p { margin: 0.7rem 0; }
+@media (prefers-color-scheme: dark) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
+    color-scheme: dark;
+    color: #e3eee8;
+    background: #122722;
+    --surface: #1d3730;
+    --muted: #b0c6bb;
+    --border: #496258;
+    --accent: #95d6c0;
   }
 }

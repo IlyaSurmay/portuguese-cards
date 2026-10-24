@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="108" fill="#146b60"/>
+  <rect x="115" y="112" width="268" height="300" rx="30" fill="#e5b65b" transform="rotate(-10 249 262)"/>
+  <rect x="124" y="100" width="268" height="300" rx="30" fill="#fff9e9"/>
+  <text x="258" y="274" font-family="sans-serif" font-weight="700" font-size="112" text-anchor="middle" fill="#146b60">PT</text>
+  <path d="M186 320h144" stroke="#e5b65b" stroke-width="16" stroke-linecap="round"/>
+</svg>
