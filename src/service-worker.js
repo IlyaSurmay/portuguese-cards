@@ -20,6 +20,30 @@ self.addEventListener('message', event => {
   if (event.data?.type === 'SKIP_WAITING') self.skipWaiting()
 })
 
+self.addEventListener('push', event => {
+  let payload
+  try { payload = event.data?.json() } catch { /* Still show a reminder for an unreadable payload. */ }
+  event.waitUntil(self.registration.showNotification('Portuguese Cards', {
+    body: typeof payload?.body === 'string' ? payload.body.slice(0, 240) : 'Час повторити кілька португальських фраз.',
+    icon: '/icons/icon-192.png', badge: '/icons/icon-192.png',
+    tag: payload?.tag === 'portuguese-cards-test' ? payload.tag : 'portuguese-cards-daily',
+    renotify: false, data: { url: '/' },
+  }))
+})
+
+self.addEventListener('notificationclick', event => {
+  event.notification.close()
+  event.waitUntil((async () => {
+    const url = new URL('/', self.location.origin).href
+    const windows = await self.clients.matchAll({ type: 'window', includeUncontrolled: true })
+    const existing = windows.find(client => new URL(client.url).origin === self.location.origin)
+    if (existing) {
+      try { const navigated = await existing.navigate(url); await (navigated ?? existing).focus(); return } catch { /* Try opening the app instead. */ }
+    }
+    await self.clients.openWindow(url)
+  })())
+})
+
 // Safari requests byte ranges for recordings. Serve ranges from full cached MP3s.
 async function audioResponse(response, range) {
   if (!range) return response
@@ -66,6 +90,7 @@ self.addEventListener('fetch', event => {
   if (request.method !== 'GET') return
   const url = new URL(request.url)
   if (url.origin === self.location.origin) {
+    if (url.pathname.startsWith('/api/')) return
     if (request.mode === 'navigate') {
       // Keep each HTML shell paired with its precached assets until the user applies an update.
       event.respondWith(caches.open(APP_CACHE).then(async cache =>

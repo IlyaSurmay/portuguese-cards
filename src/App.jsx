@@ -7,6 +7,7 @@ import {
 } from './flashcards'
 import { cachedAudioCount, downloadAudio } from './offline'
 import { usePwa } from './usePwa'
+import { useReminders } from './useReminders'
 import { languages } from './translations'
 import './App.css'
 
@@ -38,6 +39,7 @@ function App() {
   const explanationRef = useRef(null)
   const downloadRef = useRef(null)
   const pwa = usePwa()
+  const reminder = useReminders(language, pwa)
   const text = languages[language]
   const due = dueCards(cardsData, progress, now)
   const queue = browsing ? cardsData : due
@@ -251,12 +253,6 @@ function App() {
     <main className="app-container">
       <header className="app-header">
         <div><h1>{text.title}</h1><p>{text.subtitle}</p></div>
-        <label className="language-control">
-          {text.language}
-          <select value={language} onChange={event => persist(progressRef.current, event.target.value)}>
-            <option value="uk" lang="uk">Українська</option><option value="ru" lang="ru">Русский</option>
-          </select>
-        </label>
       </header>
 
       <div className="status-row" role="status">
@@ -368,6 +364,35 @@ function App() {
 
       <details className="settings-panel">
         <summary>{text.settings}</summary>
+        <section className="settings-section">
+          <label className="language-control">
+            {text.language}
+            <select value={language} onChange={event => persist(progressRef.current, event.target.value)}>
+              <option value="uk" lang="uk">Українська</option><option value="ru" lang="ru">Русский</option>
+            </select>
+          </label>
+        </section>
+        <section className="settings-section" aria-labelledby="reminder-title">
+          <h2 id="reminder-title">{text.dailyReminder}</h2>
+          <p className="muted">{text.reminderDescription}</p>
+          {reminder.needsInstall ? <p>{text.reminderInstallIos}</p> : !reminder.supported ? <p>{text.reminderUnsupported}</p> : <>
+            <p>{reminder.enabled ? text.reminderOn : text.reminderOff}</p>
+            <form className="reminder-form" onSubmit={reminder.save} aria-busy={reminder.busy}>
+              <label>{text.reminderTime}<input type="time" required value={reminder.time} onChange={event => reminder.setTime(event.target.value)} disabled={reminder.busy} /></label>
+              <p className="muted">{text.reminderTimeZone}: {reminder.timeZone}</p>
+              <button type="submit" disabled={!reminder.canSave}>{reminder.busy ? text.reminderWorking : reminder.enabled ? text.reminderSaveTime : text.reminderEnable}</button>
+            </form>
+            {reminder.saved?.enabled && <div className="reminder-actions">
+              <button onClick={reminder.test} disabled={reminder.busy || !pwa.online || !reminder.enabled}>{text.reminderTest}</button>
+              <button onClick={reminder.disable} disabled={reminder.busy || !pwa.online}>{text.reminderDisable}</button>
+            </div>}
+            {reminder.enabled && reminder.saved?.nextDueAt && <p className="muted">{text.reminderNext}: {formatDate(reminder.saved.nextDueAt)}</p>}
+            {reminder.permission === 'denied' && <p>{text.reminderPermissionDenied}</p>}
+            {!pwa.online && <p className="muted">{text.reminderNeedsInternet}</p>}
+            {reminder.issue && reminder.issue !== 'reminderPermissionDenied' && <p className="error-text" role="alert">{text[reminder.issue]}</p>}
+            {reminder.notice && <p role="status">{text[reminder.notice]}</p>}
+          </>}
+        </section>
         <section className="settings-section">
           <h2>{text.audioDownloads}</h2>
           <p>{text.audioSaved}: <strong>{audioCount} / {audioUrls.length}</strong></p>
