@@ -154,3 +154,13 @@ test('HTTP boundary requires same-origin JSON and never returns management secre
   assert.equal(result.statusCode, 200); assert.equal(result.headers['Cache-Control'], 'no-store')
   for (const secret of ['token','secretHash','subscription','endpoint']) assert.equal(secret in result.body, false)
 })
+
+test('daily recovery requeues enabled schedules and leaves disabled devices alone', async () => {
+  const f = fixture(); await f.service.save(id, token, preferences)
+  const before = f.jobs.length
+  await f.service.repair(id)
+  assert.equal(f.jobs.length, before + 1)
+  await f.service.disable(id, token)
+  await f.service.repair(id)
+  assert.equal(f.jobs.length, before + 1)
+})

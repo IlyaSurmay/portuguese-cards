@@ -74,6 +74,11 @@ export function createReminderService({ store, enqueue, push, now = Date.now, uu
     return publicSettings(record)
   }
   return {
+    async repair(id) {
+      if (!ID_PATTERN.test(id ?? '')) return
+      const current = await store.read(id)
+      if (current?.value.enabled) await schedule(current.value)
+    },
     async status(id, token) {
       const current = await owned(id, token)
       if (current?.value.enabled) await schedule(current.value)
