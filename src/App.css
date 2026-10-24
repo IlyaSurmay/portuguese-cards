@@ -14,6 +14,7 @@
 .summary div { display: flex; flex-direction: column; text-align: center; gap: 0.2rem; }
 .summary strong { font-size: 1.3rem; }
 .summary span { font-size: 0.75rem; color: var(--muted); overflow-wrap: anywhere; }
+.study-summary { margin-top: 2rem; }
 .toolbar { display: flex; justify-content: flex-end; margin: 0.8rem 0; }
 .card-meta { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.5rem; margin: 1rem 3rem 0.5rem; font-size: 0.8rem; color: var(--muted); }
 .flashcard-container { display: grid; grid-template-columns: 44px minmax(0, 1fr) 44px; gap: 0.5rem; align-items: center; margin-bottom: 1rem; }

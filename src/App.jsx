@@ -138,7 +138,11 @@ function App() {
     setSessionCount(count => count + 1)
   }
 
-  function toggleStats() { stopAudio(); setShowStats(value => !value) }
+  function toggleStats() {
+    stopAudio()
+    setShowStats(value => !value)
+    window.scrollTo({ top: 0, behavior: 'auto' })
+  }
   function toggleBrowsing() { stopAudio(); setBrowsing(value => !value); setCurrentId(null) }
 
   async function playAudio() {
@@ -223,6 +227,15 @@ function App() {
   const statsCards = [...cardsData].sort((a, b) => sortByProgress
     ? (progress[b.id]?.stage ?? 0) - (progress[a.id]?.stage ?? 0) : 0)
 
+  const summary = (
+    <div className="summary" aria-label={text.learningProgress}>
+      <div><strong>{due.length}</strong><span>{text.due}</span></div>
+      <div><strong>{studied} / {cardsData.length}</strong><span>{text.studied}</span></div>
+      <div><strong>{stable}</strong><span>{text.stable}</span></div>
+      <div><strong>{sessionCount}</strong><span>{text.session}</span></div>
+    </div>
+  )
+
   return (
     <main className="app-container">
       <header className="app-header">
@@ -253,13 +266,10 @@ function App() {
         {pwa.updateError && <span role="alert">{text.updateError}</span>}
       </div>}
 
-      <div className="summary" aria-label={text.learningProgress}>
-        <div><strong>{due.length}</strong><span>{text.due}</span></div>
-        <div><strong>{studied} / {cardsData.length}</strong><span>{text.studied}</span></div>
-        <div><strong>{stable}</strong><span>{text.stable}</span></div>
-        <div><strong>{sessionCount}</strong><span>{text.session}</span></div>
-      </div>
-      <div className="toolbar"><button onClick={toggleStats}>{showStats ? text.backToCards : text.viewProgress}</button></div>
+      {showStats && <>
+        <div className="toolbar"><button onClick={toggleStats}>{text.backToCards}</button></div>
+        {summary}
+      </>}
 
       {showStats ? <section aria-label={text.learningProgress}>
         <h2>{text.learningProgress}</h2>
@@ -311,6 +321,11 @@ function App() {
           {Number.isFinite(nextDueAt) && <p>{text.nextDue}: {formatDate(nextDueAt)}</p>}
         </div>}
         <div className="browse-control"><button onClick={toggleBrowsing}>{browsing ? text.returnReviews : text.browse}</button></div>
+      </section>}
+
+      {!showStats && <section className="study-summary" aria-label={text.learningProgress}>
+        {summary}
+        <div className="toolbar"><button onClick={toggleStats}>{text.viewProgress}</button></div>
       </section>}
 
       <details className="settings-panel">
