@@ -16,7 +16,25 @@
 .summary span { font-size: 0.75rem; color: var(--muted); overflow-wrap: anywhere; }
 .study-summary { margin-top: 2rem; }
 .toolbar { display: flex; justify-content: flex-end; margin: 0.8rem 0; }
-.card-meta { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.5rem; margin: 1rem 3rem 0.5rem; font-size: 0.8rem; color: var(--muted); }
+.card-meta { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.5rem; margin: 0.5rem 3rem; font-size: 0.8rem; color: var(--muted); }
+.card-tools { display: flex; align-items: center; gap: 0.5rem; }
+.phrase-info-button { width: 44px; min-width: 44px; padding: 0; border-radius: 50%; color: var(--accent); font-size: 1.4rem; }
+.phrase-explanation { width: min(calc(100% - 1.5rem), 36rem); max-height: 85vh; max-height: 85dvh; padding: 0; border: 1px solid var(--border); border-radius: 18px; background: var(--surface); color: inherit; overflow-y: auto; overscroll-behavior: contain; }
+.phrase-explanation::backdrop { background: #12272299; }
+html:has(.phrase-explanation[open]) { overflow: hidden; }
+.explanation-header { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; position: sticky; top: 0; z-index: 1; background: var(--surface); padding: 0.75rem 1rem; border-bottom: 1px solid var(--border); }
+.explanation-header h2 { margin: 0; }
+.explanation-header button { width: 44px; min-width: 44px; padding: 0; font-size: 1.5rem; }
+.explanation-content { padding: 0 1.25rem 1rem; overflow-wrap: anywhere; }
+.explanation-phrase { font-size: 1.15rem; font-weight: 600; }
+.explanation-content h3 { font-size: 0.85rem; color: var(--muted); margin: 1.5rem 0 0.5rem; }
+.phrase-parts { margin: 0; }
+.phrase-parts div { padding: 0.6rem 0; border-bottom: 1px solid var(--border); }
+.phrase-parts dt { font-weight: 600; }
+.phrase-parts dd { margin: 0.15rem 0 0; }
+.phrase-example { border-left: 3px solid var(--accent); padding-left: 0.75rem; }
+.phrase-example p:first-child { font-weight: 600; }
+@media (max-width: 600px) { .phrase-explanation { margin: auto auto max(0.75rem, env(safe-area-inset-bottom)); } }
 .flashcard-container { display: grid; grid-template-columns: 44px minmax(0, 1fr) 44px; gap: 0.5rem; align-items: center; margin-bottom: 1rem; }
 .side-button { padding: 0; min-width: 44px; background: var(--surface); }
 .flashcard { display: block; width: 100%; padding: 0; border: 0; background: transparent; perspective: 1400px; }

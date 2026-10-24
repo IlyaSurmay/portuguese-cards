@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import cardsData from './tatabogatacards.json'
+import phraseExplanations from './phrase-explanations.json'
 import {
   PROGRESS_KEY, INTERVAL_DAYS, dueCards, loadSession, makeSnapshot, mergeProgress,
   newProgress, restoreBackup, reviewCard, saveSession, validateSnapshot,
@@ -34,12 +35,14 @@ function App() {
   const [downloadNotice, setDownloadNotice] = useState(null)
   const [audioStorageError, setAudioStorageError] = useState(false)
   const audioRef = useRef(null)
+  const explanationRef = useRef(null)
   const downloadRef = useRef(null)
   const pwa = usePwa()
   const text = languages[language]
   const due = dueCards(cardsData, progress, now)
   const queue = browsing ? cardsData : due
   const currentCard = queue.find(card => card.id === currentId) ?? queue[0]
+  const explanation = currentCard ? phraseExplanations[currentCard.id] : null
   const currentProgress = currentCard ? progress[currentCard.id] ?? newProgress() : null
   const studied = Object.values(progress).filter(record => record.reviews > 0).length
   const stable = Object.values(progress).filter(record => record.stage >= 5).length
@@ -110,6 +113,7 @@ function App() {
     setIsFlipped(false)
     setIsPlaying(false)
     setAudioError(false)
+    explanationRef.current?.close()
     return () => { audio?.pause() }
   }, [currentCard?.id, showStats, browsing])
 
@@ -144,6 +148,13 @@ function App() {
     window.scrollTo({ top: 0, behavior: 'auto' })
   }
   function toggleBrowsing() { stopAudio(); setBrowsing(value => !value); setCurrentId(null) }
+
+  function openExplanation() {
+    const dialog = explanationRef.current
+    if (!dialog) return
+    dialog.showModal()
+    dialog.scrollTop = 0
+  }
 
   async function playAudio() {
     const audio = audioRef.current
@@ -288,8 +299,35 @@ function App() {
         {currentCard ? <>
           <div className="card-meta">
             <span>{currentProgress.reviews ? `${text.stage}: ${currentProgress.stage} / ${INTERVAL_DAYS.length}` : text.newCard}</span>
-            <span>{browsing && currentProgress.reviews ? `${text.nextReview}: ${formatDate(currentProgress.dueAt)}` : `${queue.findIndex(card => card.id === currentCard.id) + 1} / ${queue.length}`}</span>
+            <div className="card-tools">
+              <span>{browsing && currentProgress.reviews ? `${text.nextReview}: ${formatDate(currentProgress.dueAt)}` : `${queue.findIndex(card => card.id === currentCard.id) + 1} / ${queue.length}`}</span>
+              <button type="button" className="phrase-info-button" aria-label={text.explainPhrase}
+                title={text.explainPhrase} aria-haspopup="dialog" onClick={openExplanation}>
+                <span aria-hidden="true">ⓘ</span>
+              </button>
+            </div>
           </div>
+          {explanation && <dialog ref={explanationRef} className="phrase-explanation" aria-labelledby="phrase-explanation-title">
+            <div className="explanation-header">
+              <h2 id="phrase-explanation-title">{text.explainPhrase}</h2>
+              <button type="button" onClick={() => explanationRef.current.close()} aria-label={text.closeExplanation}>×</button>
+            </div>
+            <div className="explanation-content">
+              <p className="explanation-phrase" lang="pt-PT">{currentCard.portuguese}</p>
+              <h3>{text.phraseParts}</h3>
+              <dl className="phrase-parts">{explanation.parts.map(part => <div key={part.pt}>
+                <dt lang="pt-PT">{part.pt}</dt><dd lang={language}>{part[language]}</dd>
+              </div>)}</dl>
+              <h3>{text.grammarNote}</h3>
+              <p lang={language}>{explanation.grammar[language]}</p>
+              <h3>{text.anotherExample}</h3>
+              <div className="phrase-example">
+                <p lang="pt-PT">{explanation.example.pt}</p>
+                <p lang={language}>{explanation.example[language]}</p>
+              </div>
+              <p className="muted">{text.explanationHint}</p>
+            </div>
+          </dialog>}
           <div className="flashcard-container">
             <button onClick={() => navigate(-1)} className="side-button" aria-label={text.previous}>←</button>
             <button type="button" className={`flashcard ${isFlipped ? 'flipped' : ''}`}

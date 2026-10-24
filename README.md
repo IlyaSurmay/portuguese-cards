@@ -13,6 +13,8 @@ Reveal a card's translation, then rate your recall:
 
 The summary shows cards due now, cards studied, cards at level 5 or above, and answers in the current session. Review times refresh every 30 seconds and when returning to the app. Language selection and progress are shared across Ukrainian and Russian.
 
+Use **ⓘ** beside the card counter to open a phrase breakdown: Portuguese building blocks with Ukrainian or Russian meanings, a short grammar note, and a different example with its translation. All 200 cards have bundled explanations focused on European Portuguese. Opening or closing an explanation does not flip, grade, or reschedule a card. No AI service, API key, or network request is needed to read them.
+
 Each card has a permanent `id`. Never regenerate these IDs when correcting text or reordering the deck. Existing five-tap progress is migrated to the corresponding review level; those cards are initially due because the old format did not record review dates. The legacy save is retained for recovery.
 
 ## Install and use offline
@@ -22,7 +24,7 @@ Open **https://portuguese-cards.vercel.app/** with an internet connection and wa
 - **iPhone / iPad:** Safari → Share → Add to Home Screen.
 - **Android:** use the install button when offered, or the browser menu → Install app / Add to Home screen.
 
-After the first successful load, the app shell, all phrases, and both translations are cached. Recordings cache automatically as they are played. In **Offline, backups and installation**, download all remaining recordings for offline audio. Downloads can be stopped and resumed, and retries skip completed files. Failed downloads are reported. The service worker supports byte-range playback for Safari.
+After the first successful load, the app shell, all phrases, both translations, and all explanations are cached. Recordings cache automatically as they are played. In **Offline, backups and installation**, download all remaining recordings for offline audio. Downloads can be stopped and resumed, and retries skip completed files. Failed downloads are reported. The service worker supports byte-range playback for Safari.
 
 A new build displays an update prompt rather than interrupting a study session. Applying it replaces the offline shell while retaining progress and downloaded audio.
 
@@ -51,6 +53,7 @@ npm run preview
 Service workers are enabled in production builds; use `npm run preview` to test installation and offline behavior. The Vite build emits `sw.js` with a versioned precache list. `vercel.json` ensures browsers revalidate updates to the worker and manifest.
 
 - `src/tatabogatacards.json`: stable IDs, phrases, translations and audio URLs.
+- `src/phrase-explanations.json`: hand-authored chunks, grammar notes and examples in both languages, keyed by the same stable card IDs. Keep its coverage in sync with the deck. Source spelling issues are explained in the notes; original phrases are retained for legacy progress migration.
 - `src/flashcards.js`: scheduling, migration, storage and backup validation.
 - `src/offline.js`: resumable audio downloads.
 - `src/service-worker.js`: offline shell, audio caching and range responses.
