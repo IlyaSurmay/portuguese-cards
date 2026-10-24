@@ -59,6 +59,9 @@ p {
   margin-bottom: 2rem;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .controls button {
@@ -78,9 +81,14 @@ p {
   height: 500px;
   perspective: 1000px;
   cursor: pointer;
+  display: block;
+  padding: 0;
+  border: 0;
+  background: transparent;
 }
 
 .flashcard-inner {
+  display: block;
   position: relative;
   width: 100%;
   height: 100%;
@@ -275,7 +283,7 @@ p {
 
 /* Text colors */
 .text-white {
-  color: #FFFFFF;
+  color: inherit;
 }
 
 .text-dark {
@@ -288,15 +296,15 @@ p {
 
 /* Progress page styles */
 .stats-title {
-  color: #FFFFFF;
+  color: inherit;
 }
 
 .stats-summary {
-  color: #FFFFFF;
+  color: #000000;
 }
 
 .progress-text {
-  color: #FFFFFF;
+  color: inherit;
   font-size: 1rem;
   margin: 1rem 0;
 }
@@ -310,7 +318,7 @@ p {
 }
 
 /* Flashcard text */
-.flashcard h2 {
+.flashcard-text {
   color: #000000;
   font-size: 1.5rem;
   line-height: 1.2;
@@ -351,4 +359,83 @@ p {
   position: relative;
   width: 100%;
   margin: 2rem 0;
+}
+
+.language-control {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.language-control select {
+  font: inherit;
+  padding: 0.5rem;
+  border: 1px solid #6c757d;
+  border-radius: 4px;
+  background: #f8f9fa;
+  color: #000;
+}
+
+.play-audio-button {
+  padding: 0.8rem 1.5rem;
+  background: #4a90e2;
+  color: white;
+}
+
+.play-audio-button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.audio-error {
+  color: #ff9b9b;
+}
+
+@media (prefers-color-scheme: light) {
+  .audio-error {
+    color: #b42318;
+  }
+}
+
+.stats-controls {
+  flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+  #root {
+    padding: 1rem;
+  }
+
+  .flashcard-container {
+    padding: 0 1.5rem;
+  }
+
+  .flashcard {
+    height: 320px;
+  }
+
+  .flashcard-text {
+    font-size: 1.1rem;
+    padding: 0.5rem;
+  }
+
+  .side-button:first-child {
+    left: -0.5rem;
+  }
+
+  .side-button:last-child {
+    right: -0.5rem;
+  }
+
+  .card-stat {
+    flex-wrap: wrap;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .flashcard-inner {
+    transition: none;
+  }
 }
