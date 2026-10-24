@@ -246,7 +246,11 @@ function App() {
       </div>}
       {pwa.waiting && <div className="update-banner" role="status">
         <span>{text.updateAvailable}</span>
-        <button disabled={Boolean(saveIssue)} onClick={pwa.update}>{text.update}</button>
+        <button disabled={Boolean(saveIssue) || pwa.updating} onClick={pwa.update} aria-busy={pwa.updating}>
+          {pwa.updating ? text.updating : text.update}
+        </button>
+        {saveIssue && <span>{text.updateBlocked}</span>}
+        {pwa.updateError && <span role="alert">{text.updateError}</span>}
       </div>}
 
       <div className="summary" aria-label={text.learningProgress}>
