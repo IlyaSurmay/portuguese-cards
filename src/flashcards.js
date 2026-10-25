@@ -83,8 +83,11 @@ export function loadSession(deck) {
     if (raw !== null) return { ...validateSnapshot(JSON.parse(raw), deck), issue: null, migrate: false }
     const legacy = localStorage.getItem('flashcards')
     const savedLanguage = localStorage.getItem('flashcards-language')
-    let language = 'uk'
-    try { if (savedLanguage && JSON.parse(savedLanguage) === 'ru') language = 'ru' } catch { /* Preferences do not invalidate progress. */ }
+    let language = 'en'
+    try {
+      const preferred = savedLanguage && JSON.parse(savedLanguage)
+      if (['en', 'uk', 'ru'].includes(preferred)) language = preferred
+    } catch { /* Preferences do not invalidate progress. */ }
     return {
       progress: legacy === null ? {} : migrateLegacy(deck, JSON.parse(legacy)), language,
       issue: null, migrate: true,
@@ -92,7 +95,7 @@ export function loadSession(deck) {
   } catch {
     // Keep unreadable data untouched. Export remains available for this session;
     // importing a valid backup is the explicit recovery path.
-    return { progress: {}, language: 'uk', issue: 'read', migrate: false }
+    return { progress: {}, language: 'en', issue: 'read', migrate: false }
   }
 }
 

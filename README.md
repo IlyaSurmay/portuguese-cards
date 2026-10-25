@@ -2,6 +2,8 @@
 
 Installable React + Vite flashcards for everyday Portuguese, with Ukrainian, Russian and English translations, recorded pronunciation, offline study, and scheduled reviews.
 
+English is the default for new sessions. Existing saved language choices are kept.
+
 ## Study
 
 Reveal a card's translation, then rate your recall:

@@ -3,7 +3,7 @@
   "name": "Portuguese Cards",
   "short_name": "PT Cards",
   "description": "Learn everyday Portuguese with English, Ukrainian and Russian translations, grammar notes, pronunciation and scheduled reviews.",
-  "lang": "uk",
+  "lang": "en",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
