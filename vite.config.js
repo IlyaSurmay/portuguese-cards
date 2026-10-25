@@ -4,6 +4,15 @@ import { createHash } from 'node:crypto'
 import { readFileSync } from 'node:fs'
 
 export default defineConfig({
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.endsWith('/src/phrase-explanations.json')) return 'phrase-explanations'
+        },
+      },
+    },
+  },
   plugins: [
     react(),
     {

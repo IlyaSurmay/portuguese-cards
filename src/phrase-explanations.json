@@ -30,7 +30,25 @@
       "uk": "Хочу каву із собою.",
       "ru": "Хочу кофе с собой.",
       "en": "I’d like a coffee to take away."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "querer",
+        "form": "quer"
+      },
+      {
+        "verb": "comer",
+        "form": "comer"
+      },
+      {
+        "verb": "ser",
+        "form": "é"
+      },
+      {
+        "verb": "levar",
+        "form": "levar"
+      }
+    ]
   },
   "pt-002": {
     "parts": [
@@ -63,7 +81,17 @@
       "uk": "Можемо сісти біля вікна?",
       "ru": "Можем сесть у окна?",
       "en": "Can we sit by the window?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "podemos"
+      },
+      {
+        "verb": "sentar-se",
+        "form": "sentar-nos"
+      }
+    ]
   },
   "pt-003": {
     "parts": [
@@ -96,7 +124,17 @@
       "uk": "У вас є бронювання на сьогодні?",
       "ru": "У вас есть бронь на сегодня?",
       "en": "Do you have a reservation for today?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ter",
+        "form": "tem"
+      },
+      {
+        "verb": "ter",
+        "form": "tenho"
+      }
+    ]
   },
   "pt-004": {
     "parts": [
@@ -129,7 +167,13 @@
       "uk": "У мене бронювання на ім’я Марія.",
       "ru": "У меня бронь на имя Мария.",
       "en": "I have a reservation in Maria’s name."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ter",
+        "form": "tenho"
+      }
+    ]
   },
   "pt-005": {
     "parts": [
@@ -162,7 +206,17 @@
       "uk": "Потрібно платити заздалегідь?",
       "ru": "Нужно платить заранее?",
       "en": "Do we need to pay in advance?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ser",
+        "form": "é"
+      },
+      {
+        "verb": "reservar",
+        "form": "reservar"
+      }
+    ]
   },
   "pt-006": {
     "parts": [
@@ -195,7 +249,13 @@
       "uk": "Є столик на двох о восьмій?",
       "ru": "Есть столик на двоих в восемь?",
       "en": "Do you have a table for two at eight?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ter",
+        "form": "tem"
+      }
+    ]
   },
   "pt-007": {
     "parts": [
@@ -228,7 +288,17 @@
       "uk": "Можна мені сісти надворі?",
       "ru": "Можно мне сесть снаружи?",
       "en": "Can I sit outside?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "posso"
+      },
+      {
+        "verb": "sentar-se",
+        "form": "sentar-me"
+      }
+    ]
   },
   "pt-008": {
     "parts": [
@@ -261,7 +331,13 @@
       "uk": "У цьому ресторані дозволені тварини?",
       "ru": "В этом ресторане разрешены животные?",
       "en": "Does this restaurant allow pets?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ser",
+        "form": "é"
+      }
+    ]
   },
   "pt-009": {
     "parts": [
@@ -294,7 +370,17 @@
       "uk": "Можна мені забрати звідси цей стілець?",
       "ru": "Можно мне забрать отсюда этот стул?",
       "en": "Can I take this chair from here?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "posso"
+      },
+      {
+        "verb": "tirar",
+        "form": "tirar"
+      }
+    ]
   },
   "pt-010": {
     "parts": [
@@ -327,7 +413,13 @@
       "uk": "У вас є дитячий стілець?",
       "ru": "У вас есть детский стул?",
       "en": "Do you have a chair for a child?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ter",
+        "form": "tem"
+      }
+    ]
   },
   "pt-011": {
     "parts": [
@@ -354,7 +446,13 @@
       "uk": "Аптека відчиняється о дев’ятій.",
       "ru": "Аптека открывается в девять.",
       "en": "The pharmacy opens at nine."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "abrir",
+        "form": "abre"
+      }
+    ]
   },
   "pt-012": {
     "parts": [
@@ -381,7 +479,13 @@
       "uk": "Магазин зачиняється о шостій.",
       "ru": "Магазин закрывается в шесть.",
       "en": "The shop closes at six."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "fechar",
+        "form": "fecha"
+      }
+    ]
   },
   "pt-013": {
     "parts": [
@@ -414,7 +518,17 @@
       "uk": "Що будете їсти?",
       "ru": "Что будете есть?",
       "en": "What will you have to eat?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ir",
+        "form": "vai"
+      },
+      {
+        "verb": "beber",
+        "form": "beber"
+      }
+    ]
   },
   "pt-014": {
     "parts": [
@@ -447,7 +561,17 @@
       "uk": "Нам потрібен час, щоб вибрати.",
       "ru": "Нам нужно время, чтобы выбрать.",
       "en": "We need time to choose."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "precisar",
+        "form": "precisamos"
+      },
+      {
+        "verb": "ver",
+        "form": "ver"
+      }
+    ]
   },
   "pt-015": {
     "parts": [
@@ -480,7 +604,13 @@
       "uk": "Дайте мені хвилину, будь ласка.",
       "ru": "Дайте мне минуту, пожалуйста.",
       "en": "Give me a minute, please."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "dar",
+        "form": "dê-me"
+      }
+    ]
   },
   "pt-016": {
     "parts": [
@@ -513,7 +643,17 @@
       "uk": "Я хотів би замовити суп.",
       "ru": "Я хотел бы заказать суп.",
       "en": "I’d like to order a soup."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "gostar",
+        "form": "gostava"
+      },
+      {
+        "verb": "fazer",
+        "form": "fazer"
+      }
+    ]
   },
   "pt-017": {
     "parts": [
@@ -546,7 +686,13 @@
       "uk": "У вас є вегетаріанські варіанти?",
       "ru": "У вас есть вегетарианские варианты?",
       "en": "Do you have vegetarian options?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ter",
+        "form": "tem"
+      }
+    ]
   },
   "pt-018": {
     "parts": [
@@ -579,7 +725,13 @@
       "uk": "У мене алергія на молоко.",
       "ru": "У меня аллергия на молоко.",
       "en": "I’m allergic to milk."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ser",
+        "form": "sou"
+      }
+    ]
   },
   "pt-019": {
     "parts": [
@@ -612,7 +764,13 @@
       "uk": "Ця страва містить яйця?",
       "ru": "Это блюдо содержит яйца?",
       "en": "Does this dish contain eggs?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ter",
+        "form": "tem"
+      }
+    ]
   },
   "pt-020": {
     "parts": [
@@ -645,7 +803,17 @@
       "uk": "Можете принести воду з крана?",
       "ru": "Можете принести воду из-под крана?",
       "en": "Could you bring tap water?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "pode"
+      },
+      {
+        "verb": "trazer",
+        "form": "trazer"
+      }
+    ]
   },
   "pt-021": {
     "parts": [
@@ -678,7 +846,13 @@
       "uk": "Воду без газу, будь ласка.",
       "ru": "Воду без газа, пожалуйста.",
       "en": "Still water, please."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "fazer",
+        "form": "faz"
+      }
+    ]
   },
   "pt-022": {
     "parts": [
@@ -711,7 +885,17 @@
       "uk": "Я замовлю рибну страву.",
       "ru": "Я закажу рыбное блюдо.",
       "en": "I’m going to order a fish dish."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ir",
+        "form": "vou"
+      },
+      {
+        "verb": "pedir",
+        "form": "pedir"
+      }
+    ]
   },
   "pt-023": {
     "parts": [
@@ -744,6 +928,12 @@
       "uk": "Я хочу добре просмажене м’ясо.",
       "ru": "Я хочу хорошо прожаренное мясо.",
       "en": "I’d like the meat well-done."
+    },
+    "verbs": [],
+    "structure": {
+      "en": "This is a list of noun/adjective labels, not a full sentence with a conjugated verb. Passado is a past participle of passar used as an adjective for doneness; it changes to passada with carne. A full request could start quero, the eu present of querer: ‘I want’.",
+      "uk": "Це перелік назв та прикметників, а не повне речення з особовою формою дієслова. Passado — дієприкметник минулого часу від passar, тут прикметник ступеня просмаження; з carne буде passada. Повне прохання може починатися з quero — теперішньої форми querer для eu: «я хочу».",
+      "ru": "Это список названий и прилагательных, а не полное предложение с личной формой глагола. Passado — причастие прошедшего времени от passar, здесь прилагательное степени прожарки; с carne будет passada. Полная просьба может начинаться с quero — настоящей формы querer для eu: «я хочу»."
     }
   },
   "pt-024": {
@@ -777,7 +967,17 @@
       "uk": "Доставка займе десять хвилин.",
       "ru": "Доставка займёт десять минут.",
       "en": "The delivery will take ten minutes."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ir",
+        "form": "vai"
+      },
+      {
+        "verb": "demorar",
+        "form": "demorar"
+      }
+    ]
   },
   "pt-025": {
     "parts": [
@@ -804,7 +1004,13 @@
       "uk": "Більше нічого не хочу, дякую.",
       "ru": "Больше ничего не хочу, спасибо.",
       "en": "I don’t want anything else, thank you."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ser",
+        "form": "é"
+      }
+    ]
   },
   "pt-026": {
     "parts": [
@@ -831,7 +1037,13 @@
       "uk": "Я вже замовила десерт.",
       "ru": "Я уже заказала десерт.",
       "en": "I’ve already ordered dessert."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "pedir",
+        "form": "pedi"
+      }
+    ]
   },
   "pt-027": {
     "parts": [
@@ -864,7 +1076,13 @@
       "uk": "Тут є вільні столики?",
       "ru": "Здесь есть свободные столики?",
       "en": "Are there any free tables here?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "haver",
+        "form": "há"
+      }
+    ]
   },
   "pt-028": {
     "parts": [
@@ -897,7 +1115,13 @@
       "uk": "Який пароль від мережі?",
       "ru": "Какой пароль от сети?",
       "en": "What’s the network password?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ser",
+        "form": "é"
+      }
+    ]
   },
   "pt-029": {
     "parts": [
@@ -930,7 +1154,21 @@
       "uk": "Не могли б ви вимкнути телевізор?",
       "ru": "Не могли бы вы выключить телевизор?",
       "en": "Could you turn off the television?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "podia"
+      },
+      {
+        "verb": "ligar",
+        "form": "ligar"
+      },
+      {
+        "verb": "desligar",
+        "form": "desligar"
+      }
+    ]
   },
   "pt-030": {
     "parts": [
@@ -963,7 +1201,13 @@
       "uk": "Ще одну ложку, будь ласка.",
       "ru": "Ещё одну ложку, пожалуйста.",
       "en": "One more spoon, please."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "fazer",
+        "form": "faz"
+      }
+    ]
   },
   "pt-031": {
     "parts": [
@@ -996,7 +1240,17 @@
       "uk": "Не могли б ви принести ніж?",
       "ru": "Не могли бы вы принести нож?",
       "en": "Could you bring a knife?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "podia"
+      },
+      {
+        "verb": "trazer",
+        "form": "trazer"
+      }
+    ]
   },
   "pt-032": {
     "parts": [
@@ -1029,7 +1283,17 @@
       "uk": "Можете принести мені оливкову олію?",
       "ru": "Можете принести мне оливковое масло?",
       "en": "Could you bring me the olive oil?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "pode"
+      },
+      {
+        "verb": "trazer",
+        "form": "trazer-me"
+      }
+    ]
   },
   "pt-033": {
     "parts": [
@@ -1062,7 +1326,17 @@
       "uk": "Де я можу дістати мапу?",
       "ru": "Где я могу достать карту?",
       "en": "Where can I get a map?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "posso"
+      },
+      {
+        "verb": "arranjar",
+        "form": "arranjar"
+      }
+    ]
   },
   "pt-034": {
     "parts": [
@@ -1095,7 +1369,13 @@
       "uk": "Суп був дуже смачний, дякую.",
       "ru": "Суп был очень вкусным, спасибо.",
       "en": "The soup was delicious, thank you."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "estar",
+        "form": "estava"
+      }
+    ]
   },
   "pt-035": {
     "parts": [
@@ -1128,7 +1408,17 @@
       "uk": "Я вже закінчила їсти.",
       "ru": "Я уже закончила есть.",
       "en": "I’ve finished the meal."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "terminar",
+        "form": "terminei"
+      },
+      {
+        "verb": "terminar",
+        "form": "terminamos"
+      }
+    ]
   },
   "pt-036": {
     "parts": [
@@ -1161,7 +1451,13 @@
       "uk": "Я голодний, але не хочу пити.",
       "ru": "Я голоден, но не хочу пить.",
       "en": "I’m hungry, but I’m not thirsty."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ter",
+        "form": "tenho"
+      }
+    ]
   },
   "pt-037": {
     "parts": [
@@ -1194,7 +1490,17 @@
       "uk": "Я вже не можу більше пити.",
       "ru": "Я уже не могу больше пить.",
       "en": "I can’t drink any more."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "conseguir",
+        "form": "consigo"
+      },
+      {
+        "verb": "comer",
+        "form": "comer"
+      }
+    ]
   },
   "pt-038": {
     "parts": [
@@ -1227,7 +1533,13 @@
       "uk": "Я сита, десерту не хочу.",
       "ru": "Я сыта, десерта не хочу.",
       "en": "I’ve had enough; I don’t want dessert."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "estar",
+        "form": "estou"
+      }
+    ]
   },
   "pt-039": {
     "parts": [
@@ -1254,7 +1566,17 @@
       "uk": "Бажатимете каву?",
       "ru": "Будете кофе?",
       "en": "Would you like a coffee?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ir",
+        "form": "vai"
+      },
+      {
+        "verb": "querer",
+        "form": "querer"
+      }
+    ]
   },
   "pt-040": {
     "parts": [
@@ -1287,7 +1609,17 @@
       "uk": "Можна скористатися вбиральнею?",
       "ru": "Можно воспользоваться уборной?",
       "en": "May I use the toilet?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "posso"
+      },
+      {
+        "verb": "usar",
+        "form": "usar"
+      }
+    ]
   },
   "pt-041": {
     "parts": [
@@ -1314,7 +1646,17 @@
       "uk": "Я хотіла б оплатити рахунок.",
       "ru": "Я хотела бы оплатить счёт.",
       "en": "I’d like to pay the bill."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "querer",
+        "form": "queria"
+      },
+      {
+        "verb": "pagar",
+        "form": "pagar"
+      }
+    ]
   },
   "pt-042": {
     "parts": [
@@ -1347,7 +1689,21 @@
       "uk": "Можемо заплатити окремо?",
       "ru": "Можем заплатить отдельно?",
       "en": "Can we pay separately?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ir",
+        "form": "vamos"
+      },
+      {
+        "verb": "dividir",
+        "form": "dividir"
+      },
+      {
+        "verb": "pagar",
+        "form": "pagamos"
+      }
+    ]
   },
   "pt-043": {
     "parts": [
@@ -1380,7 +1736,25 @@
       "uk": "Принесіть меню, будь ласка.",
       "ru": "Принесите меню, пожалуйста.",
       "en": "Bring the menu, please."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "trazer",
+        "form": "traga"
+      },
+      {
+        "verb": "poder",
+        "form": "pode"
+      },
+      {
+        "verb": "trazer",
+        "form": "trazer"
+      },
+      {
+        "verb": "fazer",
+        "form": "faz"
+      }
+    ]
   },
   "pt-044": {
     "parts": [
@@ -1413,7 +1787,17 @@
       "uk": "Можна заплатити дебетовою карткою?",
       "ru": "Можно заплатить дебетовой картой?",
       "en": "Can I pay by debit card?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "posso"
+      },
+      {
+        "verb": "pagar",
+        "form": "pagar"
+      }
+    ]
   },
   "pt-045": {
     "parts": [
@@ -1446,7 +1830,17 @@
       "uk": "Можете додати п’ять євро до рахунку?",
       "ru": "Можете добавить пять евро к счёту?",
       "en": "Can you add five euros to the bill?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "pode"
+      },
+      {
+        "verb": "adicionar",
+        "form": "adicionar"
+      }
+    ]
   },
   "pt-046": {
     "parts": [
@@ -1479,7 +1873,21 @@
       "uk": "Можете залишити собі два євро.",
       "ru": "Можете оставить себе два евро.",
       "en": "You can keep two euros."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "precisar",
+        "form": "preciso"
+      },
+      {
+        "verb": "poder",
+        "form": "pode"
+      },
+      {
+        "verb": "ficar",
+        "form": "ficar"
+      }
+    ]
   },
   "pt-047": {
     "parts": [
@@ -1506,7 +1914,17 @@
       "uk": "Скільки коштують ці туфлі?",
       "ru": "Сколько стоят эти туфли?",
       "en": "How much do these shoes cost?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "custar",
+        "form": "custa"
+      },
+      {
+        "verb": "ser",
+        "form": "é"
+      }
+    ]
   },
   "pt-048": {
     "parts": [
@@ -1539,7 +1957,13 @@
       "uk": "Яка ціна за кілограм?",
       "ru": "Какова цена за килограмм?",
       "en": "What’s the price per kilogram?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ser",
+        "form": "é"
+      }
+    ]
   },
   "pt-049": {
     "parts": [
@@ -1566,7 +1990,21 @@
       "uk": "Можна приміряти цю куртку?",
       "ru": "Можно примерить эту куртку?",
       "en": "Can I try this coat on?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "posso"
+      },
+      {
+        "verb": "provar",
+        "form": "provar"
+      },
+      {
+        "verb": "experimentar",
+        "form": "experimentar"
+      }
+    ]
   },
   "pt-050": {
     "parts": [
@@ -1599,7 +2037,25 @@
       "uk": "Можете обробити цю рибу?",
       "ru": "Можете разделать эту рыбу?",
       "en": "Could you prepare this fish?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "pode"
+      },
+      {
+        "verb": "limpar",
+        "form": "limpar"
+      },
+      {
+        "verb": "arranjar",
+        "form": "arranjar"
+      },
+      {
+        "verb": "fazer",
+        "form": "faz"
+      }
+    ]
   },
   "pt-051": {
     "parts": [
@@ -1632,6 +2088,12 @@
       "uk": "Двісті грамів сиру, будь ласка.",
       "ru": "Двести граммов сыра, пожалуйста.",
       "en": "Two hundred grams of cheese, please."
+    },
+    "verbs": [],
+    "structure": {
+      "en": "There is no conjugated verb here: the quantity and product are enough for a counter request. A fuller version is queria trezentos gramas…, using querer in the imperfect as a polite ‘I’d like’. Gramas is masculine as a weight unit, so trezentos agrees with it.",
+      "uk": "Особової форми дієслова тут немає: біля прилавка достатньо кількості та продукту. Повніший варіант — queria trezentos gramas…: імперфект querer передає ввічливе «я хотів би / хотіла б». Gramas як одиниця маси — чоловічого роду, тому з ним узгоджується trezentos.",
+      "ru": "Личной формы глагола здесь нет: у прилавка достаточно количества и продукта. Более полный вариант — queria trezentos gramas…: имперфект querer передаёт вежливое «я хотел бы / хотела бы». Gramas как единица массы — мужского рода, поэтому с ним согласуется trezentos."
     }
   },
   "pt-052": {
@@ -1665,6 +2127,12 @@
       "uk": "Хочу курку без потрухів.",
       "ru": "Хочу курицу без потрохов.",
       "en": "I’d like a chicken without giblets."
+    },
+    "verbs": [],
+    "structure": {
+      "en": "This noun phrase omits the request verb: quero um frango… would mean ‘I want a chicken’. Quero is the eu present of querer. Com and sem introduce alternatives without changing the verb; grande describes frango, while miúdos is a plural noun meaning giblets here.",
+      "uk": "У цьому іменниковому вислові пропущене дієслово прохання: quero um frango… — «я хочу курку». Quero — теперішня форма querer для eu. Com та sem задають варіанти й не змінюють дієслово; grande описує frango, а miúdos тут — іменник у множині «потрухи».",
+      "ru": "В этом именном выражении опущен глагол просьбы: quero um frango… — «я хочу курицу». Quero — настоящая форма querer для eu. Com и sem задают варианты и не меняют глагол; grande описывает frango, а miúdos здесь — существительное во множественном числе «потроха»."
     }
   },
   "pt-053": {
@@ -1698,7 +2166,13 @@
       "uk": "Так достатньо, дякую.",
       "ru": "Так достаточно, спасибо.",
       "en": "That’s fine as it is, thank you."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "estar",
+        "form": "está"
+      }
+    ]
   },
   "pt-054": {
     "parts": [
@@ -1731,7 +2205,17 @@
       "uk": "Можете порізати на маленькі шматки?",
       "ru": "Можете порезать на мелкие куски?",
       "en": "Could you cut it into small pieces?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "pode"
+      },
+      {
+        "verb": "cortar",
+        "form": "cortar"
+      }
+    ]
   },
   "pt-055": {
     "parts": [
@@ -1764,7 +2248,17 @@
       "uk": "Де можна зважити фрукти?",
       "ru": "Где можно взвесить фрукты?",
       "en": "Where can I weigh the fruit?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "posso"
+      },
+      {
+        "verb": "pesar",
+        "form": "pesar"
+      }
+    ]
   },
   "pt-056": {
     "parts": [
@@ -1791,7 +2285,17 @@
       "uk": "Я перегляну меню.",
       "ru": "Я просмотрю меню.",
       "en": "I’m going to have a look at the menu."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ir",
+        "form": "vou"
+      },
+      {
+        "verb": "dar",
+        "form": "dar"
+      }
+    ]
   },
   "pt-057": {
     "parts": [
@@ -1824,7 +2328,13 @@
       "uk": "Є цей светр в іншому кольорі?",
       "ru": "Есть этот свитер в другом цвете?",
       "en": "Do you have this jumper in another colour?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ter",
+        "form": "tem"
+      }
+    ]
   },
   "pt-058": {
     "parts": [
@@ -1857,7 +2367,13 @@
       "uk": "Є це в малому розмірі?",
       "ru": "Есть это в маленьком размере?",
       "en": "Do you have this in a small size?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ter",
+        "form": "tem"
+      }
+    ]
   },
   "pt-059": {
     "parts": [
@@ -1890,7 +2406,13 @@
       "uk": "Немає мого розміру?",
       "ru": "Нет моего размера?",
       "en": "Don’t you have my size?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ter",
+        "form": "tem"
+      }
+    ]
   },
   "pt-060": {
     "parts": [
@@ -1917,7 +2439,13 @@
       "uk": "Де примірочна?",
       "ru": "Где примерочная?",
       "en": "Where is the fitting room?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ficar",
+        "form": "ficam"
+      }
+    ]
   },
   "pt-061": {
     "parts": [
@@ -1950,7 +2478,17 @@
       "uk": "В аптеці потрібно брати талон?",
       "ru": "В аптеке нужно брать талон?",
       "en": "Do I need to take a queue ticket at the pharmacy?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ser",
+        "form": "é"
+      },
+      {
+        "verb": "tirar",
+        "form": "tirar"
+      }
+    ]
   },
   "pt-062": {
     "parts": [
@@ -1983,7 +2521,13 @@
       "uk": "Номер мого талона — двадцять.",
       "ru": "Номер моего талона — двадцать.",
       "en": "The number on my queue ticket is twenty."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ser",
+        "form": "é"
+      }
+    ]
   },
   "pt-063": {
     "parts": [
@@ -2016,7 +2560,13 @@
       "uk": "Хочу охолоджену воду без газу.",
       "ru": "Хочу охлаждённую воду без газа.",
       "en": "I’d like chilled still water."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "querer",
+        "form": "quer"
+      }
+    ]
   },
   "pt-064": {
     "parts": [
@@ -2049,7 +2599,17 @@
       "uk": "Хочу оформити картку магазину.",
       "ru": "Хочу оформить карту магазина.",
       "en": "I’d like to get a store card."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "querer",
+        "form": "quero"
+      },
+      {
+        "verb": "fazer",
+        "form": "fazer"
+      }
+    ]
   },
   "pt-065": {
     "parts": [
@@ -2076,7 +2636,13 @@
       "uk": "Це на подарунок, можете загорнути?",
       "ru": "Это в подарок, можете завернуть?",
       "en": "It’s a gift; could you wrap it?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ser",
+        "form": "é"
+      }
+    ]
   },
   "pt-066": {
     "parts": [
@@ -2109,7 +2675,21 @@
       "uk": "Мені не потрібен пакет, дякую.",
       "ru": "Мне не нужен пакет, спасибо.",
       "en": "I don’t need a bag, thank you."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "precisar",
+        "form": "precisa"
+      },
+      {
+        "verb": "dar",
+        "form": "dê-me"
+      },
+      {
+        "verb": "fazer",
+        "form": "faz"
+      }
+    ]
   },
   "pt-067": {
     "parts": [
@@ -2142,7 +2722,17 @@
       "uk": "Можете вказати мій NIF у чеку?",
       "ru": "Можете указать мой NIF в чеке?",
       "en": "Can you put my NIF on the invoice?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "pode"
+      },
+      {
+        "verb": "ser",
+        "form": "ser"
+      }
+    ]
   },
   "pt-068": {
     "parts": [
@@ -2175,7 +2765,13 @@
       "uk": "Я стою в черзі, щоб заплатити.",
       "ru": "Я стою в очереди, чтобы заплатить.",
       "en": "I’m in the queue to pay."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "estar",
+        "form": "estou"
+      }
+    ]
   },
   "pt-069": {
     "parts": [
@@ -2208,7 +2804,17 @@
       "uk": "Перепрошую, це черга на оплату?",
       "ru": "Извините, это очередь на оплату?",
       "en": "Excuse me, is this the queue to pay?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "desculpar",
+        "form": "desculpe"
+      },
+      {
+        "verb": "estar",
+        "form": "está"
+      }
+    ]
   },
   "pt-070": {
     "parts": [
@@ -2241,7 +2847,17 @@
       "uk": "Можете розміняти двадцять євро на монети?",
       "ru": "Можете разменять двадцать евро на монеты?",
       "en": "Can you change twenty euros into coins?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "pode"
+      },
+      {
+        "verb": "trocar",
+        "form": "trocar"
+      }
+    ]
   },
   "pt-071": {
     "parts": [
@@ -2274,7 +2890,17 @@
       "uk": "Є решта з п’ятдесяти євро?",
       "ru": "Есть сдача с пятидесяти евро?",
       "en": "Do you have change for fifty euros?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ir",
+        "form": "vai"
+      },
+      {
+        "verb": "ter",
+        "form": "ter"
+      }
+    ]
   },
   "pt-072": {
     "parts": [
@@ -2307,7 +2933,17 @@
       "uk": "На ціннику була інша ціна.",
       "ru": "На ценнике была другая цена.",
       "en": "The label showed another price."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "desculpar",
+        "form": "desculpe"
+      },
+      {
+        "verb": "ter",
+        "form": "tinha"
+      }
+    ]
   },
   "pt-073": {
     "parts": [
@@ -2334,7 +2970,13 @@
       "uk": "Де аварійний вихід?",
       "ru": "Где аварийный выход?",
       "en": "Where’s the emergency exit?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ser",
+        "form": "é"
+      }
+    ]
   },
   "pt-074": {
     "parts": [
@@ -2367,7 +3009,21 @@
       "uk": "Коли прибуде моє замовлення?",
       "ru": "Когда прибудет мой заказ?",
       "en": "When will my parcel arrive?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ir",
+        "form": "vão"
+      },
+      {
+        "verb": "entregar",
+        "form": "entregar"
+      },
+      {
+        "verb": "chegar",
+        "form": "chega"
+      }
+    ]
   },
   "pt-075": {
     "parts": [
@@ -2394,7 +3050,13 @@
       "uk": "Ви доставляєте додому в цьому районі?",
       "ru": "Вы доставляете на дом в этом районе?",
       "en": "Do you offer home delivery in this area?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "fazer",
+        "form": "faz"
+      }
+    ]
   },
   "pt-076": {
     "parts": [
@@ -2427,7 +3089,17 @@
       "uk": "Можете надіслати повідомлення з адресою?",
       "ru": "Можете отправить сообщение с адресом?",
       "en": "Can you send a message with the address?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "pode"
+      },
+      {
+        "verb": "enviar",
+        "form": "enviar"
+      }
+    ]
   },
   "pt-077": {
     "parts": [
@@ -2460,7 +3132,17 @@
       "uk": "Можете зробити копію цього договору?",
       "ru": "Можете сделать копию этого договора?",
       "en": "Can you make a copy of this contract?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "pode"
+      },
+      {
+        "verb": "fazer",
+        "form": "fazer-me"
+      }
+    ]
   },
   "pt-078": {
     "parts": [
@@ -2493,7 +3175,17 @@
       "uk": "Мені потрібно надрукувати дві сторінки в кольорі.",
       "ru": "Мне нужно напечатать две страницы в цвете.",
       "en": "I need to print two pages in colour."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "precisar",
+        "form": "preciso"
+      },
+      {
+        "verb": "imprimir",
+        "form": "imprimir"
+      }
+    ]
   },
   "pt-079": {
     "parts": [
@@ -2526,7 +3218,13 @@
       "uk": "Тут достатньо парафа.",
       "ru": "Здесь достаточно парафа.",
       "en": "Just your initials here will do."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ser",
+        "form": "é"
+      }
+    ]
   },
   "pt-080": {
     "parts": [
@@ -2559,7 +3257,17 @@
       "uk": "Можете написати адресу?",
       "ru": "Можете написать адрес?",
       "en": "Can you write the address down?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "pode"
+      },
+      {
+        "verb": "escrever",
+        "form": "escrever"
+      }
+    ]
   },
   "pt-081": {
     "parts": [
@@ -2586,7 +3294,13 @@
       "uk": "Як пишеться ваше прізвище?",
       "ru": "Как пишется ваша фамилия?",
       "en": "How is your surname spelt?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "escrever",
+        "form": "escreve"
+      }
+    ]
   },
   "pt-082": {
     "parts": [
@@ -2619,7 +3333,13 @@
       "uk": "Напишіть тут ваше ім’я.",
       "ru": "Напишите здесь ваше имя.",
       "en": "Write your name here."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "escrever",
+        "form": "escreva"
+      }
+    ]
   },
   "pt-083": {
     "parts": [
@@ -2652,7 +3372,17 @@
       "uk": "Думаю, у рахунку є помилка.",
       "ru": "Думаю, в счёте есть ошибка.",
       "en": "I think there’s a mistake in the bill."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "achar",
+        "form": "acho"
+      },
+      {
+        "verb": "haver",
+        "form": "há"
+      }
+    ]
   },
   "pt-084": {
     "parts": [
@@ -2685,7 +3415,17 @@
       "uk": "Нам треба викликати лікаря.",
       "ru": "Нам нужно вызвать врача.",
       "en": "We need to call a doctor."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ter",
+        "form": "temos"
+      },
+      {
+        "verb": "chamar",
+        "form": "chamar"
+      }
+    ]
   },
   "pt-085": {
     "parts": [
@@ -2718,7 +3458,17 @@
       "uk": "Можна записатися на прийом на завтра?",
       "ru": "Можно записаться на приём на завтра?",
       "en": "Is it possible to book the appointment for tomorrow?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ser",
+        "form": "é"
+      },
+      {
+        "verb": "marcar",
+        "form": "marcar-me"
+      }
+    ]
   },
   "pt-086": {
     "parts": [
@@ -2751,7 +3501,17 @@
       "uk": "Мені потрібно перенести прийом на п’ятницю.",
       "ru": "Мне нужно перенести приём на пятницу.",
       "en": "I need to reschedule the appointment for Friday."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "precisar",
+        "form": "preciso"
+      },
+      {
+        "verb": "reagendar",
+        "form": "reagendar"
+      }
+    ]
   },
   "pt-087": {
     "parts": [
@@ -2784,7 +3544,13 @@
       "uk": "Ця клініка співпрацює з моєю страховою компанією?",
       "ru": "Эта клиника сотрудничает с моей страховой компанией?",
       "en": "Does this clinic have an agreement with my insurer?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ter",
+        "form": "tem"
+      }
+    ]
   },
   "pt-088": {
     "parts": [
@@ -2817,7 +3583,17 @@
       "uk": "Хочу записатися на прийом до моєї лікарки.",
       "ru": "Хочу записаться на приём к моему врачу.",
       "en": "I want to book an appointment with my doctor."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "querer",
+        "form": "quero"
+      },
+      {
+        "verb": "marcar",
+        "form": "marcar"
+      }
+    ]
   },
   "pt-089": {
     "parts": [
@@ -2850,7 +3626,17 @@
       "uk": "Мені слід прийти на десять хвилин раніше?",
       "ru": "Мне следует прийти на десять минут раньше?",
       "en": "Should I arrive ten minutes early?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "dever",
+        "form": "devo"
+      },
+      {
+        "verb": "chegar",
+        "form": "chegar"
+      }
+    ]
   },
   "pt-090": {
     "parts": [
@@ -2877,7 +3663,13 @@
       "uk": "Лікарка приймає щовівторка.",
       "ru": "Врач принимает по вторникам.",
       "en": "The doctor sees patients on Tuesdays."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "atender",
+        "form": "atende"
+      }
+    ]
   },
   "pt-091": {
     "parts": [
@@ -2910,7 +3702,13 @@
       "uk": "У вас є всі ліки з цього списку?",
       "ru": "У вас есть все лекарства из этого списка?",
       "en": "Do you have all the medicines on this list?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ter",
+        "form": "tem"
+      }
+    ]
   },
   "pt-092": {
     "parts": [
@@ -2943,7 +3741,13 @@
       "uk": "Де найближча аптека?",
       "ru": "Где ближайшая аптека?",
       "en": "Where’s the nearest pharmacy?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ficar",
+        "form": "fica"
+      }
+    ]
   },
   "pt-093": {
     "parts": [
@@ -2976,7 +3780,17 @@
       "uk": "Проходьте першим, будь ласка.",
       "ru": "Проходите первым, пожалуйста.",
       "en": "Please go ahead first."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "passar",
+        "form": "passe"
+      },
+      {
+        "verb": "fazer",
+        "form": "faz"
+      }
+    ]
   },
   "pt-094": {
     "parts": [
@@ -3003,7 +3817,17 @@
       "uk": "Можете пройти переді мною.",
       "ru": "Можете пройти передо мной.",
       "en": "You can go in front of me."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "pode"
+      },
+      {
+        "verb": "passar",
+        "form": "passar"
+      }
+    ]
   },
   "pt-095": {
     "parts": [
@@ -3030,7 +3854,13 @@
       "uk": "Перепрошую, можна пройти?",
       "ru": "Извините, можно пройти?",
       "en": "Excuse me, may I get past?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "desculpar",
+        "form": "desculpe"
+      }
+    ]
   },
   "pt-096": {
     "parts": [
@@ -3063,7 +3893,17 @@
       "uk": "Можете зробити горизонтальне фото?",
       "ru": "Можете сделать горизонтальное фото?",
       "en": "Can you take a photo in landscape orientation?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "pode"
+      },
+      {
+        "verb": "tirar",
+        "form": "tirar"
+      }
+    ]
   },
   "pt-097": {
     "parts": [
@@ -3096,7 +3936,21 @@
       "uk": "Мені потрібна ваша допомога з цією анкетою.",
       "ru": "Мне нужна ваша помощь с этой анкетой.",
       "en": "I need your help with this form."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "pode"
+      },
+      {
+        "verb": "ajudar",
+        "form": "ajudar-me"
+      },
+      {
+        "verb": "precisar",
+        "form": "preciso"
+      }
+    ]
   },
   "pt-098": {
     "parts": [
@@ -3129,7 +3983,17 @@
       "uk": "Тут можна зняти готівку?",
       "ru": "Здесь можно снять наличные?",
       "en": "Can I withdraw cash here?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "posso"
+      },
+      {
+        "verb": "levantar",
+        "form": "levantar"
+      }
+    ]
   },
   "pt-099": {
     "parts": [
@@ -3162,7 +4026,17 @@
       "uk": "Мене звати Марія, я лікарка.",
       "ru": "Меня зовут Мария, я врач.",
       "en": "My name is Maria and I’m a doctor."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ser",
+        "form": "é"
+      },
+      {
+        "verb": "ser",
+        "form": "sou"
+      }
+    ]
   },
   "pt-100": {
     "parts": [
@@ -3195,7 +4069,13 @@
       "uk": "Яка професія в Ани?",
       "ru": "Какая профессия у Аны?",
       "en": "What’s Ana’s occupation?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ser",
+        "form": "é"
+      }
+    ]
   },
   "pt-101": {
     "parts": [
@@ -3222,7 +4102,13 @@
       "uk": "Я з Португалії, але живу в Лісабоні.",
       "ru": "Я из Португалии, но живу в Лиссабоне.",
       "en": "I’m from Portugal, but I live in Lisbon."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ser",
+        "form": "sou"
+      }
+    ]
   },
   "pt-102": {
     "parts": [
@@ -3255,7 +4141,13 @@
       "uk": "Мій номер починається з дев’ятки.",
       "ru": "Мой номер начинается с девятки.",
       "en": "My number starts with nine."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ser",
+        "form": "é"
+      }
+    ]
   },
   "pt-103": {
     "parts": [
@@ -3288,7 +4180,13 @@
       "uk": "Можете повторити ваш NIF?",
       "ru": "Можете повторить ваш NIF?",
       "en": "Can you repeat your NIF?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ser",
+        "form": "é"
+      }
+    ]
   },
   "pt-104": {
     "parts": [
@@ -3315,6 +4213,12 @@
       "uk": "Добрий день, як ви?",
       "ru": "Добрый день, как вы?",
       "en": "Good afternoon, how are you?"
+    },
+    "verbs": [],
+    "structure": {
+      "en": "These greetings have no conjugated verb. Bom and boa are adjective forms, not verb endings: masculine dia takes bom and feminine tarde takes boa. In a full wish such as tenha um bom dia, tenha is a polite command of ter (‘have’), but the greeting normally leaves the verb out.",
+      "uk": "У цих вітаннях немає особової форми дієслова. Bom і boa — форми прикметника, а не дієслівні закінчення: чоловіче dia має bom, жіноче tarde — boa. У повному побажанні tenha um bom dia форма tenha є ввічливим наказом від ter («мати»), але у звичайному вітанні дієслово пропускають.",
+      "ru": "В этих приветствиях нет личной формы глагола. Bom и boa — формы прилагательного, а не глагольные окончания: мужское dia имеет bom, женское tarde — boa. В полном пожелании tenha um bom dia форма tenha является вежливым приказом от ter («иметь»), но в обычном приветствии глагол опускают."
     }
   },
   "pt-105": {
@@ -3342,6 +4246,12 @@
       "uk": "До п’ятниці, гарної роботи!",
       "ru": "До пятницы, хорошей работы!",
       "en": "See you on Friday; have a good day at work!"
+    },
+    "verbs": [],
+    "structure": {
+      "en": "Até terça is a shortened farewell with no conjugated verb. It implies meeting again on Tuesday rather than requiring a literal verb after até. A complete version could use vemo-nos, from ver: nós vemos plus reciprocal nos, meaning ‘we’ll see each other’.",
+      "uk": "Até terça — скорочене прощання без особової форми дієслова. Воно передбачає зустріч у вівторок і не вимагає дієслова після até. Повніший варіант може містити vemo-nos від ver: nós vemos плюс взаємне nos, тобто «побачимо одне одного».",
+      "ru": "Até terça — сокращённое прощание без личной формы глагола. Оно подразумевает встречу во вторник и не требует глагола после até. Более полный вариант может содержать vemo-nos от ver: nós vemos плюс взаимное nos, то есть «увидим друг друга»."
     }
   },
   "pt-106": {
@@ -3369,6 +4279,12 @@
       "uk": "Гарних вам вихідних!",
       "ru": "Хороших вам выходных!",
       "en": "Have a good weekend!"
+    },
+    "verbs": [],
+    "structure": {
+      "en": "This wish omits the verb: tenha um bom fim de semana is the fuller polite version. Tenha comes from ter (‘have’) and addresses one person politely. Bom is an adjective agreeing with masculine fim; it does not identify who is speaking or receiving the wish.",
+      "uk": "У побажанні пропущено дієслово: повний ввічливий варіант — tenha um bom fim de semana. Tenha походить від ter («мати») і звертається ввічливо до однієї людини. Bom — прикметник, узгоджений із чоловічим fim; він не визначає особу мовця чи адресата.",
+      "ru": "В пожелании опущен глагол: полный вежливый вариант — tenha um bom fim de semana. Tenha происходит от ter («иметь») и обращается вежливо к одному человеку. Bom — прилагательное, согласованное с мужским fim; оно не определяет лицо говорящего или адресата."
     }
   },
   "pt-107": {
@@ -3396,6 +4312,12 @@
       "uk": "Гарної п’ятниці та вихідних!",
       "ru": "Хорошей пятницы и выходных!",
       "en": "Have a good Friday and a good weekend!"
+    },
+    "verbs": [],
+    "structure": {
+      "en": "No conjugated verb is needed in this short wish. Boa agrees with sexta, short for feminine sexta-feira; it is not a feminine form of a verb. In a complete polite wish, tenha uma boa sexta-feira uses tenha from ter, ‘have’.",
+      "uk": "У короткому побажанні особова форма дієслова не потрібна. Boa узгоджується із sexta, скороченням жіночого sexta-feira; це не жіноча форма дієслова. Повне ввічливе побажання tenha uma boa sexta-feira містить tenha від ter — «мати».",
+      "ru": "В коротком пожелании личная форма глагола не нужна. Boa согласуется с sexta, сокращением женского sexta-feira; это не женская форма глагола. Полное вежливое пожелание tenha uma boa sexta-feira содержит tenha от ter — «иметь»."
     }
   },
   "pt-108": {
@@ -3429,7 +4351,13 @@
       "uk": "Передай вітання Марії!",
       "ru": "Передай привет Марии!",
       "en": "Say hello to Maria for me!"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "mandar",
+        "form": "manda"
+      }
+    ]
   },
   "pt-109": {
     "parts": [
@@ -3462,6 +4390,12 @@
       "uk": "До завтра, на добраніч!",
       "ru": "До завтра, спокойной ночи!",
       "en": "See you tomorrow; good night!"
+    },
+    "verbs": [],
+    "structure": {
+      "en": "These are fixed farewells without a conjugated verb. Próxima is an adjective with an implied feminine noun such as vez (‘time/occasion’); breve and amanhã express time. To state who will meet, a full sentence can add vemo-nos (‘we’ll see each other’), from ver.",
+      "uk": "Це усталені прощання без особової форми дієслова. Próxima — прикметник із пропущеним жіночим іменником, наприклад vez («раз»); breve та amanhã позначають час. Щоб назвати учасників зустрічі, можна додати vemo-nos («побачимося») від ver.",
+      "ru": "Это устойчивые прощания без личной формы глагола. Próxima — прилагательное с опущенным женским существительным, например vez («раз»); breve и amanhã обозначают время. Чтобы назвать участников встречи, можно добавить vemo-nos («увидимся») от ver."
     }
   },
   "pt-110": {
@@ -3495,7 +4429,13 @@
       "uk": "Побачимося через десять хвилин.",
       "ru": "Увидимся через десять минут.",
       "en": "See you in ten minutes."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ver",
+        "form": "vemo-nos"
+      }
+    ]
   },
   "pt-111": {
     "parts": [
@@ -3522,6 +4462,12 @@
       "uk": "На добраніч, до завтра.",
       "ru": "Спокойной ночи, до завтра.",
       "en": "Good night; see you tomorrow."
+    },
+    "verbs": [],
+    "structure": {
+      "en": "Boa noite is a fixed greeting or farewell without a conjugated verb. Boa is feminine because noite is feminine; it does not change for the speaker’s gender. A fuller good-night wish can be tenha uma boa noite, with tenha as a polite command of ter.",
+      "uk": "Boa noite — усталене вітання або прощання без особової форми дієслова. Boa жіночого роду через жіноче noite, а не через стать мовця. Повніше побажання — tenha uma boa noite, де tenha є ввічливим наказом від ter.",
+      "ru": "Boa noite — устойчивое приветствие или прощание без личной формы глагола. Boa женского рода из-за женского noite, а не из-за пола говорящего. Более полное пожелание — tenha uma boa noite, где tenha является вежливым приказом от ter."
     }
   },
   "pt-112": {
@@ -3555,7 +4501,21 @@
       "uk": "Не можу зараз говорити, зателефоную пізніше.",
       "ru": "Не могу сейчас говорить, позвоню позже.",
       "en": "I can’t talk now; I’ll call later."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "desculpar",
+        "form": "desculpe"
+      },
+      {
+        "verb": "poder",
+        "form": "posso"
+      },
+      {
+        "verb": "falar",
+        "form": "falar"
+      }
+    ]
   },
   "pt-113": {
     "parts": [
@@ -3582,7 +4542,17 @@
       "uk": "Перепрошую, хто говорить?",
       "ru": "Извините, кто говорит?",
       "en": "Excuse me, who’s speaking?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ser",
+        "form": "é"
+      },
+      {
+        "verb": "falar",
+        "form": "fala"
+      }
+    ]
   },
   "pt-114": {
     "parts": [
@@ -3609,7 +4579,17 @@
       "uk": "Алло? Так, я слухаю.",
       "ru": "Алло? Да, я слушаю.",
       "en": "Hello? Yes, I can hear you."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "estar",
+        "form": "estou"
+      },
+      {
+        "verb": "estar",
+        "form": "está"
+      }
+    ]
   },
   "pt-115": {
     "parts": [
@@ -3642,7 +4622,17 @@
       "uk": "Я не зацікавлена в цій послузі.",
       "ru": "Я не заинтересована в этой услуге.",
       "en": "I’m not interested in this service."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "estar",
+        "form": "estou"
+      },
+      {
+        "verb": "desculpar",
+        "form": "desculpe"
+      }
+    ]
   },
   "pt-116": {
     "parts": [
@@ -3675,7 +4665,17 @@
       "uk": "Я сьогодні дуже зайнята.",
       "ru": "Я сегодня очень занята.",
       "en": "I’m very busy today."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "desculpar",
+        "form": "desculpe"
+      },
+      {
+        "verb": "estar",
+        "form": "estou"
+      }
+    ]
   },
   "pt-117": {
     "parts": [
@@ -3702,7 +4702,17 @@
       "uk": "Можете назвати ваше прізвище по літерах?",
       "ru": "Можете произнести вашу фамилию по буквам?",
       "en": "Can you spell your surname?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "pode"
+      },
+      {
+        "verb": "soletrar",
+        "form": "soletrar"
+      }
+    ]
   },
   "pt-118": {
     "parts": [
@@ -3735,7 +4745,17 @@
       "uk": "У мене немає часу чекати.",
       "ru": "У меня нет времени ждать.",
       "en": "I don’t have time to wait."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "desculpar",
+        "form": "desculpe"
+      },
+      {
+        "verb": "ter",
+        "form": "tenho"
+      }
+    ]
   },
   "pt-119": {
     "parts": [
@@ -3762,7 +4782,17 @@
       "uk": "Можете повторити повільніше?",
       "ru": "Можете повторить медленнее?",
       "en": "Can you repeat that more slowly?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "podia"
+      },
+      {
+        "verb": "falar",
+        "form": "falar"
+      }
+    ]
   },
   "pt-120": {
     "parts": [
@@ -3789,7 +4819,13 @@
       "uk": "Можете сказати це ще раз?",
       "ru": "Можете сказать это ещё раз?",
       "en": "Can you say that one more time?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "fazer",
+        "form": "faz"
+      }
+    ]
   },
   "pt-121": {
     "parts": [
@@ -3822,7 +4858,17 @@
       "uk": "Можете говорити голосніше, будь ласка?",
       "ru": "Можете говорить громче, пожалуйста?",
       "en": "Can you speak more loudly, please?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "pode"
+      },
+      {
+        "verb": "falar",
+        "form": "falar"
+      }
+    ]
   },
   "pt-122": {
     "parts": [
@@ -3855,7 +4901,17 @@
       "uk": "З ким можу поговорити про замовлення?",
       "ru": "С кем могу поговорить о заказе?",
       "en": "Who can I speak to about the parcel?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "posso"
+      },
+      {
+        "verb": "falar",
+        "form": "falar"
+      }
+    ]
   },
   "pt-123": {
     "parts": [
@@ -3882,6 +4938,12 @@
       "uk": "Вітаю з новою роботою!",
       "ru": "Поздравляю с новой работой!",
       "en": "Congratulations on your new job!"
+    },
+    "verbs": [],
+    "structure": {
+      "en": "Neither expression contains a conjugated verb. Parabéns is a fixed plural noun, while feliz is an adjective describing aniversário. A full wish could begin desejo-te / desejo-lhe (‘I wish you’): desejo is the eu present of desejar, and te/lhe identifies the recipient rather than the subject.",
+      "uk": "Жоден вислів не містить особової форми дієслова. Parabéns — усталений іменник у множині, а feliz — прикметник до aniversário. Повне побажання може починатися desejo-te / desejo-lhe («я бажаю тобі/Вам»): desejo — теперішня форма desejar для eu, а te/lhe позначає отримувача, не підмет.",
+      "ru": "Ни одно выражение не содержит личной формы глагола. Parabéns — устойчивое существительное во множественном числе, а feliz — прилагательное к aniversário. Полное пожелание может начинаться desejo-te / desejo-lhe («я желаю тебе/Вам»): desejo — настоящая форма desejar для eu, а te/lhe обозначает получателя, не подлежащее."
     }
   },
   "pt-124": {
@@ -3915,6 +4977,12 @@
       "uk": "Бажаю вам щасливого Нового року.",
       "ru": "Желаю вам счастливого Нового года.",
       "en": "I wish you a happy New Year."
+    },
+    "verbs": [],
+    "structure": {
+      "en": "This seasonal wish has no conjugated verb: feliz and bom are adjectives. In a full wish, desejo-lhe um bom ano novo means ‘I wish you a happy New Year’. Desejo comes from desejar and its -o identifies eu; lhe means ‘to you’ politely, not ‘I’.",
+      "uk": "У святковому побажанні немає особової форми дієслова: feliz і bom — прикметники. Повне desejo-lhe um bom ano novo означає «бажаю Вам щасливого Нового року». Desejo походить від desejar, його -o вказує на eu, а lhe означає ввічливе «Вам», не «я».",
+      "ru": "В праздничном пожелании нет личной формы глагола: feliz и bom — прилагательные. Полное desejo-lhe um bom ano novo означает «желаю Вам счастливого Нового года». Desejo происходит от desejar, его -o указывает на eu, а lhe означает вежливое «Вам», не «я»."
     }
   },
   "pt-125": {
@@ -3948,7 +5016,13 @@
       "uk": "Я говорю португальською, але не говорю англійською.",
       "ru": "Я говорю по-португальски, но не говорю по-английски.",
       "en": "I speak Portuguese, but I don’t speak English."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "falar",
+        "form": "falo"
+      }
+    ]
   },
   "pt-126": {
     "parts": [
@@ -3981,7 +5055,25 @@
       "uk": "Я вчуся говорити португальською.",
       "ru": "Я учусь говорить по-португальски.",
       "en": "I’m learning to speak Portuguese."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "desculpar",
+        "form": "desculpe"
+      },
+      {
+        "verb": "estar",
+        "form": "estou"
+      },
+      {
+        "verb": "aprender",
+        "form": "aprender"
+      },
+      {
+        "verb": "falar",
+        "form": "fala"
+      }
+    ]
   },
   "pt-127": {
     "parts": [
@@ -4014,7 +5106,13 @@
       "uk": "Як сказати «дякую» українською?",
       "ru": "Как сказать «спасибо» по-украински?",
       "en": "How do you say ‘thank you’ in Ukrainian?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "dizer",
+        "form": "diz"
+      }
+    ]
   },
   "pt-128": {
     "parts": [
@@ -4041,7 +5139,13 @@
       "uk": "Ти знаєш Марію?",
       "ru": "Ты знаешь Марию?",
       "en": "Do you know Maria?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "conhecer",
+        "form": "conheces"
+      }
+    ]
   },
   "pt-129": {
     "parts": [
@@ -4068,6 +5172,12 @@
       "uk": "Дуже приємно з вами познайомитися (до жінки).",
       "ru": "Очень приятно с вами познакомиться (к женщине).",
       "en": "It’s a pleasure to meet you."
+    },
+    "verbs": [],
+    "structure": {
+      "en": "This is a fixed noun phrase without a conjugated verb. Prazer is the noun ‘pleasure’; muito describes its amount. In the fuller muito prazer em conhecê-lo/conhecê-la, conhecer remains an infinitive after em, while -lo/-la refers to the person being met rather than identifying the speaker.",
+      "uk": "Це усталений іменниковий вислів без особової форми дієслова. Prazer — іменник «задоволення», а muito позначає його кількість. У повнішому muito prazer em conhecê-lo/conhecê-la дієслово conhecer залишається інфінітивом після em, а -lo/-la позначає людину, з якою знайомляться, не особу мовця.",
+      "ru": "Это устойчивое именное выражение без личной формы глагола. Prazer — существительное «удовольствие», а muito обозначает его количество. В более полном muito prazer em conhecê-lo/conhecê-la глагол conhecer остаётся инфинитивом после em, а -lo/-la обозначает человека, с которым знакомятся, не лицо говорящего."
     }
   },
   "pt-130": {
@@ -4101,7 +5211,21 @@
       "uk": "Ви приймаєте оплату карткою?",
       "ru": "Вы принимаете оплату картой?",
       "en": "Do you accept card payments?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ter",
+        "form": "tem"
+      },
+      {
+        "verb": "poder",
+        "form": "posso"
+      },
+      {
+        "verb": "pagar",
+        "form": "pagar"
+      }
+    ]
   },
   "pt-131": {
     "parts": [
@@ -4134,7 +5258,17 @@
       "uk": "Ліфт не працює.",
       "ru": "Лифт не работает.",
       "en": "The lift is out of order."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "desculpar",
+        "form": "desculpe"
+      },
+      {
+        "verb": "estar",
+        "form": "está"
+      }
+    ]
   },
   "pt-132": {
     "parts": [
@@ -4167,7 +5301,13 @@
       "uk": "Вибачте за шум.",
       "ru": "Извините за шум.",
       "en": "Sorry for the noise."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "desculpar",
+        "form": "desculpe"
+      }
+    ]
   },
   "pt-133": {
     "parts": [
@@ -4194,7 +5334,17 @@
       "uk": "Не хвилюйся через це.",
       "ru": "Не беспокойся об этом.",
       "en": "Don’t worry about that."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "preocupar-se",
+        "form": "preocupe"
+      },
+      {
+        "verb": "preocupar-se",
+        "form": "preocupes"
+      }
+    ]
   },
   "pt-134": {
     "parts": [
@@ -4221,7 +5371,13 @@
       "uk": "Я хотіла б забронювати столик.",
       "ru": "Я хотела бы забронировать столик.",
       "en": "I’d like to reserve a table."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "querer",
+        "form": "queria"
+      }
+    ]
   },
   "pt-135": {
     "parts": [
@@ -4254,7 +5410,21 @@
       "uk": "Це було ненавмисно, не хвилюйтеся.",
       "ru": "Это было нечаянно, не беспокойтесь.",
       "en": "It was an accident; don’t worry."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "desculpar",
+        "form": "desculpe"
+      },
+      {
+        "verb": "ser",
+        "form": "foi"
+      },
+      {
+        "verb": "querer",
+        "form": "querer"
+      }
+    ]
   },
   "pt-136": {
     "parts": [
@@ -4287,7 +5457,17 @@
       "uk": "Що тут відбувається?",
       "ru": "Что здесь происходит?",
       "en": "What’s going on here?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ser",
+        "form": "é"
+      },
+      {
+        "verb": "passar-se",
+        "form": "passa"
+      }
+    ]
   },
   "pt-137": {
     "parts": [
@@ -4314,7 +5494,17 @@
       "uk": "Нічого страшного, ми можемо зачекати.",
       "ru": "Ничего страшного, мы можем подождать.",
       "en": "It’s all right; we can wait."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "fazer",
+        "form": "faz"
+      },
+      {
+        "verb": "ter",
+        "form": "tem"
+      }
+    ]
   },
   "pt-138": {
     "parts": [
@@ -4347,7 +5537,13 @@
       "uk": "Сьогодні холодно, а вчора було спекотно.",
       "ru": "Сегодня холодно, а вчера было жарко.",
       "en": "It’s cold today, but it was hot yesterday."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "estar",
+        "form": "está"
+      }
+    ]
   },
   "pt-139": {
     "parts": [
@@ -4374,7 +5570,13 @@
       "uk": "Тобі зручно на цьому стільці?",
       "ru": "Тебе удобно на этом стуле?",
       "en": "Are you comfortable in this chair?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "estar",
+        "form": "estás"
+      }
+    ]
   },
   "pt-140": {
     "parts": [
@@ -4407,7 +5609,13 @@
       "uk": "Я повернуся завтра вранці.",
       "ru": "Я вернусь завтра утром.",
       "en": "I’ll come back tomorrow morning."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "voltar",
+        "form": "volto"
+      }
+    ]
   },
   "pt-141": {
     "parts": [
@@ -4440,7 +5648,13 @@
       "uk": "Я не проти зачекати.",
       "ru": "Я не против подождать.",
       "en": "I don’t mind waiting."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "importar-se",
+        "form": "importo"
+      }
+    ]
   },
   "pt-142": {
     "parts": [
@@ -4473,7 +5687,13 @@
       "uk": "Дякую за вашу увагу.",
       "ru": "Благодарю за ваше внимание.",
       "en": "Thank you for your attention."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "agradecer",
+        "form": "agradeço"
+      }
+    ]
   },
   "pt-143": {
     "parts": [
@@ -4500,7 +5720,13 @@
       "uk": "Я впевнена, що це тут.",
       "ru": "Я уверена, что это здесь.",
       "en": "I’m sure this is the place."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ter",
+        "form": "tenho"
+      }
+    ]
   },
   "pt-144": {
     "parts": [
@@ -4527,7 +5753,13 @@
       "uk": "Зачекайте хвилинку, будь ласка.",
       "ru": "Подождите минутку, пожалуйста.",
       "en": "Wait a moment, please."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "esperar",
+        "form": "espere"
+      }
+    ]
   },
   "pt-145": {
     "parts": [
@@ -4554,7 +5786,13 @@
       "uk": "Вбиральня праворуч.",
       "ru": "Уборная справа.",
       "en": "The toilet is on the right."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ficar",
+        "form": "fica"
+      }
+    ]
   },
   "pt-146": {
     "parts": [
@@ -4581,7 +5819,13 @@
       "uk": "Зараз пів на четверту.",
       "ru": "Сейчас половина четвёртого.",
       "en": "It’s half past three."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ser",
+        "form": "são"
+      }
+    ]
   },
   "pt-147": {
     "parts": [
@@ -4614,7 +5858,13 @@
       "uk": "Що це на столі?",
       "ru": "Что это на столе?",
       "en": "What’s that on the table?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ser",
+        "form": "é"
+      }
+    ]
   },
   "pt-148": {
     "parts": [
@@ -4641,7 +5891,17 @@
       "uk": "Перепрошую, ви тут працюєте?",
       "ru": "Извините, вы здесь работаете?",
       "en": "Excuse me, do you work here?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "desculpar",
+        "form": "desculpe"
+      },
+      {
+        "verb": "trabalhar",
+        "form": "trabalha"
+      }
+    ]
   },
   "pt-149": {
     "parts": [
@@ -4668,7 +5928,13 @@
       "uk": "Ви дуже люб’язні (до жінки).",
       "ru": "Вы очень любезны (к женщине).",
       "en": "You’re very kind, madam."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ser",
+        "form": "é"
+      }
+    ]
   },
   "pt-150": {
     "parts": [
@@ -4701,7 +5967,17 @@
       "uk": "Можна фотографувати тут усередині?",
       "ru": "Можно фотографировать здесь внутри?",
       "en": "May I take a photo in here?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "posso"
+      },
+      {
+        "verb": "tirar",
+        "form": "tirar"
+      }
+    ]
   },
   "pt-151": {
     "parts": [
@@ -4728,7 +6004,17 @@
       "uk": "Покажи мені, як це працює.",
       "ru": "Покажи мне, как это работает.",
       "en": "Show me how it works."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "mostrar",
+        "form": "mostra-me"
+      },
+      {
+        "verb": "ser",
+        "form": "é"
+      }
+    ]
   },
   "pt-152": {
     "parts": [
@@ -4761,7 +6047,13 @@
       "uk": "У мене немає картки із собою.",
       "ru": "У меня нет карты с собой.",
       "en": "I don’t have my card with me."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ter",
+        "form": "tenho"
+      }
+    ]
   },
   "pt-153": {
     "parts": [
@@ -4794,7 +6086,17 @@
       "uk": "Ви знаєте, хто власниця цього кота?",
       "ru": "Вы знаете, кто хозяйка этого кота?",
       "en": "Do you know who owns this cat?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "saber",
+        "form": "sabe"
+      },
+      {
+        "verb": "ser",
+        "form": "é"
+      }
+    ]
   },
   "pt-154": {
     "parts": [
@@ -4827,7 +6129,21 @@
       "uk": "Можете відчинити вікно, будь ласка?",
       "ru": "Можете открыть окно, пожалуйста?",
       "en": "Could you open the window, please?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "pode"
+      },
+      {
+        "verb": "fechar",
+        "form": "fechar"
+      },
+      {
+        "verb": "fazer",
+        "form": "faz"
+      }
+    ]
   },
   "pt-155": {
     "parts": [
@@ -4854,7 +6170,13 @@
       "uk": "Тобі потрібна допомога з валізами?",
       "ru": "Тебе нужна помощь с чемоданами?",
       "en": "Do you need help with the bags?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "precisar",
+        "form": "precisa"
+      }
+    ]
   },
   "pt-156": {
     "parts": [
@@ -4881,7 +6203,13 @@
       "uk": "Я не знаю, де вокзал.",
       "ru": "Я не знаю, где вокзал.",
       "en": "I don’t know where the station is."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "saber",
+        "form": "sei"
+      }
+    ]
   },
   "pt-157": {
     "parts": [
@@ -4908,7 +6236,17 @@
       "uk": "Мені треба йти додому.",
       "ru": "Мне нужно идти домой.",
       "en": "I have to go home."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ter",
+        "form": "tenho"
+      },
+      {
+        "verb": "ir",
+        "form": "ir"
+      }
+    ]
   },
   "pt-158": {
     "parts": [
@@ -4941,7 +6279,17 @@
       "uk": "Я зараз нічого не можу зробити.",
       "ru": "Я сейчас ничего не могу сделать.",
       "en": "I can’t do anything right now."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "posso"
+      },
+      {
+        "verb": "fazer",
+        "form": "fazer"
+      }
+    ]
   },
   "pt-159": {
     "parts": [
@@ -4968,7 +6316,21 @@
       "uk": "Як я можу допомогти вашій родині?",
       "ru": "Как я могу помочь вашей семье?",
       "en": "How can I help your family?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "posso"
+      },
+      {
+        "verb": "fazer",
+        "form": "fazer"
+      },
+      {
+        "verb": "ajudar",
+        "form": "ajudar"
+      }
+    ]
   },
   "pt-160": {
     "parts": [
@@ -4995,6 +6357,12 @@
       "uk": "Дякую за допомогу. — Нема за що!",
       "ru": "Спасибо за помощь. — Не за что!",
       "en": "Thank you for your help. — You’re welcome!"
+    },
+    "verbs": [],
+    "structure": {
+      "en": "Neither reply has a conjugated verb. Obrigado/obrigada functions as a set expression of thanks; its gender agrees with the speaker, not the listener. De nada is another fixed expression. Compare verbal agradeço (‘I thank’), whose -o identifies eu instead of marking gender.",
+      "uk": "В обох репліках немає особової форми дієслова. Obrigado/obrigada — усталений вислів подяки; його рід узгоджується з мовцем, а не співрозмовником. De nada — також усталений вислів. Порівняйте дієслівне agradeço («я дякую»): його -o позначає eu, а не рід.",
+      "ru": "В обеих репликах нет личной формы глагола. Obrigado/obrigada — устойчивое выражение благодарности; его род согласуется с говорящим, а не собеседником. De nada — тоже устойчивое выражение. Сравните глагольное agradeço («я благодарю»): его -o обозначает eu, а не род."
     }
   },
   "pt-161": {
@@ -5022,7 +6390,17 @@
       "uk": "Можна увійти до кімнати?",
       "ru": "Можно войти в комнату?",
       "en": "May I come into the room?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "posso"
+      },
+      {
+        "verb": "entrar",
+        "form": "entrar"
+      }
+    ]
   },
   "pt-162": {
     "parts": [
@@ -5055,7 +6433,13 @@
       "uk": "Магазин зачинений через свято.",
       "ru": "Магазин закрыт из-за праздника.",
       "en": "The shop is closed because of the public holiday."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "trabalhar",
+        "form": "trabalhamos"
+      }
+    ]
   },
   "pt-163": {
     "parts": [
@@ -5088,7 +6472,17 @@
       "uk": "Мені шкода, що це сталося.",
       "ru": "Мне жаль, что это случилось.",
       "en": "I’m sorry about what happened."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "sentir",
+        "form": "sinto"
+      },
+      {
+        "verb": "lamentar",
+        "form": "lamento"
+      }
+    ]
   },
   "pt-164": {
     "parts": [
@@ -5115,7 +6509,13 @@
       "uk": "Для мене це має сенс.",
       "ru": "Для меня это имеет смысл.",
       "en": "That makes sense to me."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "fazer",
+        "form": "faz"
+      }
+    ]
   },
   "pt-165": {
     "parts": [
@@ -5148,7 +6548,13 @@
       "uk": "Я зніяковіла від запитання.",
       "ru": "Я смутилась из-за вопроса.",
       "en": "I was embarrassed by the question."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "estar",
+        "form": "estou"
+      }
+    ]
   },
   "pt-166": {
     "parts": [
@@ -5175,7 +6581,21 @@
       "uk": "Я не розумію запитання.",
       "ru": "Я не понимаю вопроса.",
       "en": "I don’t understand the question."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "estar",
+        "form": "estou"
+      },
+      {
+        "verb": "perceber",
+        "form": "perceber"
+      },
+      {
+        "verb": "perceber",
+        "form": "percebo"
+      }
+    ]
   },
   "pt-167": {
     "parts": [
@@ -5208,7 +6628,13 @@
       "uk": "Вода з цього джерела не питна.",
       "ru": "Вода из этого источника непитьевая.",
       "en": "The water from this fountain is not safe to drink."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ser",
+        "form": "é"
+      }
+    ]
   },
   "pt-168": {
     "parts": [
@@ -5241,7 +6667,21 @@
       "uk": "Які твої плани на завтра?",
       "ru": "Какие у тебя планы на завтра?",
       "en": "What are your plans for tomorrow?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ir",
+        "form": "vais"
+      },
+      {
+        "verb": "fazer",
+        "form": "fazer"
+      },
+      {
+        "verb": "ser",
+        "form": "são"
+      }
+    ]
   },
   "pt-169": {
     "parts": [
@@ -5268,7 +6708,17 @@
       "uk": "Скільки мені чекати на лікаря?",
       "ru": "Сколько мне ждать врача?",
       "en": "How long do I have to wait for the doctor?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ter",
+        "form": "tenho"
+      },
+      {
+        "verb": "esperar",
+        "form": "esperar"
+      }
+    ]
   },
   "pt-170": {
     "parts": [
@@ -5301,7 +6751,13 @@
       "uk": "Можете не квапитися, я не поспішаю.",
       "ru": "Можете не торопиться, я не спешу.",
       "en": "Take your time; I’m not in a hurry."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ter",
+        "form": "tenho"
+      }
+    ]
   },
   "pt-171": {
     "parts": [
@@ -5334,7 +6790,13 @@
       "uk": "Щонеділі вхід безкоштовний.",
       "ru": "По воскресеньям вход бесплатный.",
       "en": "Admission is free on Sundays."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ser",
+        "form": "é"
+      }
+    ]
   },
   "pt-172": {
     "parts": [
@@ -5367,7 +6829,17 @@
       "uk": "Магазин відчинений щосереди?",
       "ru": "Магазин открыт по средам?",
       "en": "Is the shop open on Wednesdays?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "trabalhar",
+        "form": "trabalha"
+      },
+      {
+        "verb": "estar",
+        "form": "está"
+      }
+    ]
   },
   "pt-173": {
     "parts": [
@@ -5400,7 +6872,13 @@
       "uk": "Вони працюють щосуботи?",
       "ru": "Они работают по субботам?",
       "en": "Do they work on Saturdays?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "trabalhar",
+        "form": "trabalham"
+      }
+    ]
   },
   "pt-174": {
     "parts": [
@@ -5433,7 +6911,13 @@
       "uk": "Вибачте за затримку доставки.",
       "ru": "Извините за задержку доставки.",
       "en": "Sorry for the delivery delay."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "desculpar",
+        "form": "desculpe"
+      }
+    ]
   },
   "pt-175": {
     "parts": [
@@ -5466,6 +6950,12 @@
       "uk": "Будь здоровий! — Дякую.",
       "ru": "Будь здоров! — Спасибо.",
       "en": "Bless you! — Thank you."
+    },
+    "verbs": [],
+    "structure": {
+      "en": "These are standalone wishes with no conjugated verb. Saúde is a noun meaning ‘health’; santinho/santinha are affectionate masculine/feminine forms for the person who sneezed. Their endings mark gender, not a verb’s person or tense, and the listener supplies the social context.",
+      "uk": "Це самостійні побажання без особової форми дієслова. Saúde — іменник «здоров’я», а santinho/santinha — пестливі форми чоловічого/жіночого роду для того, хто чхнув. Закінчення позначають рід, а не особу чи час дієслова; зміст визначає ситуація.",
+      "ru": "Это самостоятельные пожелания без личной формы глагола. Saúde — существительное «здоровье», а santinho/santinha — ласкательные формы мужского/женского рода для того, кто чихнул. Окончания обозначают род, а не лицо или время глагола; смысл определяет ситуация."
     }
   },
   "pt-176": {
@@ -5499,7 +6989,25 @@
       "uk": "Можна курити надворі?",
       "ru": "Можно курить снаружи?",
       "en": "May I smoke outside?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "posso"
+      },
+      {
+        "verb": "fumar",
+        "form": "fumar"
+      },
+      {
+        "verb": "poder",
+        "form": "pode"
+      },
+      {
+        "verb": "trazer",
+        "form": "trazer"
+      }
+    ]
   },
   "pt-177": {
     "parts": [
@@ -5532,7 +7040,13 @@
       "uk": "Ліфт зламався вчора.",
       "ru": "Лифт сломался вчера.",
       "en": "The lift broke down yesterday."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "avariar",
+        "form": "avariou"
+      }
+    ]
   },
   "pt-178": {
     "parts": [
@@ -5565,7 +7079,21 @@
       "uk": "Я піднімуся на третій поверх.",
       "ru": "Я поднимусь на третий этаж.",
       "en": "I’m going up to the third floor."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ir",
+        "form": "vai"
+      },
+      {
+        "verb": "subir",
+        "form": "subir"
+      },
+      {
+        "verb": "descer",
+        "form": "descer"
+      }
+    ]
   },
   "pt-179": {
     "parts": [
@@ -5598,7 +7126,17 @@
       "uk": "Можна скористатися вашим зарядним пристроєм для телефона?",
       "ru": "Можно воспользоваться вашим зарядным устройством для телефона?",
       "en": "Can I use your phone charger?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "desculpar",
+        "form": "desculpe"
+      },
+      {
+        "verb": "ter",
+        "form": "tem"
+      }
+    ]
   },
   "pt-180": {
     "parts": [
@@ -5631,7 +7169,17 @@
       "uk": "Хто наступний у черзі?",
       "ru": "Кто следующий в очереди?",
       "en": "Who’s next in the queue?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ser",
+        "form": "é"
+      },
+      {
+        "verb": "estar",
+        "form": "está"
+      }
+    ]
   },
   "pt-181": {
     "parts": [
@@ -5664,7 +7212,13 @@
       "uk": "Вхід стороннім заборонений.",
       "ru": "Вход посторонним запрещён.",
       "en": "Entry is prohibited to unauthorized people."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ser",
+        "form": "é"
+      }
+    ]
   },
   "pt-182": {
     "parts": [
@@ -5697,7 +7251,13 @@
       "uk": "Квиток до Лісабона, будь ласка.",
       "ru": "Билет до Лиссабона, пожалуйста.",
       "en": "One ticket to Lisbon, please."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "fazer",
+        "form": "faz"
+      }
+    ]
   },
   "pt-183": {
     "parts": [
@@ -5730,6 +7290,12 @@
       "uk": "Хочу квиток лише в один бік.",
       "ru": "Хочу билет только в одну сторону.",
       "en": "I’d like a one-way ticket."
+    },
+    "verbs": [],
+    "structure": {
+      "en": "The ticket request omits a conjugated verb, but ida and volta are nouns associated with ir (‘go’) and voltar (‘return’). They name journey directions rather than saying who travels. To make the request explicit, quero um bilhete… uses quero, the eu present of querer.",
+      "uk": "У проханні про квиток пропущено особову форму дієслова, а ida та volta — іменники, пов’язані з ir («йти/їхати») і voltar («повертатися»). Вони називають напрямки подорожі, а не особу мандрівника. Повне прохання quero um bilhete… містить quero — теперішню форму querer для eu.",
+      "ru": "В просьбе о билете опущена личная форма глагола, а ida и volta — существительные, связанные с ir («идти/ехать») и voltar («возвращаться»). Они называют направления поездки, а не лицо путешественника. Полная просьба quero um bilhete… содержит quero — настоящую форму querer для eu."
     }
   },
   "pt-184": {
@@ -5763,7 +7329,13 @@
       "uk": "Є знижка для студентів?",
       "ru": "Есть скидка для студентов?",
       "en": "Is there a student discount?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "haver",
+        "form": "há"
+      }
+    ]
   },
   "pt-185": {
     "parts": [
@@ -5796,7 +7368,13 @@
       "uk": "З якої платформи відправляється потяг?",
       "ru": "С какой платформы отправляется поезд?",
       "en": "Which platform does the train leave from?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "partir",
+        "form": "parte"
+      }
+    ]
   },
   "pt-186": {
     "parts": [
@@ -5829,7 +7407,21 @@
       "uk": "Перепрошую, це місце зайняте?",
       "ru": "Извините, это место занято?",
       "en": "Excuse me, is this seat taken?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "desculpar",
+        "form": "desculpe"
+      },
+      {
+        "verb": "achar",
+        "form": "acho"
+      },
+      {
+        "verb": "ser",
+        "form": "é"
+      }
+    ]
   },
   "pt-187": {
     "parts": [
@@ -5862,7 +7454,21 @@
       "uk": "Де я можу поповнити свій проїзний?",
       "ru": "Где я могу пополнить свой проездной?",
       "en": "Where can I top up my travel pass?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "querer",
+        "form": "quero"
+      },
+      {
+        "verb": "fazer",
+        "form": "fazer"
+      },
+      {
+        "verb": "carregar",
+        "form": "carregar"
+      }
+    ]
   },
   "pt-188": {
     "parts": [
@@ -5895,7 +7501,17 @@
       "uk": "Можете посунути сидіння далі назад?",
       "ru": "Можете подвинуть сиденье дальше назад?",
       "en": "Could you move the seat further back?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "pode"
+      },
+      {
+        "verb": "puxar",
+        "form": "puxar"
+      }
+    ]
   },
   "pt-189": {
     "parts": [
@@ -5928,7 +7544,21 @@
       "uk": "Можете відвезти мене до аеропорту?",
       "ru": "Можете отвезти меня в аэропорт?",
       "en": "Can you take me to the airport?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "podia"
+      },
+      {
+        "verb": "levar",
+        "form": "levar-me"
+      },
+      {
+        "verb": "fazer",
+        "form": "faz"
+      }
+    ]
   },
   "pt-190": {
     "parts": [
@@ -5955,7 +7585,13 @@
       "uk": "Поверніть праворуч на наступній вулиці.",
       "ru": "Поверните направо на следующей улице.",
       "en": "Turn right at the next street."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "virar",
+        "form": "vire"
+      }
+    ]
   },
   "pt-191": {
     "parts": [
@@ -5982,7 +7618,13 @@
       "uk": "Поверніть ліворуч після банку.",
       "ru": "Поверните налево после банка.",
       "en": "Turn left after the bank."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "virar",
+        "form": "vire"
+      }
+    ]
   },
   "pt-192": {
     "parts": [
@@ -6009,7 +7651,17 @@
       "uk": "Можете слідувати вказівкам навігатора.",
       "ru": "Можете следовать указаниям навигатора.",
       "en": "You can follow the GPS directions."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "pode"
+      },
+      {
+        "verb": "seguir",
+        "form": "seguir"
+      }
+    ]
   },
   "pt-193": {
     "parts": [
@@ -6036,7 +7688,13 @@
       "uk": "Їдьте прямо до світлофора.",
       "ru": "Езжайте прямо до светофора.",
       "en": "Go straight ahead as far as the traffic lights."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "seguir",
+        "form": "siga"
+      }
+    ]
   },
   "pt-194": {
     "parts": [
@@ -6069,7 +7727,17 @@
       "uk": "Можете трохи зменшити гучність?",
       "ru": "Можете немного уменьшить громкость?",
       "en": "Could you turn the volume down a little?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "pode"
+      },
+      {
+        "verb": "baixar",
+        "form": "baixar"
+      }
+    ]
   },
   "pt-195": {
     "parts": [
@@ -6096,7 +7764,17 @@
       "uk": "Можете зупинитися біля аптеки?",
       "ru": "Можете остановиться возле аптеки?",
       "en": "Can you stop next to the pharmacy?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "pode"
+      },
+      {
+        "verb": "parar",
+        "form": "parar"
+      }
+    ]
   },
   "pt-196": {
     "parts": [
@@ -6129,6 +7807,12 @@
       "uk": "Друга колонка, двадцять літрів бензину 95.",
       "ru": "Вторая колонка, двадцать литров бензина 95.",
       "en": "Pump two, twenty litres of 95-octane petrol."
+    },
+    "verbs": [],
+    "structure": {
+      "en": "This counter request lists a pump, quantity and fuel, with no conjugated verb. A complete request could use queria (‘I’d like’), the polite imperfect of querer. The numbers modify bomba and litros; they do not change a verb ending or encode a subject.",
+      "uk": "Це перелік колонки, кількості та пального без особової форми дієслова. Повне прохання може містити queria («я хотів би / хотіла б») — ввічливе вживання імперфекта querer. Числа стосуються bomba та litros; вони не змінюють дієслівне закінчення й не визначають підмет.",
+      "ru": "Это перечисление колонки, количества и топлива без личной формы глагола. Полная просьба может содержать queria («я хотел бы / хотела бы») — вежливое употребление имперфекта querer. Числа относятся к bomba и litros; они не меняют глагольное окончание и не определяют подлежащее."
     }
   },
   "pt-197": {
@@ -6162,6 +7846,12 @@
       "uk": "Дизельного пального на тридцять євро, будь ласка.",
       "ru": "Дизельного топлива на тридцать евро, пожалуйста.",
       "en": "Thirty euros’ worth of diesel, please."
+    },
+    "verbs": [],
+    "structure": {
+      "en": "This abbreviated purchase request has no conjugated verb. To name the speaker explicitly, quero vinte euros de gasóleo uses quero from querer: present eu, ‘I want’. In the short version, the attendant understands the request from the pump number and amount alone.",
+      "uk": "У скороченому проханні про купівлю немає особової форми дієслова. Щоб явно позначити мовця, можна сказати quero vinte euros de gasóleo: quero від querer — теперішнє eu, «я хочу». У короткому варіанті працівник розуміє прохання з номера колонки та суми.",
+      "ru": "В сокращённой просьбе о покупке нет личной формы глагола. Чтобы явно обозначить говорящего, можно сказать quero vinte euros de gasóleo: quero от querer — настоящее eu, «я хочу». В коротком варианте работник понимает просьбу из номера колонки и суммы."
     }
   },
   "pt-198": {
@@ -6195,7 +7885,17 @@
       "uk": "Можете заправити повний бак, будь ласка?",
       "ru": "Можете заправить полный бак, пожалуйста?",
       "en": "Could you fill the tank, please?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "querer",
+        "form": "queria"
+      },
+      {
+        "verb": "encher",
+        "form": "encher"
+      }
+    ]
   },
   "pt-199": {
     "parts": [
@@ -6228,7 +7928,13 @@
       "uk": "Уночі парковка безкоштовна.",
       "ru": "Ночью парковка бесплатная.",
       "en": "Parking is free at night."
-    }
+    },
+    "verbs": [
+      {
+        "verb": "ser",
+        "form": "é"
+      }
+    ]
   },
   "pt-200": {
     "parts": [
@@ -6261,6 +7967,16 @@
       "uk": "Можна оплатити паркування карткою?",
       "ru": "Можно оплатить парковку картой?",
       "en": "Can I pay for parking by card?"
-    }
+    },
+    "verbs": [
+      {
+        "verb": "poder",
+        "form": "posso"
+      },
+      {
+        "verb": "pagar",
+        "form": "pagar"
+      }
+    ]
   }
 }

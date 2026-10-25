@@ -15,7 +15,7 @@ Reveal a card's translation, then rate your recall:
 
 The summary shows cards due now, cards studied, cards at level 5 or above, and answers in the current session. Review times refresh every 30 seconds and when returning to the app. Choose the translation language in Settings; all three languages share the same card progress and review schedule.
 
-Use **ⓘ** beside the card counter to open a phrase breakdown: Portuguese building blocks with meanings in your selected language, a short grammar note, and a different example with its translation. All 200 cards have bundled explanations focused on European Portuguese. English notes are written for English speakers, covering omitted subjects, gender and articles, contractions, polite verb forms, false friends and idiomatic translations. Opening or closing an explanation does not flip, grade, or reschedule a card. No AI service, API key, or network request is needed to read them.
+Use **ⓘ** beside the card counter to open a phrase breakdown: Portuguese building blocks with meanings in your selected language, a short grammar note, and a different example with its translation. All 200 cards have bundled explanations focused on European Portuguese. English notes are written for English speakers, covering omitted subjects, gender and articles, contractions, polite verb forms, false friends and idiomatic translations. The verb section identifies each base verb, person, tense, regular endings or irregular stem changes, and attached pronouns. **Compare forms** opens tables for the relevant tense or command; notes explain when a form is ambiguous, such as eu/você podia. All three languages include the same analysis. Cards without a conjugated verb explain the omitted structure instead. Opening or closing an explanation does not flip, grade, or reschedule a card. No AI service, API key, or network request is needed to read them.
 
 Each card has a permanent `id`. Never regenerate these IDs when correcting text or reordering the deck. Existing five-tap progress is migrated to the corresponding review level; those cards are initially due because the old format did not record review dates. The legacy save is retained for recovery.
 
@@ -77,6 +77,8 @@ Service workers are enabled in production builds; use `npm run preview` to test 
 
 - `src/tatabogatacards.json`: stable IDs, phrases, translations and audio URLs.
 - `src/phrase-explanations.json`: hand-authored chunks, grammar notes and examples in all three languages, keyed by the same stable card IDs. Keep its coverage in sync with the deck. Source spelling issues are explained in the notes; original phrases are retained for legacy progress migration.
+- `src/verb-explanations.json`: localized analysis and conjugation tables for every verb form linked from the phrase explanations. The extra notes load on first use and are precached for offline access.
+- `src/VerbNotes.jsx`: accessible, expandable conjugation comparisons.
 - `src/flashcards.js`: scheduling, migration, storage and backup validation.
 - `src/offline.js`: resumable audio downloads.
 - `src/service-worker.js`: offline shell, audio caching and range responses.

@@ -1,0 +1,4468 @@
+{
+  "poder": {
+    "meaning": {
+      "en": "can / be able to",
+      "uk": "могти",
+      "ru": "мочь"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "posso"
+        ],
+        [
+          "tu",
+          "podes"
+        ],
+        [
+          "ele / ela / você",
+          "pode"
+        ],
+        [
+          "nós",
+          "podemos"
+        ],
+        [
+          "eles / elas / vocês",
+          "podem"
+        ]
+      ],
+      "imperfect": [
+        [
+          "eu",
+          "podia"
+        ],
+        [
+          "tu",
+          "podias"
+        ],
+        [
+          "ele / ela / você",
+          "podia"
+        ],
+        [
+          "nós",
+          "podíamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "podiam"
+        ]
+      ]
+    },
+    "forms": {
+      "posso": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "Posso comes from poder (‘can / be able to’) and is its present-tense eu (‘I’) form. Poder is irregular: the stem changes from pod- to poss- here, giving eu posso, but tu podes and ele/ela/você pode. The ending -o is common for eu in the present, but the irregular stem must be learned. Because posso identifies the speaker, saying eu is optional.",
+          "uk": "Posso походить від poder («могти») і є формою теперішнього часу для eu («я»). Poder — неправильне дієслово: тут основа pod- змінюється на poss-, тому eu posso, але tu podes та ele/ela/você pode. Закінчення -o типове для eu в теперішньому часі, проте зміну основи треба запам’ятати. Posso вже вказує на мовця, тому eu можна опустити.",
+          "ru": "Posso происходит от poder («мочь») и является формой настоящего времени для eu («я»). Poder — неправильный глагол: здесь основа pod- меняется на poss-, поэтому eu posso, но tu podes и ele/ela/você pode. Окончание -o типично для eu в настоящем времени, однако изменение основы нужно запомнить. Posso уже указывает на говорящего, поэтому eu можно опустить."
+        }
+      },
+      "pode": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "pode is the third-person singular present of poder (“can / be able to”): ele/ela/você pode. It can mean “he/she/it” or address one person politely as “you”. The form alone does not distinguish these subjects; the situation does. Informal tu uses podes, and eu uses posso.",
+          "uk": "pode — третя особа однини теперішнього часу від poder («могти»): ele/ela/você pode. Це може бути «він/вона/воно» або ввічливе звертання «Ви» до однієї людини. Сама форма не розрізняє ці значення — потрібен контекст. Для tu буде podes, для eu — posso.",
+          "ru": "pode — третье лицо единственного числа настоящего времени от poder («мочь»): ele/ela/você pode. Это может быть «он/она/оно» или вежливое обращение «Вы» к одному человеку. Сама форма не различает эти значения — нужен контекст. Для tu будет podes, для eu — posso."
+        }
+      },
+      "podemos": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "podemos comes from poder (“can / be able to”) and is the present-tense nós (“we”) form. The -mos ending of the verb identifies the first-person plural, so nós is usually optional. Compare eu posso (“I”) with nós podemos (“we”).",
+          "uk": "podemos походить від poder («могти») і є формою теперішнього часу для nós («ми»). Закінчення дієслова -mos вказує на першу особу множини, тому nós зазвичай можна опустити. Порівняйте eu posso («я») та nós podemos («ми»).",
+          "ru": "podemos происходит от poder («мочь») и является формой настоящего времени для nós («мы»). Окончание глагола -mos указывает на первое лицо множественного числа, поэтому nós обычно можно опустить. Сравните eu posso («я») и nós podemos («мы»)."
+        }
+      },
+      "podia": {
+        "tables": [
+          "imperfect"
+        ],
+        "note": {
+          "en": "Podia is the imperfect of poder (‘can’). Eu podia and ele/ela/você podia have the same form, so podia alone does not identify ‘I’ or ‘you’. Here context makes it a polite request to the listener: ‘could you…?’ The imperfect softens the request without necessarily putting it in the past. Compare tu podias and nós podíamos.",
+          "uk": "Podia — імперфект від poder («могти»). Eu podia та ele/ela/você podia мають однакову форму, тому podia саме по собі не означає однозначно «я» чи «Ви». Тут контекст дає ввічливе прохання до співрозмовника: «чи могли б Ви…?». Імперфект пом’якшує прохання, не обов’язково відносячи його до минулого. Порівняйте tu podias та nós podíamos.",
+          "ru": "Podia — имперфект от poder («мочь»). Eu podia и ele/ela/você podia имеют одинаковую форму, поэтому podia само по себе не означает однозначно «я» или «Вы». Здесь контекст даёт вежливую просьбу к собеседнику: «не могли бы Вы…?». Имперфект смягчает просьбу, не обязательно относя её к прошлому. Сравните tu podias и nós podíamos."
+        }
+      }
+    }
+  },
+  "querer": {
+    "meaning": {
+      "en": "want",
+      "uk": "хотіти",
+      "ru": "хотеть"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "quero"
+        ],
+        [
+          "tu",
+          "queres"
+        ],
+        [
+          "ele / ela / você",
+          "quer"
+        ],
+        [
+          "nós",
+          "queremos"
+        ],
+        [
+          "eles / elas / vocês",
+          "querem"
+        ]
+      ],
+      "imperfect": [
+        [
+          "eu",
+          "queria"
+        ],
+        [
+          "tu",
+          "querias"
+        ],
+        [
+          "ele / ela / você",
+          "queria"
+        ],
+        [
+          "nós",
+          "queríamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "queriam"
+        ]
+      ]
+    },
+    "forms": {
+      "querer": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "querer is the infinitive: “want”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "querer — інфінітив: «хотіти». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "querer — инфинитив: «хотеть». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      },
+      "quero": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "quero is the eu (“I”) form of querer (“want”) in the present indicative. Compare eu quero, tu queres and ele/ela/você quer: the verb changes with its subject. This form already identifies the speaker, so eu can be omitted.",
+          "uk": "quero — форма querer («хотіти») для eu («я») у теперішньому часі дійсного способу. Порівняйте eu quero, tu queres та ele/ela/você quer: дієслово змінюється залежно від особи. Ця форма вже вказує на мовця, тому eu можна опустити.",
+          "ru": "quero — форма querer («хотеть») для eu («я») в настоящем времени изъявительного наклонения. Сравните eu quero, tu queres и ele/ela/você quer: глагол меняется в зависимости от лица. Эта форма уже указывает на говорящего, поэтому eu можно опустить."
+        }
+      },
+      "quer": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "quer is the third-person singular present of querer (“want”): ele/ela/você quer. It can mean “he/she/it” or address one person politely as “you”. The form alone does not distinguish these subjects; the situation does. Informal tu uses queres, and eu uses quero.",
+          "uk": "quer — третя особа однини теперішнього часу від querer («хотіти»): ele/ela/você quer. Це може бути «він/вона/воно» або ввічливе звертання «Ви» до однієї людини. Сама форма не розрізняє ці значення — потрібен контекст. Для tu буде queres, для eu — quero.",
+          "ru": "quer — третье лицо единственного числа настоящего времени от querer («хотеть»): ele/ela/você quer. Это может быть «он/она/оно» или вежливое обращение «Вы» к одному человеку. Сама форма не различает эти значения — нужен контекст. Для tu будет queres, для eu — quero."
+        }
+      },
+      "queria": {
+        "tables": [
+          "imperfect"
+        ],
+        "note": {
+          "en": "Queria is the imperfect of querer (‘want’). The same form serves eu and ele/ela/você; it does not identify ‘I’ on its own. In these requests the speaker means ‘I’d like…’, with eu understood. The imperfect creates a polite distance rather than necessarily describing a past wish; tu would use querias and nós queríamos.",
+          "uk": "Queria — імперфект від querer («хотіти»). Одна форма вживається з eu та ele/ela/você, тому сама по собі не визначає «я». У цих проханнях мовець має на увазі «я хотів би / хотіла б», а eu пропущено. Імперфект додає ввічливості, а не обов’язково описує минуле бажання; для tu буде querias, для nós — queríamos.",
+          "ru": "Queria — имперфект от querer («хотеть»). Одна форма используется с eu и ele/ela/você, поэтому сама по себе не определяет «я». В этих просьбах говорящий имеет в виду «я хотел бы / хотела бы», а eu опущено. Имперфект добавляет вежливость, а не обязательно описывает прошлое желание; для tu будет querias, для nós — queríamos."
+        }
+      }
+    }
+  },
+  "ser": {
+    "meaning": {
+      "en": "be (identity or characteristic)",
+      "uk": "бути (тотожність або ознака)",
+      "ru": "быть (идентичность или признак)"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "sou"
+        ],
+        [
+          "tu",
+          "és"
+        ],
+        [
+          "ele / ela / você",
+          "é"
+        ],
+        [
+          "nós",
+          "somos"
+        ],
+        [
+          "eles / elas / vocês",
+          "são"
+        ]
+      ],
+      "preterite": [
+        [
+          "eu",
+          "fui"
+        ],
+        [
+          "tu",
+          "foste"
+        ],
+        [
+          "ele / ela / você",
+          "foi"
+        ],
+        [
+          "nós",
+          "fomos"
+        ],
+        [
+          "eles / elas / vocês",
+          "foram"
+        ]
+      ]
+    },
+    "forms": {
+      "ser": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "ser is the infinitive: “be (identity or characteristic)”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "ser — інфінітив: «бути (тотожність або ознака)». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "ser — инфинитив: «быть (идентичность или признак)». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      },
+      "sou": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "sou is the eu (“I”) form of ser (“be (identity or characteristic)”) in the present indicative. Compare eu sou, tu és and ele/ela/você é: the verb changes with its subject. This form already identifies the speaker, so eu can be omitted.",
+          "uk": "sou — форма ser («бути (тотожність або ознака)») для eu («я») у теперішньому часі дійсного способу. Порівняйте eu sou, tu és та ele/ela/você é: дієслово змінюється залежно від особи. Ця форма вже вказує на мовця, тому eu можна опустити.",
+          "ru": "sou — форма ser («быть (идентичность или признак)») для eu («я») в настоящем времени изъявительного наклонения. Сравните eu sou, tu és и ele/ela/você é: глагол меняется в зависимости от лица. Эта форма уже указывает на говорящего, поэтому eu можно опустить."
+        }
+      },
+      "é": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "é is the third-person singular present of ser (“be (identity or characteristic)”): ele/ela/você é. It can mean “he/she/it” or address one person politely as “you”. The form alone does not distinguish these subjects; the situation does. Informal tu uses és, and eu uses sou.",
+          "uk": "é — третя особа однини теперішнього часу від ser («бути (тотожність або ознака)»): ele/ela/você é. Це може бути «він/вона/воно» або ввічливе звертання «Ви» до однієї людини. Сама форма не розрізняє ці значення — потрібен контекст. Для tu буде és, для eu — sou.",
+          "ru": "é — третье лицо единственного числа настоящего времени от ser («быть (идентичность или признак)»): ele/ela/você é. Это может быть «он/она/оно» или вежливое обращение «Вы» к одному человеку. Сама форма не различает эти значения — нужен контекст. Для tu будет és, для eu — sou."
+        }
+      },
+      "são": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "são is the plural present form of ser (“be (identity or characteristic)”) for eles/elas (“they”) or vocês (“you”, several people). Compare singular ele/ela/você é with plural eles/elas/vocês são. Context tells you whether it means “they” or “you”.",
+          "uk": "são — форма множини теперішнього часу від ser («бути (тотожність або ознака)») для eles/elas («вони») або vocês («ви», кілька людей). Порівняйте однину ele/ela/você é та множину eles/elas/vocês são. Контекст підказує, чи це «вони», чи «ви».",
+          "ru": "são — форма множественного числа настоящего времени от ser («быть (идентичность или признак)») для eles/elas («они») или vocês («вы», несколько людей). Сравните единственное число ele/ela/você é и множественное eles/elas/vocês são. Контекст подсказывает, значит ли это «они» или «вы»."
+        }
+      },
+      "foi": {
+        "tables": [
+          "preterite"
+        ],
+        "note": {
+          "en": "Foi is the ele/ela/você form of ser (‘be’) in the completed past: here ‘it was’. It is irregular, unlike a regular -ar verb’s -ou ending. The verb ir (‘go’) shares the same past forms, so foi can also mean ‘went’; foi sem querer describes an accidental action, which makes ser the relevant meaning here.",
+          "uk": "Foi — форма завершеного минулого від ser («бути») для ele/ela/você: тут «це було». Вона неправильна й не утворюється як типове -ou дієслів на -ar. Дієслово ir («йти/їхати») має такі самі форми цього часу, тому foi може також означати «пішов/поїхав». У foi sem querer йдеться про випадкову дію, отже тут потрібне значення ser.",
+          "ru": "Foi — форма завершённого прошедшего от ser («быть») для ele/ela/você: здесь «это было». Она неправильная и не образуется как обычное -ou глаголов на -ar. Глагол ir («идти/ехать») имеет те же формы этого времени, поэтому foi может также означать «пошёл/поехал». В foi sem querer речь о случайном действии, значит, здесь нужно значение ser."
+        }
+      }
+    }
+  },
+  "estar": {
+    "meaning": {
+      "en": "be (state or location)",
+      "uk": "бути (стан або місце)",
+      "ru": "быть (состояние или место)"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "estou"
+        ],
+        [
+          "tu",
+          "estás"
+        ],
+        [
+          "ele / ela / você",
+          "está"
+        ],
+        [
+          "nós",
+          "estamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "estão"
+        ]
+      ],
+      "imperfect": [
+        [
+          "eu",
+          "estava"
+        ],
+        [
+          "tu",
+          "estavas"
+        ],
+        [
+          "ele / ela / você",
+          "estava"
+        ],
+        [
+          "nós",
+          "estávamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "estavam"
+        ]
+      ]
+    },
+    "forms": {
+      "estou": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "estou is the eu (“I”) form of estar (“be (state or location)”) in the present indicative. Compare eu estou, tu estás and ele/ela/você está: the verb changes with its subject. This form already identifies the speaker, so eu can be omitted.",
+          "uk": "estou — форма estar («бути (стан або місце)») для eu («я») у теперішньому часі дійсного способу. Порівняйте eu estou, tu estás та ele/ela/você está: дієслово змінюється залежно від особи. Ця форма вже вказує на мовця, тому eu можна опустити.",
+          "ru": "estou — форма estar («быть (состояние или место)») для eu («я») в настоящем времени изъявительного наклонения. Сравните eu estou, tu estás и ele/ela/você está: глагол меняется в зависимости от лица. Эта форма уже указывает на говорящего, поэтому eu можно опустить."
+        }
+      },
+      "estás": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "estás comes from estar (“be (state or location)”) and is the present-tense tu (“you”, one person, informal) form. The final -s distinguishes it from ele/ela/você está. Tu can be omitted because the verb ending identifies the listener.",
+          "uk": "estás походить від estar («бути (стан або місце)») і є формою теперішнього часу для tu («ти», неформальне звертання до однієї людини). Кінцеве -s відрізняє її від ele/ela/você está. Tu можна опустити: закінчення вже вказує на співрозмовника.",
+          "ru": "estás происходит от estar («быть (состояние или место)») и является формой настоящего времени для tu («ты», неформальное обращение к одному человеку). Конечное -s отличает её от ele/ela/você está. Tu можно опустить: окончание уже указывает на собеседника."
+        }
+      },
+      "está": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "está is the third-person singular present of estar (“be (state or location)”): ele/ela/você está. It can mean “he/she/it” or address one person politely as “you”. The form alone does not distinguish these subjects; the situation does. Informal tu uses estás, and eu uses estou.",
+          "uk": "está — третя особа однини теперішнього часу від estar («бути (стан або місце)»): ele/ela/você está. Це може бути «він/вона/воно» або ввічливе звертання «Ви» до однієї людини. Сама форма не розрізняє ці значення — потрібен контекст. Для tu буде estás, для eu — estou.",
+          "ru": "está — третье лицо единственного числа настоящего времени от estar («быть (состояние или место)»): ele/ela/você está. Это может быть «он/она/оно» или вежливое обращение «Вы» к одному человеку. Сама форма не различает эти значения — нужен контекст. Для tu будет estás, для eu — estou."
+        }
+      },
+      "estava": {
+        "tables": [
+          "imperfect"
+        ],
+        "note": {
+          "en": "Estava is the imperfect of estar (‘be’ for a state), formed with the -ava pattern. It can go with eu or ele/ela/você, but here tudo is the subject: ‘everything was’. This describes the meal’s past quality. Compare present está, past estava and plural estavam; the form alone does not always reveal the subject.",
+          "uk": "Estava — імперфект від estar («бути» у певному стані), утворений за моделлю на -ava. Він можливий з eu та ele/ela/você, але тут підмет tudo: «усе було». Це опис минулої якості їжі. Порівняйте теперішнє está, минуле estava та множину estavam; сама форма не завжди однозначно визначає підмет.",
+          "ru": "Estava — имперфект от estar («быть» в определённом состоянии), образованный по модели на -ava. Он возможен с eu и ele/ela/você, но здесь подлежащее tudo: «всё было». Это описание прошлого качества еды. Сравните настоящее está, прошлое estava и множественное estavam; сама форма не всегда однозначно определяет подлежащее."
+        }
+      }
+    }
+  },
+  "ter": {
+    "meaning": {
+      "en": "have",
+      "uk": "мати",
+      "ru": "иметь"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "tenho"
+        ],
+        [
+          "tu",
+          "tens"
+        ],
+        [
+          "ele / ela / você",
+          "tem"
+        ],
+        [
+          "nós",
+          "temos"
+        ],
+        [
+          "eles / elas / vocês",
+          "têm"
+        ]
+      ],
+      "imperfect": [
+        [
+          "eu",
+          "tinha"
+        ],
+        [
+          "tu",
+          "tinhas"
+        ],
+        [
+          "ele / ela / você",
+          "tinha"
+        ],
+        [
+          "nós",
+          "tínhamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "tinham"
+        ]
+      ]
+    },
+    "forms": {
+      "ter": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "ter is the infinitive: “have”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "ter — інфінітив: «мати». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "ter — инфинитив: «иметь». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      },
+      "tenho": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "tenho is the eu (“I”) form of ter (“have”) in the present indicative. Compare eu tenho, tu tens and ele/ela/você tem: the verb changes with its subject. This form already identifies the speaker, so eu can be omitted.",
+          "uk": "tenho — форма ter («мати») для eu («я») у теперішньому часі дійсного способу. Порівняйте eu tenho, tu tens та ele/ela/você tem: дієслово змінюється залежно від особи. Ця форма вже вказує на мовця, тому eu можна опустити.",
+          "ru": "tenho — форма ter («иметь») для eu («я») в настоящем времени изъявительного наклонения. Сравните eu tenho, tu tens и ele/ela/você tem: глагол меняется в зависимости от лица. Эта форма уже указывает на говорящего, поэтому eu можно опустить."
+        }
+      },
+      "tem": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "tem is the third-person singular present of ter (“have”): ele/ela/você tem. It can mean “he/she/it” or address one person politely as “you”. The form alone does not distinguish these subjects; the situation does. Informal tu uses tens, and eu uses tenho.",
+          "uk": "tem — третя особа однини теперішнього часу від ter («мати»): ele/ela/você tem. Це може бути «він/вона/воно» або ввічливе звертання «Ви» до однієї людини. Сама форма не розрізняє ці значення — потрібен контекст. Для tu буде tens, для eu — tenho.",
+          "ru": "tem — третье лицо единственного числа настоящего времени от ter («иметь»): ele/ela/você tem. Это может быть «он/она/оно» или вежливое обращение «Вы» к одному человеку. Сама форма не различает эти значения — нужен контекст. Для tu будет tens, для eu — tenho."
+        }
+      },
+      "temos": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "temos comes from ter (“have”) and is the present-tense nós (“we”) form. The -mos ending of the verb identifies the first-person plural, so nós is usually optional. Compare eu tenho (“I”) with nós temos (“we”).",
+          "uk": "temos походить від ter («мати») і є формою теперішнього часу для nós («ми»). Закінчення дієслова -mos вказує на першу особу множини, тому nós зазвичай можна опустити. Порівняйте eu tenho («я») та nós temos («ми»).",
+          "ru": "temos происходит от ter («иметь») и является формой настоящего времени для nós («мы»). Окончание глагола -mos указывает на первое лицо множественного числа, поэтому nós обычно можно опустить. Сравните eu tenho («я») и nós temos («мы»)."
+        }
+      },
+      "tinha": {
+        "tables": [
+          "imperfect"
+        ],
+        "note": {
+          "en": "Tinha is the irregular imperfect of ter (‘have’). Eu tinha and ele/ela/você tinha look the same, so the form needs context. Here a etiqueta is the subject: the label ‘had/showed’ a price. The imperfect describes that earlier state; compare present tem and past tinha, and plural tinham.",
+          "uk": "Tinha — неправильна форма імперфекта від ter («мати»). Eu tinha та ele/ela/você tinha однакові, тож потрібен контекст. Тут підмет — a etiqueta: етикетка «мала / показувала» ціну. Імперфект описує попередній стан; порівняйте теперішнє tem, минуле tinha та множину tinham.",
+          "ru": "Tinha — неправильная форма имперфекта от ter («иметь»). Eu tinha и ele/ela/você tinha совпадают, поэтому нужен контекст. Здесь подлежащее — a etiqueta: этикетка «имела / показывала» цену. Имперфект описывает прежнее состояние; сравните настоящее tem, прошлое tinha и множественное tinham."
+        }
+      }
+    }
+  },
+  "ir": {
+    "meaning": {
+      "en": "go",
+      "uk": "йти / їхати",
+      "ru": "идти / ехать"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "vou"
+        ],
+        [
+          "tu",
+          "vais"
+        ],
+        [
+          "ele / ela / você",
+          "vai"
+        ],
+        [
+          "nós",
+          "vamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "vão"
+        ]
+      ]
+    },
+    "forms": {
+      "ir": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "ir is the infinitive: “go”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "ir — інфінітив: «йти / їхати». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "ir — инфинитив: «идти / ехать». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      },
+      "vou": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "vou is the eu (“I”) form of ir (“go”) in the present indicative. Compare eu vou, tu vais and ele/ela/você vai: the verb changes with its subject. This form already identifies the speaker, so eu can be omitted.",
+          "uk": "vou — форма ir («йти / їхати») для eu («я») у теперішньому часі дійсного способу. Порівняйте eu vou, tu vais та ele/ela/você vai: дієслово змінюється залежно від особи. Ця форма вже вказує на мовця, тому eu можна опустити.",
+          "ru": "vou — форма ir («идти / ехать») для eu («я») в настоящем времени изъявительного наклонения. Сравните eu vou, tu vais и ele/ela/você vai: глагол меняется в зависимости от лица. Эта форма уже указывает на говорящего, поэтому eu можно опустить."
+        }
+      },
+      "vais": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "vais comes from ir (“go”) and is the present-tense tu (“you”, one person, informal) form. The final -s distinguishes it from ele/ela/você vai. Tu can be omitted because the verb ending identifies the listener.",
+          "uk": "vais походить від ir («йти / їхати») і є формою теперішнього часу для tu («ти», неформальне звертання до однієї людини). Кінцеве -s відрізняє її від ele/ela/você vai. Tu можна опустити: закінчення вже вказує на співрозмовника.",
+          "ru": "vais происходит от ir («идти / ехать») и является формой настоящего времени для tu («ты», неформальное обращение к одному человеку). Конечное -s отличает её от ele/ela/você vai. Tu можно опустить: окончание уже указывает на собеседника."
+        }
+      },
+      "vai": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "vai is the third-person singular present of ir (“go”): ele/ela/você vai. It can mean “he/she/it” or address one person politely as “you”. The form alone does not distinguish these subjects; the situation does. Informal tu uses vais, and eu uses vou.",
+          "uk": "vai — третя особа однини теперішнього часу від ir («йти / їхати»): ele/ela/você vai. Це може бути «він/вона/воно» або ввічливе звертання «Ви» до однієї людини. Сама форма не розрізняє ці значення — потрібен контекст. Для tu буде vais, для eu — vou.",
+          "ru": "vai — третье лицо единственного числа настоящего времени от ir («идти / ехать»): ele/ela/você vai. Это может быть «он/она/оно» или вежливое обращение «Вы» к одному человеку. Сама форма не различает эти значения — нужен контекст. Для tu будет vais, для eu — vou."
+        }
+      },
+      "vamos": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "vamos comes from ir (“go”) and is the present-tense nós (“we”) form. The -mos ending of the verb identifies the first-person plural, so nós is usually optional. Compare eu vou (“I”) with nós vamos (“we”).",
+          "uk": "vamos походить від ir («йти / їхати») і є формою теперішнього часу для nós («ми»). Закінчення дієслова -mos вказує на першу особу множини, тому nós зазвичай можна опустити. Порівняйте eu vou («я») та nós vamos («ми»).",
+          "ru": "vamos происходит от ir («идти / ехать») и является формой настоящего времени для nós («мы»). Окончание глагола -mos указывает на первое лицо множественного числа, поэтому nós обычно можно опустить. Сравните eu vou («я») и nós vamos («мы»)."
+        }
+      },
+      "vão": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "vão is the plural present form of ir (“go”) for eles/elas (“they”) or vocês (“you”, several people). Compare singular ele/ela/você vai with plural eles/elas/vocês vão. Context tells you whether it means “they” or “you”.",
+          "uk": "vão — форма множини теперішнього часу від ir («йти / їхати») для eles/elas («вони») або vocês («ви», кілька людей). Порівняйте однину ele/ela/você vai та множину eles/elas/vocês vão. Контекст підказує, чи це «вони», чи «ви».",
+          "ru": "vão — форма множественного числа настоящего времени от ir («идти / ехать») для eles/elas («они») или vocês («вы», несколько людей). Сравните единственное число ele/ela/você vai и множественное eles/elas/vocês vão. Контекст подсказывает, значит ли это «они» или «вы»."
+        }
+      }
+    }
+  },
+  "dar": {
+    "meaning": {
+      "en": "give",
+      "uk": "давати",
+      "ru": "давать"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "dou"
+        ],
+        [
+          "tu",
+          "dás"
+        ],
+        [
+          "ele / ela / você",
+          "dá"
+        ],
+        [
+          "nós",
+          "damos"
+        ],
+        [
+          "eles / elas / vocês",
+          "dão"
+        ]
+      ],
+      "imperative": [
+        [
+          "tu",
+          "dá"
+        ],
+        [
+          "você / o senhor / a senhora",
+          "dê"
+        ],
+        [
+          "nós",
+          "demos"
+        ],
+        [
+          "vocês",
+          "deem"
+        ]
+      ]
+    },
+    "forms": {
+      "dar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "dar is the infinitive: “give”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "dar — інфінітив: «давати». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "dar — инфинитив: «давать». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      },
+      "dê-me": {
+        "tables": [
+          "imperative"
+        ],
+        "note": {
+          "en": "Dê-me combines dê, the polite singular command of dar (‘give’), with -me, ‘to me’. The person being asked to give is the listener, not ‘I’: me is the recipient. Compare informal tu dá with polite dê. The polite command uses a present-subjunctive form; an affirmative command normally attaches the pronoun with a hyphen.",
+          "uk": "Dê-me поєднує dê — ввічливий наказ/прохання до однієї людини від dar («давати») — і -me, «мені». Дати має співрозмовник, а не «я»: me позначає отримувача. Порівняйте неформальне tu dá та ввічливе dê. Ввічливий наказ використовує форму теперішнього кон’юнктива; у стверджувальному наказі займенник зазвичай приєднується через дефіс.",
+          "ru": "Dê-me сочетает dê — вежливый приказ/просьбу к одному человеку от dar («давать») — и -me, «мне». Дать должен собеседник, а не «я»: me обозначает получателя. Сравните неформальное tu dá и вежливое dê. Вежливый приказ использует форму настоящего сослагательного наклонения; в утвердительном приказе местоимение обычно присоединяется через дефис."
+        }
+      }
+    }
+  },
+  "trazer": {
+    "meaning": {
+      "en": "bring",
+      "uk": "приносити",
+      "ru": "приносить"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "trago"
+        ],
+        [
+          "tu",
+          "trazes"
+        ],
+        [
+          "ele / ela / você",
+          "traz"
+        ],
+        [
+          "nós",
+          "trazemos"
+        ],
+        [
+          "eles / elas / vocês",
+          "trazem"
+        ]
+      ],
+      "imperative": [
+        [
+          "tu",
+          "traz"
+        ],
+        [
+          "você / o senhor / a senhora",
+          "traga"
+        ],
+        [
+          "nós",
+          "tragamos"
+        ],
+        [
+          "vocês",
+          "tragam"
+        ]
+      ]
+    },
+    "forms": {
+      "trazer": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "trazer is the infinitive: “bring”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "trazer — інфінітив: «приносити». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "trazer — инфинитив: «приносить». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      },
+      "traga": {
+        "tables": [
+          "imperative"
+        ],
+        "note": {
+          "en": "Traga is the polite singular command of trazer (‘bring’). It asks the listener to act; compare informal traz. The irregular trag- stem is also seen in eu trago, but traga here is a command, not ‘I bring’. Pode trazer softens the same action into a question with an infinitive.",
+          "uk": "Traga — ввічливий наказ/прохання до однієї людини від trazer («приносити»). Діяти має співрозмовник; неформальна форма — traz. Неправильна основа trag- є також у eu trago, але traga тут — прохання, а не «я приношу». Pode trazer пом’якшує ту саму дію до питання з інфінітивом.",
+          "ru": "Traga — вежливый приказ/просьба к одному человеку от trazer («приносить»). Действовать должен собеседник; неформальная форма — traz. Неправильная основа trag- есть также в eu trago, но traga здесь — просьба, а не «я приношу». Pode trazer смягчает то же действие до вопроса с инфинитивом."
+        }
+      },
+      "trazer-me": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "trazer-me contains the infinitive trazer (“bring”) and the attached pronoun -me. Here -me means “me” or “for me”; it is the recipient/object, not the subject. The other conjugated verb identifies who performs the action. A pronoun attached to an infinitive does not turn it into a personal present-tense form.",
+          "uk": "trazer-me містить інфінітив trazer («приносити») і приєднаний займенник -me. Тут -me означає «мене» або «для мене» — це об’єкт/отримувач, а не підмет. Хто виконує дію, показує особова форма іншого дієслова. Приєднання займенника не робить інфінітив особовою формою теперішнього часу.",
+          "ru": "trazer-me содержит инфинитив trazer («приносить») и присоединённое местоимение -me. Здесь -me означает «меня» или «для меня» — это объект/получатель, а не подлежащее. Кто выполняет действие, показывает другой, спрягаемый глагол. Присоединение местоимения не превращает инфинитив в личную форму настоящего времени."
+        }
+      }
+    }
+  },
+  "fazer": {
+    "meaning": {
+      "en": "do / make",
+      "uk": "робити",
+      "ru": "делать"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "faço"
+        ],
+        [
+          "tu",
+          "fazes"
+        ],
+        [
+          "ele / ela / você",
+          "faz"
+        ],
+        [
+          "nós",
+          "fazemos"
+        ],
+        [
+          "eles / elas / vocês",
+          "fazem"
+        ]
+      ]
+    },
+    "forms": {
+      "fazer": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "fazer is the infinitive: “do / make”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "fazer — інфінітив: «робити». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "fazer — инфинитив: «делать». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      },
+      "faz": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "faz is the third-person singular present of fazer (“do / make”): ele/ela/você faz. It can mean “he/she/it” or address one person politely as “you”. The form alone does not distinguish these subjects; the situation does. Informal tu uses fazes, and eu uses faço.",
+          "uk": "faz — третя особа однини теперішнього часу від fazer («робити»): ele/ela/você faz. Це може бути «він/вона/воно» або ввічливе звертання «Ви» до однієї людини. Сама форма не розрізняє ці значення — потрібен контекст. Для tu буде fazes, для eu — faço.",
+          "ru": "faz — третье лицо единственного числа настоящего времени от fazer («делать»): ele/ela/você faz. Это может быть «он/она/оно» или вежливое обращение «Вы» к одному человеку. Сама форма не различает эти значения — нужен контекст. Для tu будет fazes, для eu — faço."
+        }
+      },
+      "fazer-me": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "fazer-me contains the infinitive fazer (“do / make”) and the attached pronoun -me. Here -me means “me” or “for me”; it is the recipient/object, not the subject. The other conjugated verb identifies who performs the action. A pronoun attached to an infinitive does not turn it into a personal present-tense form.",
+          "uk": "fazer-me містить інфінітив fazer («робити») і приєднаний займенник -me. Тут -me означає «мене» або «для мене» — це об’єкт/отримувач, а не підмет. Хто виконує дію, показує особова форма іншого дієслова. Приєднання займенника не робить інфінітив особовою формою теперішнього часу.",
+          "ru": "fazer-me содержит инфинитив fazer («делать») и присоединённое местоимение -me. Здесь -me означает «меня» или «для меня» — это объект/получатель, а не подлежащее. Кто выполняет действие, показывает другой, спрягаемый глагол. Присоединение местоимения не превращает инфинитив в личную форму настоящего времени."
+        }
+      }
+    }
+  },
+  "dizer": {
+    "meaning": {
+      "en": "say / tell",
+      "uk": "казати",
+      "ru": "говорить / сказать"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "digo"
+        ],
+        [
+          "tu",
+          "dizes"
+        ],
+        [
+          "ele / ela / você",
+          "diz"
+        ],
+        [
+          "nós",
+          "dizemos"
+        ],
+        [
+          "eles / elas / vocês",
+          "dizem"
+        ]
+      ]
+    },
+    "forms": {
+      "diz": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "diz is the third-person singular present of dizer (“say / tell”): ele/ela/você diz. It can mean “he/she/it” or address one person politely as “you”. The form alone does not distinguish these subjects; the situation does. Informal tu uses dizes, and eu uses digo.",
+          "uk": "diz — третя особа однини теперішнього часу від dizer («казати»): ele/ela/você diz. Це може бути «він/вона/воно» або ввічливе звертання «Ви» до однієї людини. Сама форма не розрізняє ці значення — потрібен контекст. Для tu буде dizes, для eu — digo.",
+          "ru": "diz — третье лицо единственного числа настоящего времени от dizer («говорить / сказать»): ele/ela/você diz. Это может быть «он/она/оно» или вежливое обращение «Вы» к одному человеку. Сама форма не различает эти значения — нужен контекст. Для tu будет dizes, для eu — digo."
+        }
+      }
+    }
+  },
+  "saber": {
+    "meaning": {
+      "en": "know a fact or know how",
+      "uk": "знати факт або вміти",
+      "ru": "знать факт или уметь"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "sei"
+        ],
+        [
+          "tu",
+          "sabes"
+        ],
+        [
+          "ele / ela / você",
+          "sabe"
+        ],
+        [
+          "nós",
+          "sabemos"
+        ],
+        [
+          "eles / elas / vocês",
+          "sabem"
+        ]
+      ]
+    },
+    "forms": {
+      "sei": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "sei is the eu (“I”) form of saber (“know a fact or know how”) in the present indicative. Compare eu sei, tu sabes and ele/ela/você sabe: the verb changes with its subject. This form already identifies the speaker, so eu can be omitted.",
+          "uk": "sei — форма saber («знати факт або вміти») для eu («я») у теперішньому часі дійсного способу. Порівняйте eu sei, tu sabes та ele/ela/você sabe: дієслово змінюється залежно від особи. Ця форма вже вказує на мовця, тому eu можна опустити.",
+          "ru": "sei — форма saber («знать факт или уметь») для eu («я») в настоящем времени изъявительного наклонения. Сравните eu sei, tu sabes и ele/ela/você sabe: глагол меняется в зависимости от лица. Эта форма уже указывает на говорящего, поэтому eu можно опустить."
+        }
+      },
+      "sabe": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "sabe is the third-person singular present of saber (“know a fact or know how”): ele/ela/você sabe. It can mean “he/she/it” or address one person politely as “you”. The form alone does not distinguish these subjects; the situation does. Informal tu uses sabes, and eu uses sei.",
+          "uk": "sabe — третя особа однини теперішнього часу від saber («знати факт або вміти»): ele/ela/você sabe. Це може бути «він/вона/воно» або ввічливе звертання «Ви» до однієї людини. Сама форма не розрізняє ці значення — потрібен контекст. Для tu буде sabes, для eu — sei.",
+          "ru": "sabe — третье лицо единственного числа настоящего времени от saber («знать факт или уметь»): ele/ela/você sabe. Это может быть «он/она/оно» или вежливое обращение «Вы» к одному человеку. Сама форма не различает эти значения — нужен контекст. Для tu будет sabes, для eu — sei."
+        }
+      }
+    }
+  },
+  "ver": {
+    "meaning": {
+      "en": "see",
+      "uk": "бачити",
+      "ru": "видеть"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "vejo"
+        ],
+        [
+          "tu",
+          "vês"
+        ],
+        [
+          "ele / ela / você",
+          "vê"
+        ],
+        [
+          "nós",
+          "vemos"
+        ],
+        [
+          "eles / elas / vocês",
+          "veem"
+        ]
+      ]
+    },
+    "forms": {
+      "ver": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "ver is the infinitive: “see”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "ver — інфінітив: «бачити». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "ver — инфинитив: «видеть». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      },
+      "vemo-nos": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "Vemo-nos comes from ver (‘see’): nós vemos, ‘we see’, plus reciprocal -nos, ‘each other’. Before -nos, the final -s of vemos disappears: vemos + nos → vemo-nos. It still identifies ‘we’. The present describes an arranged future meeting here, so English naturally says ‘see you’ rather than ‘we see ourselves’.",
+          "uk": "Vemo-nos походить від ver («бачити»): nós vemos, «ми бачимо», плюс взаємне -nos, «одне одного». Перед -nos кінцеве -s у vemos зникає: vemos + nos → vemo-nos. Особа залишається «ми». Тут теперішній час передає домовлену майбутню зустріч, тому природний переклад — «побачимося», а не «бачимо себе».",
+          "ru": "Vemo-nos происходит от ver («видеть»): nós vemos, «мы видим», плюс взаимное -nos, «друг друга». Перед -nos конечное -s в vemos исчезает: vemos + nos → vemo-nos. Лицо остаётся «мы». Здесь настоящее время передаёт условленную будущую встречу, поэтому естественный перевод — «увидимся», а не «видим себя»."
+        }
+      }
+    }
+  },
+  "conseguir": {
+    "meaning": {
+      "en": "manage to / be able to",
+      "uk": "могти / зуміти",
+      "ru": "мочь / суметь"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "consigo"
+        ],
+        [
+          "tu",
+          "consegues"
+        ],
+        [
+          "ele / ela / você",
+          "consegue"
+        ],
+        [
+          "nós",
+          "conseguimos"
+        ],
+        [
+          "eles / elas / vocês",
+          "conseguem"
+        ]
+      ]
+    },
+    "forms": {
+      "consigo": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "consigo is the eu (“I”) form of conseguir (“manage to / be able to”) in the present indicative. Compare eu consigo, tu consegues and ele/ela/você consegue: the verb changes with its subject. This form already identifies the speaker, so eu can be omitted.",
+          "uk": "consigo — форма conseguir («могти / зуміти») для eu («я») у теперішньому часі дійсного способу. Порівняйте eu consigo, tu consegues та ele/ela/você consegue: дієслово змінюється залежно від особи. Ця форма вже вказує на мовця, тому eu можна опустити.",
+          "ru": "consigo — форма conseguir («мочь / суметь») для eu («я») в настоящем времени изъявительного наклонения. Сравните eu consigo, tu consegues и ele/ela/você consegue: глагол меняется в зависимости от лица. Эта форма уже указывает на говорящего, поэтому eu можно опустить."
+        }
+      }
+    }
+  },
+  "pedir": {
+    "meaning": {
+      "en": "ask for / order",
+      "uk": "просити / замовляти",
+      "ru": "просить / заказывать"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "peço"
+        ],
+        [
+          "tu",
+          "pedes"
+        ],
+        [
+          "ele / ela / você",
+          "pede"
+        ],
+        [
+          "nós",
+          "pedimos"
+        ],
+        [
+          "eles / elas / vocês",
+          "pedem"
+        ]
+      ],
+      "preterite": [
+        [
+          "eu",
+          "pedi"
+        ],
+        [
+          "tu",
+          "pediste"
+        ],
+        [
+          "ele / ela / você",
+          "pediu"
+        ],
+        [
+          "nós",
+          "pedimos"
+        ],
+        [
+          "eles / elas / vocês",
+          "pediram"
+        ]
+      ]
+    },
+    "forms": {
+      "pedir": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "pedir is the infinitive: “ask for / order”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "pedir — інфінітив: «просити / замовляти». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "pedir — инфинитив: «просить / заказывать». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      },
+      "pedi": {
+        "tables": [
+          "preterite"
+        ],
+        "note": {
+          "en": "Pedi is the eu (‘I’) form of pedir (‘ask for / order’) in the completed past, pretérito perfeito. Remove -ir and add -i: ped- + -i → pedi. Thus já pedi means ‘I’ve already ordered’, not present ‘I order’, which is peço. Eu can be omitted because pedi identifies the speaker; pediu refers to he/she/you instead.",
+          "uk": "Pedi — форма pedir («просити / замовляти») для eu («я») у завершеному минулому, pretérito perfeito. Відкиньте -ir і додайте -i: ped- + -i → pedi. Отже, já pedi — «я вже замовив / замовила», а теперішнє «замовляю» — peço. Eu можна опустити, бо pedi вже вказує на мовця; pediu стосується «він/вона/Ви».",
+          "ru": "Pedi — форма pedir («просить / заказывать») для eu («я») в завершённом прошедшем, pretérito perfeito. Уберите -ir и добавьте -i: ped- + -i → pedi. Значит, já pedi — «я уже заказал / заказала», а настоящее «заказываю» — peço. Eu можно опустить, потому что pedi уже указывает на говорящего; pediu относится к «он/она/Вы»."
+        }
+      }
+    }
+  },
+  "conhecer": {
+    "meaning": {
+      "en": "know a person or place",
+      "uk": "знати людину або місце",
+      "ru": "знать человека или место"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "conheço"
+        ],
+        [
+          "tu",
+          "conheces"
+        ],
+        [
+          "ele / ela / você",
+          "conhece"
+        ],
+        [
+          "nós",
+          "conhecemos"
+        ],
+        [
+          "eles / elas / vocês",
+          "conhecem"
+        ]
+      ]
+    },
+    "forms": {
+      "conheces": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "conheces comes from conhecer (“know a person or place”) and is the present-tense tu (“you”, one person, informal) form. The final -s distinguishes it from ele/ela/você conhece. Tu can be omitted because the verb ending identifies the listener.",
+          "uk": "conheces походить від conhecer («знати людину або місце») і є формою теперішнього часу для tu («ти», неформальне звертання до однієї людини). Кінцеве -s відрізняє її від ele/ela/você conhece. Tu можна опустити: закінчення вже вказує на співрозмовника.",
+          "ru": "conheces происходит от conhecer («знать человека или место») и является формой настоящего времени для tu («ты», неформальное обращение к одному человеку). Конечное -s отличает её от ele/ela/você conhece. Tu можно опустить: окончание уже указывает на собеседника."
+        }
+      }
+    }
+  },
+  "agradecer": {
+    "meaning": {
+      "en": "thank / appreciate",
+      "uk": "дякувати",
+      "ru": "благодарить"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "agradeço"
+        ],
+        [
+          "tu",
+          "agradeces"
+        ],
+        [
+          "ele / ela / você",
+          "agradece"
+        ],
+        [
+          "nós",
+          "agradecemos"
+        ],
+        [
+          "eles / elas / vocês",
+          "agradecem"
+        ]
+      ]
+    },
+    "forms": {
+      "agradeço": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "agradeço is the eu (“I”) form of agradecer (“thank / appreciate”) in the present indicative. Compare eu agradeço, tu agradeces and ele/ela/você agradece: the verb changes with its subject. This form already identifies the speaker, so eu can be omitted.",
+          "uk": "agradeço — форма agradecer («дякувати») для eu («я») у теперішньому часі дійсного способу. Порівняйте eu agradeço, tu agradeces та ele/ela/você agradece: дієслово змінюється залежно від особи. Ця форма вже вказує на мовця, тому eu можна опустити.",
+          "ru": "agradeço — форма agradecer («благодарить») для eu («я») в настоящем времени изъявительного наклонения. Сравните eu agradeço, tu agradeces и ele/ela/você agradece: глагол меняется в зависимости от лица. Эта форма уже указывает на говорящего, поэтому eu можно опустить."
+        }
+      }
+    }
+  },
+  "sentir": {
+    "meaning": {
+      "en": "feel",
+      "uk": "відчувати",
+      "ru": "чувствовать"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "sinto"
+        ],
+        [
+          "tu",
+          "sentes"
+        ],
+        [
+          "ele / ela / você",
+          "sente"
+        ],
+        [
+          "nós",
+          "sentimos"
+        ],
+        [
+          "eles / elas / vocês",
+          "sentem"
+        ]
+      ]
+    },
+    "forms": {
+      "sinto": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "sinto is the eu (“I”) form of sentir (“feel”) in the present indicative. Compare eu sinto, tu sentes and ele/ela/você sente: the verb changes with its subject. This form already identifies the speaker, so eu can be omitted.",
+          "uk": "sinto — форма sentir («відчувати») для eu («я») у теперішньому часі дійсного способу. Порівняйте eu sinto, tu sentes та ele/ela/você sente: дієслово змінюється залежно від особи. Ця форма вже вказує на мовця, тому eu можна опустити.",
+          "ru": "sinto — форма sentir («чувствовать») для eu («я») в настоящем времени изъявительного наклонения. Сравните eu sinto, tu sentes и ele/ela/você sente: глагол меняется в зависимости от лица. Эта форма уже указывает на говорящего, поэтому eu можно опустить."
+        }
+      }
+    }
+  },
+  "seguir": {
+    "meaning": {
+      "en": "follow / continue",
+      "uk": "слідувати / продовжувати рух",
+      "ru": "следовать / продолжать движение"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "sigo"
+        ],
+        [
+          "tu",
+          "segues"
+        ],
+        [
+          "ele / ela / você",
+          "segue"
+        ],
+        [
+          "nós",
+          "seguimos"
+        ],
+        [
+          "eles / elas / vocês",
+          "seguem"
+        ]
+      ],
+      "imperative": [
+        [
+          "tu",
+          "segue"
+        ],
+        [
+          "você / o senhor / a senhora",
+          "siga"
+        ],
+        [
+          "nós",
+          "sigamos"
+        ],
+        [
+          "vocês",
+          "sigam"
+        ]
+      ]
+    },
+    "forms": {
+      "seguir": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "seguir is the infinitive: “follow / continue”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "seguir — інфінітив: «слідувати / продовжувати рух». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "seguir — инфинитив: «следовать / продолжать движение». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      },
+      "siga": {
+        "tables": [
+          "imperative"
+        ],
+        "note": {
+          "en": "Siga is the polite singular command of seguir (‘follow / continue’). Its irregular sig- stem also appears in eu sigo, but the final -a makes this the command form, not ‘I follow’. Informal tu uses segue. Here siga em frente tells the listener to continue straight ahead.",
+          "uk": "Siga — ввічливий наказ до однієї людини від seguir («слідувати / продовжувати рух»). Неправильна основа sig- є також у eu sigo, але кінцеве -a тут утворює наказ, а не «я слідую». Для неформального tu буде segue. Тут siga em frente вказує співрозмовнику рухатися прямо.",
+          "ru": "Siga — вежливый приказ к одному человеку от seguir («следовать / продолжать движение»). Неправильная основа sig- есть также в eu sigo, но конечное -a здесь образует приказ, а не «я следую». Для неформального tu будет segue. Здесь siga em frente указывает собеседнику двигаться прямо."
+        }
+      }
+    }
+  },
+  "comer": {
+    "meaning": {
+      "en": "eat",
+      "uk": "їсти",
+      "ru": "есть"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "como"
+        ],
+        [
+          "tu",
+          "comes"
+        ],
+        [
+          "ele / ela / você",
+          "come"
+        ],
+        [
+          "nós",
+          "comemos"
+        ],
+        [
+          "eles / elas / vocês",
+          "comem"
+        ]
+      ]
+    },
+    "forms": {
+      "comer": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "comer is the infinitive: “eat”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "comer — інфінітив: «їсти». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "comer — инфинитив: «есть». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "levar": {
+    "meaning": {
+      "en": "take (away)",
+      "uk": "відносити / відвозити",
+      "ru": "относить / отвозить"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "levo"
+        ],
+        [
+          "tu",
+          "levas"
+        ],
+        [
+          "ele / ela / você",
+          "leva"
+        ],
+        [
+          "nós",
+          "levamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "levam"
+        ]
+      ]
+    },
+    "forms": {
+      "levar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "levar is the infinitive: “take (away)”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "levar — інфінітив: «відносити / відвозити». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "levar — инфинитив: «относить / отвозить». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      },
+      "levar-me": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "levar-me contains the infinitive levar (“take (away)”) and the attached pronoun -me. Here -me means “me” or “for me”; it is the recipient/object, not the subject. The other conjugated verb identifies who performs the action. A pronoun attached to an infinitive does not turn it into a personal present-tense form.",
+          "uk": "levar-me містить інфінітив levar («відносити / відвозити») і приєднаний займенник -me. Тут -me означає «мене» або «для мене» — це об’єкт/отримувач, а не підмет. Хто виконує дію, показує особова форма іншого дієслова. Приєднання займенника не робить інфінітив особовою формою теперішнього часу.",
+          "ru": "levar-me содержит инфинитив levar («относить / отвозить») и присоединённое местоимение -me. Здесь -me означает «меня» или «для меня» — это объект/получатель, а не подлежащее. Кто выполняет действие, показывает другой, спрягаемый глагол. Присоединение местоимения не превращает инфинитив в личную форму настоящего времени."
+        }
+      }
+    }
+  },
+  "reservar": {
+    "meaning": {
+      "en": "reserve / book",
+      "uk": "бронювати",
+      "ru": "бронировать"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "reservo"
+        ],
+        [
+          "tu",
+          "reservas"
+        ],
+        [
+          "ele / ela / você",
+          "reserva"
+        ],
+        [
+          "nós",
+          "reservamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "reservam"
+        ]
+      ]
+    },
+    "forms": {
+      "reservar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "reservar is the infinitive: “reserve / book”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "reservar — інфінітив: «бронювати». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "reservar — инфинитив: «бронировать». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "tirar": {
+    "meaning": {
+      "en": "take / remove",
+      "uk": "брати / прибирати",
+      "ru": "брать / убирать"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "tiro"
+        ],
+        [
+          "tu",
+          "tiras"
+        ],
+        [
+          "ele / ela / você",
+          "tira"
+        ],
+        [
+          "nós",
+          "tiramos"
+        ],
+        [
+          "eles / elas / vocês",
+          "tiram"
+        ]
+      ]
+    },
+    "forms": {
+      "tirar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "tirar is the infinitive: “take / remove”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "tirar — інфінітив: «брати / прибирати». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "tirar — инфинитив: «брать / убирать». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "abrir": {
+    "meaning": {
+      "en": "open",
+      "uk": "відчиняти / відкривати",
+      "ru": "открывать"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "abro"
+        ],
+        [
+          "tu",
+          "abres"
+        ],
+        [
+          "ele / ela / você",
+          "abre"
+        ],
+        [
+          "nós",
+          "abrimos"
+        ],
+        [
+          "eles / elas / vocês",
+          "abrem"
+        ]
+      ]
+    },
+    "forms": {
+      "abre": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "abre is the third-person singular present of abrir (“open”): ele/ela/você abre. It can mean “he/she/it” or address one person politely as “you”. The form alone does not distinguish these subjects; the situation does. Informal tu uses abres, and eu uses abro. With this regular -ir verb, remove -ir and add -e: abr- + -e → abre.",
+          "uk": "abre — третя особа однини теперішнього часу від abrir («відчиняти / відкривати»): ele/ela/você abre. Це може бути «він/вона/воно» або ввічливе звертання «Ви» до однієї людини. Сама форма не розрізняє ці значення — потрібен контекст. Для tu буде abres, для eu — abro. Для цього правильного дієслова на -ir відкиньте -ir та додайте -e: abr- + -e → abre.",
+          "ru": "abre — третье лицо единственного числа настоящего времени от abrir («открывать»): ele/ela/você abre. Это может быть «он/она/оно» или вежливое обращение «Вы» к одному человеку. Сама форма не различает эти значения — нужен контекст. Для tu будет abres, для eu — abro. Для этого правильного глагола на -ir уберите -ir и добавьте -e: abr- + -e → abre."
+        }
+      }
+    }
+  },
+  "fechar": {
+    "meaning": {
+      "en": "close",
+      "uk": "зачиняти / закривати",
+      "ru": "закрывать"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "fecho"
+        ],
+        [
+          "tu",
+          "fechas"
+        ],
+        [
+          "ele / ela / você",
+          "fecha"
+        ],
+        [
+          "nós",
+          "fechamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "fecham"
+        ]
+      ]
+    },
+    "forms": {
+      "fechar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "fechar is the infinitive: “close”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "fechar — інфінітив: «зачиняти / закривати». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "fechar — инфинитив: «закрывать». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      },
+      "fecha": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "fecha is the third-person singular present of fechar (“close”): ele/ela/você fecha. It can mean “he/she/it” or address one person politely as “you”. The form alone does not distinguish these subjects; the situation does. Informal tu uses fechas, and eu uses fecho. With this regular -ar verb, remove -ar and add -a: fech- + -a → fecha.",
+          "uk": "fecha — третя особа однини теперішнього часу від fechar («зачиняти / закривати»): ele/ela/você fecha. Це може бути «він/вона/воно» або ввічливе звертання «Ви» до однієї людини. Сама форма не розрізняє ці значення — потрібен контекст. Для tu буде fechas, для eu — fecho. Для цього правильного дієслова на -ar відкиньте -ar та додайте -a: fech- + -a → fecha.",
+          "ru": "fecha — третье лицо единственного числа настоящего времени от fechar («закрывать»): ele/ela/você fecha. Это может быть «он/она/оно» или вежливое обращение «Вы» к одному человеку. Сама форма не различает эти значения — нужен контекст. Для tu будет fechas, для eu — fecho. Для этого правильного глагола на -ar уберите -ar и добавьте -a: fech- + -a → fecha."
+        }
+      }
+    }
+  },
+  "beber": {
+    "meaning": {
+      "en": "drink",
+      "uk": "пити",
+      "ru": "пить"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "bebo"
+        ],
+        [
+          "tu",
+          "bebes"
+        ],
+        [
+          "ele / ela / você",
+          "bebe"
+        ],
+        [
+          "nós",
+          "bebemos"
+        ],
+        [
+          "eles / elas / vocês",
+          "bebem"
+        ]
+      ]
+    },
+    "forms": {
+      "beber": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "beber is the infinitive: “drink”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "beber — інфінітив: «пити». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "beber — инфинитив: «пить». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "precisar": {
+    "meaning": {
+      "en": "need",
+      "uk": "потребувати",
+      "ru": "нуждаться"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "preciso"
+        ],
+        [
+          "tu",
+          "precisas"
+        ],
+        [
+          "ele / ela / você",
+          "precisa"
+        ],
+        [
+          "nós",
+          "precisamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "precisam"
+        ]
+      ]
+    },
+    "forms": {
+      "preciso": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "preciso is the eu (“I”) form of precisar (“need”) in the present indicative. Compare eu preciso, tu precisas and ele/ela/você precisa: the verb changes with its subject. This form already identifies the speaker, so eu can be omitted. With this regular -ar verb, remove -ar and add -o: precis- + -o → preciso.",
+          "uk": "preciso — форма precisar («потребувати») для eu («я») у теперішньому часі дійсного способу. Порівняйте eu preciso, tu precisas та ele/ela/você precisa: дієслово змінюється залежно від особи. Ця форма вже вказує на мовця, тому eu можна опустити. Для цього правильного дієслова на -ar відкиньте -ar та додайте -o: precis- + -o → preciso.",
+          "ru": "preciso — форма precisar («нуждаться») для eu («я») в настоящем времени изъявительного наклонения. Сравните eu preciso, tu precisas и ele/ela/você precisa: глагол меняется в зависимости от лица. Эта форма уже указывает на говорящего, поэтому eu можно опустить. Для этого правильного глагола на -ar уберите -ar и добавьте -o: precis- + -o → preciso."
+        }
+      },
+      "precisa": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "precisa is the third-person singular present of precisar (“need”): ele/ela/você precisa. It can mean “he/she/it” or address one person politely as “you”. The form alone does not distinguish these subjects; the situation does. Informal tu uses precisas, and eu uses preciso. With this regular -ar verb, remove -ar and add -a: precis- + -a → precisa.",
+          "uk": "precisa — третя особа однини теперішнього часу від precisar («потребувати»): ele/ela/você precisa. Це може бути «він/вона/воно» або ввічливе звертання «Ви» до однієї людини. Сама форма не розрізняє ці значення — потрібен контекст. Для tu буде precisas, для eu — preciso. Для цього правильного дієслова на -ar відкиньте -ar та додайте -a: precis- + -a → precisa.",
+          "ru": "precisa — третье лицо единственного числа настоящего времени от precisar («нуждаться»): ele/ela/você precisa. Это может быть «он/она/оно» или вежливое обращение «Вы» к одному человеку. Сама форма не различает эти значения — нужен контекст. Для tu будет precisas, для eu — preciso. Для этого правильного глагола на -ar уберите -ar и добавьте -a: precis- + -a → precisa."
+        }
+      },
+      "precisamos": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "precisamos comes from precisar (“need”) and is the present-tense nós (“we”) form. The -mos ending of the verb identifies the first-person plural, so nós is usually optional. Compare eu preciso (“I”) with nós precisamos (“we”). With this regular -ar verb, remove -ar and add -amos: precis- + -amos → precisamos.",
+          "uk": "precisamos походить від precisar («потребувати») і є формою теперішнього часу для nós («ми»). Закінчення дієслова -mos вказує на першу особу множини, тому nós зазвичай можна опустити. Порівняйте eu preciso («я») та nós precisamos («ми»). Для цього правильного дієслова на -ar відкиньте -ar та додайте -amos: precis- + -amos → precisamos.",
+          "ru": "precisamos происходит от precisar («нуждаться») и является формой настоящего времени для nós («мы»). Окончание глагола -mos указывает на первое лицо множественного числа, поэтому nós обычно можно опустить. Сравните eu preciso («я») и nós precisamos («мы»). Для этого правильного глагола на -ar уберите -ar и добавьте -amos: precis- + -amos → precisamos."
+        }
+      }
+    }
+  },
+  "gostar": {
+    "meaning": {
+      "en": "like",
+      "uk": "любити / подобатися",
+      "ru": "любить / нравиться"
+    },
+    "tables": {
+      "imperfect": [
+        [
+          "eu",
+          "gostava"
+        ],
+        [
+          "tu",
+          "gostavas"
+        ],
+        [
+          "ele / ela / você",
+          "gostava"
+        ],
+        [
+          "nós",
+          "gostávamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "gostavam"
+        ]
+      ]
+    },
+    "forms": {
+      "gostava": {
+        "tables": [
+          "imperfect"
+        ],
+        "note": {
+          "en": "Gostava comes from gostar (‘like’), with the regular -ar imperfect ending -ava. Eu gostava and ele/ela/você gostava are identical; the request’s context supplies ‘I’. Gostava de + infinitive politely means ‘I’d like to…’. Compare tu gostavas and nós gostávamos; the preposition de belongs to gostar, not to its conjugation.",
+          "uk": "Gostava походить від gostar («любити / подобатися») і має типове для дієслів на -ar закінчення імперфекта -ava. Eu gostava та ele/ela/você gostava однакові; значення «я» визначає контекст прохання. Gostava de + інфінітив ввічливо означає «я хотів би / хотіла б…». Порівняйте tu gostavas та nós gostávamos; de належить до керування gostar, а не до дієвідмінювання.",
+          "ru": "Gostava происходит от gostar («любить / нравиться») и имеет типичное для глаголов на -ar окончание имперфекта -ava. Eu gostava и ele/ela/você gostava совпадают; значение «я» определяет контекст просьбы. Gostava de + инфинитив вежливо означает «я хотел бы / хотела бы…». Сравните tu gostavas и nós gostávamos; de относится к управлению gostar, а не к спряжению."
+        }
+      }
+    }
+  },
+  "demorar": {
+    "meaning": {
+      "en": "take time",
+      "uk": "тривати / забирати час",
+      "ru": "длиться / занимать время"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "demoro"
+        ],
+        [
+          "tu",
+          "demoras"
+        ],
+        [
+          "ele / ela / você",
+          "demora"
+        ],
+        [
+          "nós",
+          "demoramos"
+        ],
+        [
+          "eles / elas / vocês",
+          "demoram"
+        ]
+      ]
+    },
+    "forms": {
+      "demorar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "demorar is the infinitive: “take time”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "demorar — інфінітив: «тривати / забирати час». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "demorar — инфинитив: «длиться / занимать время». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "ligar": {
+    "meaning": {
+      "en": "switch on / call",
+      "uk": "вмикати / телефонувати",
+      "ru": "включать / звонить"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "ligo"
+        ],
+        [
+          "tu",
+          "ligas"
+        ],
+        [
+          "ele / ela / você",
+          "liga"
+        ],
+        [
+          "nós",
+          "ligamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "ligam"
+        ]
+      ]
+    },
+    "forms": {
+      "ligar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "ligar is the infinitive: “switch on / call”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "ligar — інфінітив: «вмикати / телефонувати». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "ligar — инфинитив: «включать / звонить». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "desligar": {
+    "meaning": {
+      "en": "switch off / disconnect",
+      "uk": "вимикати / від’єднувати",
+      "ru": "выключать / отключать"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "desligo"
+        ],
+        [
+          "tu",
+          "desligas"
+        ],
+        [
+          "ele / ela / você",
+          "desliga"
+        ],
+        [
+          "nós",
+          "desligamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "desligam"
+        ]
+      ]
+    },
+    "forms": {
+      "desligar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "desligar is the infinitive: “switch off / disconnect”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "desligar — інфінітив: «вимикати / від’єднувати». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "desligar — инфинитив: «выключать / отключать». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "arranjar": {
+    "meaning": {
+      "en": "get / prepare / repair",
+      "uk": "діставати / готувати / лагодити",
+      "ru": "доставать / готовить / чинить"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "arranjo"
+        ],
+        [
+          "tu",
+          "arranjas"
+        ],
+        [
+          "ele / ela / você",
+          "arranja"
+        ],
+        [
+          "nós",
+          "arranjamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "arranjam"
+        ]
+      ]
+    },
+    "forms": {
+      "arranjar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "arranjar is the infinitive: “get / prepare / repair”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "arranjar — інфінітив: «діставати / готувати / лагодити». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "arranjar — инфинитив: «доставать / готовить / чинить». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "terminar": {
+    "meaning": {
+      "en": "finish",
+      "uk": "закінчувати",
+      "ru": "заканчивать"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "termino"
+        ],
+        [
+          "tu",
+          "terminas"
+        ],
+        [
+          "ele / ela / você",
+          "termina"
+        ],
+        [
+          "nós",
+          "terminamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "terminam"
+        ]
+      ],
+      "preterite": [
+        [
+          "eu",
+          "terminei"
+        ],
+        [
+          "tu",
+          "terminaste"
+        ],
+        [
+          "ele / ela / você",
+          "terminou"
+        ],
+        [
+          "nós",
+          "terminámos / terminamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "terminaram"
+        ]
+      ]
+    },
+    "forms": {
+      "terminamos": {
+        "tables": [
+          "present",
+          "preterite"
+        ],
+        "note": {
+          "en": "Terminamos comes from terminar and identifies nós (‘we’), but this spelling can be present ‘we finish’ or completed past ‘we finished’. European Portuguese often writes the past terminámos; the accent is optional under the current spelling agreement. Here já and the meal context give ‘we’ve finished’. The form tells you ‘we’, but context tells you the tense.",
+          "uk": "Terminamos походить від terminar і вказує на nós («ми»), але таке написання може означати теперішнє «закінчуємо» або завершене минуле «закінчили». У європейській португальській минуле часто пишуть terminámos; за чинним правописом цей наголос факультативний. Тут já та контекст їжі дають «ми вже закінчили». Особа зрозуміла з форми, час — із контексту.",
+          "ru": "Terminamos происходит от terminar и указывает на nós («мы»), но такое написание может означать настоящее «заканчиваем» или завершённое прошедшее «закончили». В европейском португальском прошедшее часто пишут terminámos; по действующему правописанию это ударение факультативно. Здесь já и контекст еды дают «мы уже закончили». Лицо понятно из формы, время — из контекста."
+        }
+      },
+      "terminei": {
+        "tables": [
+          "preterite"
+        ],
+        "note": {
+          "en": "Terminei is terminar (‘finish’) in the completed past for eu (‘I’). Regular -ar verbs use -ei here: termin- + -ei → terminei. The ending identifies the speaker, so já terminei needs no eu. Compare terminei (‘I finished’) with terminou (‘he/she/you finished’) and present termino (‘I finish’).",
+          "uk": "Terminei — завершений минулий час від terminar («закінчувати») для eu («я»). Правильні дієслова на -ar тут мають -ei: termin- + -ei → terminei. Закінчення вказує на мовця, тому в já terminei займенник eu не обов’язковий. Порівняйте terminei («я закінчив/закінчила»), terminou («він/вона/Ви закінчили») і теперішнє termino («я закінчую»).",
+          "ru": "Terminei — завершённое прошедшее от terminar («заканчивать») для eu («я»). Правильные глаголы на -ar здесь имеют -ei: termin- + -ei → terminei. Окончание указывает на говорящего, поэтому в já terminei местоимение eu не обязательно. Сравните terminei («я закончил/закончила»), terminou («он/она/Вы закончили») и настоящее termino («я заканчиваю»)."
+        }
+      }
+    }
+  },
+  "usar": {
+    "meaning": {
+      "en": "use",
+      "uk": "користуватися",
+      "ru": "пользоваться"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "uso"
+        ],
+        [
+          "tu",
+          "usas"
+        ],
+        [
+          "ele / ela / você",
+          "usa"
+        ],
+        [
+          "nós",
+          "usamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "usam"
+        ]
+      ]
+    },
+    "forms": {
+      "usar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "usar is the infinitive: “use”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "usar — інфінітив: «користуватися». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "usar — инфинитив: «пользоваться». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "pagar": {
+    "meaning": {
+      "en": "pay",
+      "uk": "платити",
+      "ru": "платить"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "pago"
+        ],
+        [
+          "tu",
+          "pagas"
+        ],
+        [
+          "ele / ela / você",
+          "paga"
+        ],
+        [
+          "nós",
+          "pagamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "pagam"
+        ]
+      ],
+      "preterite": [
+        [
+          "eu",
+          "paguei"
+        ],
+        [
+          "tu",
+          "pagaste"
+        ],
+        [
+          "ele / ela / você",
+          "pagou"
+        ],
+        [
+          "nós",
+          "pagámos / pagamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "pagaram"
+        ]
+      ]
+    },
+    "forms": {
+      "pagar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "pagar is the infinitive: “pay”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "pagar — інфінітив: «платити». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "pagar — инфинитив: «платить». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      },
+      "pagamos": {
+        "tables": [
+          "present",
+          "preterite"
+        ],
+        "note": {
+          "en": "Pagamos is a nós (‘we’) form of pagar (‘pay’). Here it states the arrangement ‘we pay / we’ll pay separately’ in the present. The same spelling can also be completed past ‘we paid’; in European Portuguese that is often written pagámos. The -mos ending identifies ‘we’, while the time meaning comes from context.",
+          "uk": "Pagamos — форма pagar («платити») для nós («ми»). Тут це теперішній час із домовленістю «платимо / заплатимо окремо». Те саме написання може бути й завершеним минулим «заплатили»; у європейській португальській його часто пишуть pagámos. Закінчення -mos вказує на «ми», а часовий зміст визначає контекст.",
+          "ru": "Pagamos — форма pagar («платить») для nós («мы»). Здесь это настоящее время с договорённостью «платим / заплатим отдельно». То же написание может быть и завершённым прошедшим «заплатили»; в европейском португальском его часто пишут pagámos. Окончание -mos указывает на «мы», а временной смысл определяет контекст."
+        }
+      }
+    }
+  },
+  "dividir": {
+    "meaning": {
+      "en": "divide / split",
+      "uk": "ділити",
+      "ru": "делить"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "divido"
+        ],
+        [
+          "tu",
+          "divides"
+        ],
+        [
+          "ele / ela / você",
+          "divide"
+        ],
+        [
+          "nós",
+          "dividimos"
+        ],
+        [
+          "eles / elas / vocês",
+          "dividem"
+        ]
+      ]
+    },
+    "forms": {
+      "dividir": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "dividir is the infinitive: “divide / split”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "dividir — інфінітив: «ділити». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "dividir — инфинитив: «делить». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "adicionar": {
+    "meaning": {
+      "en": "add",
+      "uk": "додавати",
+      "ru": "добавлять"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "adiciono"
+        ],
+        [
+          "tu",
+          "adicionas"
+        ],
+        [
+          "ele / ela / você",
+          "adiciona"
+        ],
+        [
+          "nós",
+          "adicionamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "adicionam"
+        ]
+      ]
+    },
+    "forms": {
+      "adicionar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "adicionar is the infinitive: “add”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "adicionar — інфінітив: «додавати». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "adicionar — инфинитив: «добавлять». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "ficar": {
+    "meaning": {
+      "en": "stay / be located / become",
+      "uk": "залишатися / розташовуватися / ставати",
+      "ru": "оставаться / находиться / становиться"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "fico"
+        ],
+        [
+          "tu",
+          "ficas"
+        ],
+        [
+          "ele / ela / você",
+          "fica"
+        ],
+        [
+          "nós",
+          "ficamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "ficam"
+        ]
+      ]
+    },
+    "forms": {
+      "ficar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "ficar is the infinitive: “stay / be located / become”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "ficar — інфінітив: «залишатися / розташовуватися / ставати». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "ficar — инфинитив: «оставаться / находиться / становиться». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      },
+      "fica": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "fica is the third-person singular present of ficar (“stay / be located / become”): ele/ela/você fica. It can mean “he/she/it” or address one person politely as “you”. The form alone does not distinguish these subjects; the situation does. Informal tu uses ficas, and eu uses fico. With this regular -ar verb, remove -ar and add -a: fic- + -a → fica.",
+          "uk": "fica — третя особа однини теперішнього часу від ficar («залишатися / розташовуватися / ставати»): ele/ela/você fica. Це може бути «він/вона/воно» або ввічливе звертання «Ви» до однієї людини. Сама форма не розрізняє ці значення — потрібен контекст. Для tu буде ficas, для eu — fico. Для цього правильного дієслова на -ar відкиньте -ar та додайте -a: fic- + -a → fica.",
+          "ru": "fica — третье лицо единственного числа настоящего времени от ficar («оставаться / находиться / становиться»): ele/ela/você fica. Это может быть «он/она/оно» или вежливое обращение «Вы» к одному человеку. Сама форма не различает эти значения — нужен контекст. Для tu будет ficas, для eu — fico. Для этого правильного глагола на -ar уберите -ar и добавьте -a: fic- + -a → fica."
+        }
+      },
+      "ficam": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "ficam is the plural present form of ficar (“stay / be located / become”) for eles/elas (“they”) or vocês (“you”, several people). Compare singular ele/ela/você fica with plural eles/elas/vocês ficam. Context tells you whether it means “they” or “you”. With this regular -ar verb, remove -ar and add -am: fic- + -am → ficam.",
+          "uk": "ficam — форма множини теперішнього часу від ficar («залишатися / розташовуватися / ставати») для eles/elas («вони») або vocês («ви», кілька людей). Порівняйте однину ele/ela/você fica та множину eles/elas/vocês ficam. Контекст підказує, чи це «вони», чи «ви». Для цього правильного дієслова на -ar відкиньте -ar та додайте -am: fic- + -am → ficam.",
+          "ru": "ficam — форма множественного числа настоящего времени от ficar («оставаться / находиться / становиться») для eles/elas («они») или vocês («вы», несколько людей). Сравните единственное число ele/ela/você fica и множественное eles/elas/vocês ficam. Контекст подсказывает, значит ли это «они» или «вы». Для этого правильного глагола на -ar уберите -ar и добавьте -am: fic- + -am → ficam."
+        }
+      }
+    }
+  },
+  "custar": {
+    "meaning": {
+      "en": "cost",
+      "uk": "коштувати",
+      "ru": "стоить"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "custo"
+        ],
+        [
+          "tu",
+          "custas"
+        ],
+        [
+          "ele / ela / você",
+          "custa"
+        ],
+        [
+          "nós",
+          "custamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "custam"
+        ]
+      ]
+    },
+    "forms": {
+      "custa": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "custa is the third-person singular present of custar (“cost”): ele/ela/você custa. It can mean “he/she/it” or address one person politely as “you”. The form alone does not distinguish these subjects; the situation does. Informal tu uses custas, and eu uses custo. With this regular -ar verb, remove -ar and add -a: cust- + -a → custa.",
+          "uk": "custa — третя особа однини теперішнього часу від custar («коштувати»): ele/ela/você custa. Це може бути «він/вона/воно» або ввічливе звертання «Ви» до однієї людини. Сама форма не розрізняє ці значення — потрібен контекст. Для tu буде custas, для eu — custo. Для цього правильного дієслова на -ar відкиньте -ar та додайте -a: cust- + -a → custa.",
+          "ru": "custa — третье лицо единственного числа настоящего времени от custar («стоить»): ele/ela/você custa. Это может быть «он/она/оно» или вежливое обращение «Вы» к одному человеку. Сама форма не различает эти значения — нужен контекст. Для tu будет custas, для eu — custo. Для этого правильного глагола на -ar уберите -ar и добавьте -a: cust- + -a → custa."
+        }
+      }
+    }
+  },
+  "provar": {
+    "meaning": {
+      "en": "taste / try on",
+      "uk": "куштувати / приміряти",
+      "ru": "пробовать / примерять"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "provo"
+        ],
+        [
+          "tu",
+          "provas"
+        ],
+        [
+          "ele / ela / você",
+          "prova"
+        ],
+        [
+          "nós",
+          "provamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "provam"
+        ]
+      ]
+    },
+    "forms": {
+      "provar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "provar is the infinitive: “taste / try on”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "provar — інфінітив: «куштувати / приміряти». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "provar — инфинитив: «пробовать / примерять». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "experimentar": {
+    "meaning": {
+      "en": "try on / try out",
+      "uk": "приміряти / випробовувати",
+      "ru": "примерять / пробовать"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "experimento"
+        ],
+        [
+          "tu",
+          "experimentas"
+        ],
+        [
+          "ele / ela / você",
+          "experimenta"
+        ],
+        [
+          "nós",
+          "experimentamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "experimentam"
+        ]
+      ]
+    },
+    "forms": {
+      "experimentar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "experimentar is the infinitive: “try on / try out”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "experimentar — інфінітив: «приміряти / випробовувати». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "experimentar — инфинитив: «примерять / пробовать». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "limpar": {
+    "meaning": {
+      "en": "clean",
+      "uk": "чистити",
+      "ru": "чистить"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "limpo"
+        ],
+        [
+          "tu",
+          "limpas"
+        ],
+        [
+          "ele / ela / você",
+          "limpa"
+        ],
+        [
+          "nós",
+          "limpamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "limpam"
+        ]
+      ]
+    },
+    "forms": {
+      "limpar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "limpar is the infinitive: “clean”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "limpar — інфінітив: «чистити». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "limpar — инфинитив: «чистить». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "cortar": {
+    "meaning": {
+      "en": "cut",
+      "uk": "різати",
+      "ru": "резать"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "corto"
+        ],
+        [
+          "tu",
+          "cortas"
+        ],
+        [
+          "ele / ela / você",
+          "corta"
+        ],
+        [
+          "nós",
+          "cortamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "cortam"
+        ]
+      ]
+    },
+    "forms": {
+      "cortar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "cortar is the infinitive: “cut”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "cortar — інфінітив: «різати». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "cortar — инфинитив: «резать». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "pesar": {
+    "meaning": {
+      "en": "weigh",
+      "uk": "зважувати",
+      "ru": "взвешивать"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "peso"
+        ],
+        [
+          "tu",
+          "pesas"
+        ],
+        [
+          "ele / ela / você",
+          "pesa"
+        ],
+        [
+          "nós",
+          "pesamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "pesam"
+        ]
+      ]
+    },
+    "forms": {
+      "pesar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "pesar is the infinitive: “weigh”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "pesar — інфінітив: «зважувати». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "pesar — инфинитив: «взвешивать». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "trocar": {
+    "meaning": {
+      "en": "exchange / change",
+      "uk": "обмінювати",
+      "ru": "обменивать"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "troco"
+        ],
+        [
+          "tu",
+          "trocas"
+        ],
+        [
+          "ele / ela / você",
+          "troca"
+        ],
+        [
+          "nós",
+          "trocamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "trocam"
+        ]
+      ]
+    },
+    "forms": {
+      "trocar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "trocar is the infinitive: “exchange / change”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "trocar — інфінітив: «обмінювати». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "trocar — инфинитив: «обменивать». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "desculpar": {
+    "meaning": {
+      "en": "excuse / forgive",
+      "uk": "вибачати",
+      "ru": "извинять / прощать"
+    },
+    "tables": {
+      "imperative": [
+        [
+          "tu",
+          "desculpa"
+        ],
+        [
+          "você / o senhor / a senhora",
+          "desculpe"
+        ],
+        [
+          "nós",
+          "desculpemos"
+        ],
+        [
+          "vocês",
+          "desculpem"
+        ]
+      ]
+    },
+    "forms": {
+      "desculpe": {
+        "tables": [
+          "imperative"
+        ],
+        "note": {
+          "en": "Desculpe comes from desculpar (‘excuse / forgive’) and is a polite singular command: ‘excuse me / sorry’. For a regular -ar verb, the polite command uses -e, while informal tu uses -a: desculpe versus desculpa. The implied subject is the listener who is asked to excuse you, even though English often just says ‘sorry’.",
+          "uk": "Desculpe походить від desculpar («вибачати») і є ввічливим наказом/проханням до однієї людини: «вибачте». Для правильного дієслова на -ar ввічлива форма має -e, а неформальна для tu — -a: desculpe та desculpa. Пропущений підмет — співрозмовник, якого просять вибачити, хоча зміст фрази — звичайне вибачення.",
+          "ru": "Desculpe происходит от desculpar («извинять / прощать») и является вежливым приказом/просьбой к одному человеку: «извините». Для правильного глагола на -ar вежливая форма имеет -e, а неформальная для tu — -a: desculpe и desculpa. Опущенное подлежащее — собеседник, которого просят извинить, хотя смысл фразы — обычное извинение."
+        }
+      }
+    }
+  },
+  "entregar": {
+    "meaning": {
+      "en": "deliver / hand over",
+      "uk": "доставляти / передавати",
+      "ru": "доставлять / передавать"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "entrego"
+        ],
+        [
+          "tu",
+          "entregas"
+        ],
+        [
+          "ele / ela / você",
+          "entrega"
+        ],
+        [
+          "nós",
+          "entregamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "entregam"
+        ]
+      ]
+    },
+    "forms": {
+      "entregar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "entregar is the infinitive: “deliver / hand over”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "entregar — інфінітив: «доставляти / передавати». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "entregar — инфинитив: «доставлять / передавать». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "chegar": {
+    "meaning": {
+      "en": "arrive",
+      "uk": "прибувати / приходити",
+      "ru": "прибывать / приходить"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "chego"
+        ],
+        [
+          "tu",
+          "chegas"
+        ],
+        [
+          "ele / ela / você",
+          "chega"
+        ],
+        [
+          "nós",
+          "chegamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "chegam"
+        ]
+      ]
+    },
+    "forms": {
+      "chegar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "chegar is the infinitive: “arrive”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "chegar — інфінітив: «прибувати / приходити». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "chegar — инфинитив: «прибывать / приходить». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      },
+      "chega": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "chega is the third-person singular present of chegar (“arrive”): ele/ela/você chega. It can mean “he/she/it” or address one person politely as “you”. The form alone does not distinguish these subjects; the situation does. Informal tu uses chegas, and eu uses chego. With this regular -ar verb, remove -ar and add -a: cheg- + -a → chega.",
+          "uk": "chega — третя особа однини теперішнього часу від chegar («прибувати / приходити»): ele/ela/você chega. Це може бути «він/вона/воно» або ввічливе звертання «Ви» до однієї людини. Сама форма не розрізняє ці значення — потрібен контекст. Для tu буде chegas, для eu — chego. Для цього правильного дієслова на -ar відкиньте -ar та додайте -a: cheg- + -a → chega.",
+          "ru": "chega — третье лицо единственного числа настоящего времени от chegar («прибывать / приходить»): ele/ela/você chega. Это может быть «он/она/оно» или вежливое обращение «Вы» к одному человеку. Сама форма не различает эти значения — нужен контекст. Для tu будет chegas, для eu — chego. Для этого правильного глагола на -ar уберите -ar и добавьте -a: cheg- + -a → chega."
+        }
+      }
+    }
+  },
+  "enviar": {
+    "meaning": {
+      "en": "send",
+      "uk": "надсилати",
+      "ru": "отправлять"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "envio"
+        ],
+        [
+          "tu",
+          "envias"
+        ],
+        [
+          "ele / ela / você",
+          "envia"
+        ],
+        [
+          "nós",
+          "enviamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "enviam"
+        ]
+      ]
+    },
+    "forms": {
+      "enviar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "enviar is the infinitive: “send”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "enviar — інфінітив: «надсилати». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "enviar — инфинитив: «отправлять». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "imprimir": {
+    "meaning": {
+      "en": "print",
+      "uk": "друкувати",
+      "ru": "печатать"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "imprimo"
+        ],
+        [
+          "tu",
+          "imprimes"
+        ],
+        [
+          "ele / ela / você",
+          "imprime"
+        ],
+        [
+          "nós",
+          "imprimimos"
+        ],
+        [
+          "eles / elas / vocês",
+          "imprimem"
+        ]
+      ]
+    },
+    "forms": {
+      "imprimir": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "imprimir is the infinitive: “print”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "imprimir — інфінітив: «друкувати». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "imprimir — инфинитив: «печатать». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "escrever": {
+    "meaning": {
+      "en": "write",
+      "uk": "писати",
+      "ru": "писать"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "escrevo"
+        ],
+        [
+          "tu",
+          "escreves"
+        ],
+        [
+          "ele / ela / você",
+          "escreve"
+        ],
+        [
+          "nós",
+          "escrevemos"
+        ],
+        [
+          "eles / elas / vocês",
+          "escrevem"
+        ]
+      ],
+      "imperative": [
+        [
+          "tu",
+          "escreve"
+        ],
+        [
+          "você / o senhor / a senhora",
+          "escreva"
+        ],
+        [
+          "nós",
+          "escrevamos"
+        ],
+        [
+          "vocês",
+          "escrevam"
+        ]
+      ]
+    },
+    "forms": {
+      "escrever": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "escrever is the infinitive: “write”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "escrever — інфінітив: «писати». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "escrever — инфинитив: «писать». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      },
+      "escreve": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "escreve is the third-person singular present of escrever (“write”): ele/ela/você escreve. It can mean “he/she/it” or address one person politely as “you”. The form alone does not distinguish these subjects; the situation does. Informal tu uses escreves, and eu uses escrevo. With this regular -er verb, remove -er and add -e: escrev- + -e → escreve.",
+          "uk": "escreve — третя особа однини теперішнього часу від escrever («писати»): ele/ela/você escreve. Це може бути «він/вона/воно» або ввічливе звертання «Ви» до однієї людини. Сама форма не розрізняє ці значення — потрібен контекст. Для tu буде escreves, для eu — escrevo. Для цього правильного дієслова на -er відкиньте -er та додайте -e: escrev- + -e → escreve.",
+          "ru": "escreve — третье лицо единственного числа настоящего времени от escrever («писать»): ele/ela/você escreve. Это может быть «он/она/оно» или вежливое обращение «Вы» к одному человеку. Сама форма не различает эти значения — нужен контекст. Для tu будет escreves, для eu — escrevo. Для этого правильного глагола на -er уберите -er и добавьте -e: escrev- + -e → escreve."
+        }
+      },
+      "escreva": {
+        "tables": [
+          "imperative"
+        ],
+        "note": {
+          "en": "Escreva is the polite singular command of escrever (‘write’). The -er verb uses an -a form in this command: escreva, not the present indicative escreve. Informal tu uses escreve. This is why escreva aqui asks the listener to write, rather than stating ‘I write’ (escrevo).",
+          "uk": "Escreva — ввічливий наказ/прохання до однієї людини від escrever («писати»). Дієслово на -er у цьому наказі має форму на -a: escreva, а не теперішнє дійсне escreve. Неформальна форма для tu — escreve. Тому escreva aqui просить співрозмовника написати, а не означає «я пишу» (escrevo).",
+          "ru": "Escreva — вежливый приказ/просьба к одному человеку от escrever («писать»). Глагол на -er в этом приказе имеет форму на -a: escreva, а не настоящее изъявительное escreve. Неформальная форма для tu — escreve. Поэтому escreva aqui просит собеседника написать, а не означает «я пишу» (escrevo)."
+        }
+      }
+    }
+  },
+  "achar": {
+    "meaning": {
+      "en": "think / find",
+      "uk": "вважати / знаходити",
+      "ru": "считать / находить"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "acho"
+        ],
+        [
+          "tu",
+          "achas"
+        ],
+        [
+          "ele / ela / você",
+          "acha"
+        ],
+        [
+          "nós",
+          "achamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "acham"
+        ]
+      ]
+    },
+    "forms": {
+      "acho": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "acho is the eu (“I”) form of achar (“think / find”) in the present indicative. Compare eu acho, tu achas and ele/ela/você acha: the verb changes with its subject. This form already identifies the speaker, so eu can be omitted. With this regular -ar verb, remove -ar and add -o: ach- + -o → acho.",
+          "uk": "acho — форма achar («вважати / знаходити») для eu («я») у теперішньому часі дійсного способу. Порівняйте eu acho, tu achas та ele/ela/você acha: дієслово змінюється залежно від особи. Ця форма вже вказує на мовця, тому eu можна опустити. Для цього правильного дієслова на -ar відкиньте -ar та додайте -o: ach- + -o → acho.",
+          "ru": "acho — форма achar («считать / находить») для eu («я») в настоящем времени изъявительного наклонения. Сравните eu acho, tu achas и ele/ela/você acha: глагол меняется в зависимости от лица. Эта форма уже указывает на говорящего, поэтому eu можно опустить. Для этого правильного глагола на -ar уберите -ar и добавьте -o: ach- + -o → acho."
+        }
+      }
+    }
+  },
+  "chamar": {
+    "meaning": {
+      "en": "call",
+      "uk": "кликати / викликати",
+      "ru": "звать / вызывать"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "chamo"
+        ],
+        [
+          "tu",
+          "chamas"
+        ],
+        [
+          "ele / ela / você",
+          "chama"
+        ],
+        [
+          "nós",
+          "chamamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "chamam"
+        ]
+      ]
+    },
+    "forms": {
+      "chamar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "chamar is the infinitive: “call”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "chamar — інфінітив: «кликати / викликати». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "chamar — инфинитив: «звать / вызывать». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "marcar": {
+    "meaning": {
+      "en": "book / schedule / mark",
+      "uk": "записувати / призначати / позначати",
+      "ru": "записывать / назначать / отмечать"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "marco"
+        ],
+        [
+          "tu",
+          "marcas"
+        ],
+        [
+          "ele / ela / você",
+          "marca"
+        ],
+        [
+          "nós",
+          "marcamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "marcam"
+        ]
+      ]
+    },
+    "forms": {
+      "marcar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "marcar is the infinitive: “book / schedule / mark”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "marcar — інфінітив: «записувати / призначати / позначати». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "marcar — инфинитив: «записывать / назначать / отмечать». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      },
+      "marcar-me": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "marcar-me contains the infinitive marcar (“book / schedule / mark”) and the attached pronoun -me. Here -me means “me” or “for me”; it is the recipient/object, not the subject. The other conjugated verb identifies who performs the action. A pronoun attached to an infinitive does not turn it into a personal present-tense form.",
+          "uk": "marcar-me містить інфінітив marcar («записувати / призначати / позначати») і приєднаний займенник -me. Тут -me означає «мене» або «для мене» — це об’єкт/отримувач, а не підмет. Хто виконує дію, показує особова форма іншого дієслова. Приєднання займенника не робить інфінітив особовою формою теперішнього часу.",
+          "ru": "marcar-me содержит инфинитив marcar («записывать / назначать / отмечать») и присоединённое местоимение -me. Здесь -me означает «меня» или «для меня» — это объект/получатель, а не подлежащее. Кто выполняет действие, показывает другой, спрягаемый глагол. Присоединение местоимения не превращает инфинитив в личную форму настоящего времени."
+        }
+      }
+    }
+  },
+  "reagendar": {
+    "meaning": {
+      "en": "reschedule",
+      "uk": "переносити запис",
+      "ru": "переносить запись"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "reagendo"
+        ],
+        [
+          "tu",
+          "reagendas"
+        ],
+        [
+          "ele / ela / você",
+          "reagenda"
+        ],
+        [
+          "nós",
+          "reagendamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "reagendam"
+        ]
+      ]
+    },
+    "forms": {
+      "reagendar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "reagendar is the infinitive: “reschedule”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "reagendar — інфінітив: «переносити запис». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "reagendar — инфинитив: «переносить запись». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "dever": {
+    "meaning": {
+      "en": "should / must / owe",
+      "uk": "мати зробити / бути належним / заборгувати",
+      "ru": "следует / быть должным / задолжать"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "devo"
+        ],
+        [
+          "tu",
+          "deves"
+        ],
+        [
+          "ele / ela / você",
+          "deve"
+        ],
+        [
+          "nós",
+          "devemos"
+        ],
+        [
+          "eles / elas / vocês",
+          "devem"
+        ]
+      ]
+    },
+    "forms": {
+      "devo": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "devo is the eu (“I”) form of dever (“should / must / owe”) in the present indicative. Compare eu devo, tu deves and ele/ela/você deve: the verb changes with its subject. This form already identifies the speaker, so eu can be omitted. With this regular -er verb, remove -er and add -o: dev- + -o → devo.",
+          "uk": "devo — форма dever («мати зробити / бути належним / заборгувати») для eu («я») у теперішньому часі дійсного способу. Порівняйте eu devo, tu deves та ele/ela/você deve: дієслово змінюється залежно від особи. Ця форма вже вказує на мовця, тому eu можна опустити. Для цього правильного дієслова на -er відкиньте -er та додайте -o: dev- + -o → devo.",
+          "ru": "devo — форма dever («следует / быть должным / задолжать») для eu («я») в настоящем времени изъявительного наклонения. Сравните eu devo, tu deves и ele/ela/você deve: глагол меняется в зависимости от лица. Эта форма уже указывает на говорящего, поэтому eu можно опустить. Для этого правильного глагола на -er уберите -er и добавьте -o: dev- + -o → devo."
+        }
+      }
+    }
+  },
+  "atender": {
+    "meaning": {
+      "en": "serve / see patients / answer",
+      "uk": "обслуговувати / приймати пацієнтів / відповідати",
+      "ru": "обслуживать / принимать пациентов / отвечать"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "atendo"
+        ],
+        [
+          "tu",
+          "atendes"
+        ],
+        [
+          "ele / ela / você",
+          "atende"
+        ],
+        [
+          "nós",
+          "atendemos"
+        ],
+        [
+          "eles / elas / vocês",
+          "atendem"
+        ]
+      ]
+    },
+    "forms": {
+      "atende": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "atende is the third-person singular present of atender (“serve / see patients / answer”): ele/ela/você atende. It can mean “he/she/it” or address one person politely as “you”. The form alone does not distinguish these subjects; the situation does. Informal tu uses atendes, and eu uses atendo. With this regular -er verb, remove -er and add -e: atend- + -e → atende.",
+          "uk": "atende — третя особа однини теперішнього часу від atender («обслуговувати / приймати пацієнтів / відповідати»): ele/ela/você atende. Це може бути «він/вона/воно» або ввічливе звертання «Ви» до однієї людини. Сама форма не розрізняє ці значення — потрібен контекст. Для tu буде atendes, для eu — atendo. Для цього правильного дієслова на -er відкиньте -er та додайте -e: atend- + -e → atende.",
+          "ru": "atende — третье лицо единственного числа настоящего времени от atender («обслуживать / принимать пациентов / отвечать»): ele/ela/você atende. Это может быть «он/она/оно» или вежливое обращение «Вы» к одному человеку. Сама форма не различает эти значения — нужен контекст. Для tu будет atendes, для eu — atendo. Для этого правильного глагола на -er уберите -er и добавьте -e: atend- + -e → atende."
+        }
+      }
+    }
+  },
+  "passar": {
+    "meaning": {
+      "en": "pass / go past",
+      "uk": "проходити / пропускати",
+      "ru": "проходить / пропускать"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "passo"
+        ],
+        [
+          "tu",
+          "passas"
+        ],
+        [
+          "ele / ela / você",
+          "passa"
+        ],
+        [
+          "nós",
+          "passamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "passam"
+        ]
+      ],
+      "imperative": [
+        [
+          "tu",
+          "passa"
+        ],
+        [
+          "você / o senhor / a senhora",
+          "passe"
+        ],
+        [
+          "nós",
+          "passemos"
+        ],
+        [
+          "vocês",
+          "passem"
+        ]
+      ]
+    },
+    "forms": {
+      "passar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "passar is the infinitive: “pass / go past”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "passar — інфінітив: «проходити / пропускати». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "passar — инфинитив: «проходить / пропускать». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      },
+      "passe": {
+        "tables": [
+          "imperative"
+        ],
+        "note": {
+          "en": "Passe is the polite singular command of passar (‘pass / go ahead’): stem pass- plus -e. Informal tu uses passa. The verb asks the listener to move; it does not name the speaker. The command can therefore stand without a pronoun, as in passe primeiro, ‘go ahead first’.",
+          "uk": "Passe — ввічливий наказ/прохання до однієї людини від passar («проходити»): основа pass- плюс -e. Неформальна форма для tu — passa. Дієслово просить рухатися співрозмовника, а не називає мовця. Тому наказ можливий без займенника: passe primeiro — «проходьте першим/першою».",
+          "ru": "Passe — вежливый приказ/просьба к одному человеку от passar («проходить»): основа pass- плюс -e. Неформальная форма для tu — passa. Глагол просит двигаться собеседника, а не называет говорящего. Поэтому приказ возможен без местоимения: passe primeiro — «проходите первым/первой»."
+        }
+      }
+    }
+  },
+  "ajudar": {
+    "meaning": {
+      "en": "help",
+      "uk": "допомагати",
+      "ru": "помогать"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "ajudo"
+        ],
+        [
+          "tu",
+          "ajudas"
+        ],
+        [
+          "ele / ela / você",
+          "ajuda"
+        ],
+        [
+          "nós",
+          "ajudamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "ajudam"
+        ]
+      ]
+    },
+    "forms": {
+      "ajudar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "ajudar is the infinitive: “help”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "ajudar — інфінітив: «допомагати». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "ajudar — инфинитив: «помогать». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      },
+      "ajudar-me": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "ajudar-me contains the infinitive ajudar (“help”) and the attached pronoun -me. Here -me means “me” or “for me”; it is the recipient/object, not the subject. The other conjugated verb identifies who performs the action. A pronoun attached to an infinitive does not turn it into a personal present-tense form.",
+          "uk": "ajudar-me містить інфінітив ajudar («допомагати») і приєднаний займенник -me. Тут -me означає «мене» або «для мене» — це об’єкт/отримувач, а не підмет. Хто виконує дію, показує особова форма іншого дієслова. Приєднання займенника не робить інфінітив особовою формою теперішнього часу.",
+          "ru": "ajudar-me содержит инфинитив ajudar («помогать») и присоединённое местоимение -me. Здесь -me означает «меня» или «для меня» — это объект/получатель, а не подлежащее. Кто выполняет действие, показывает другой, спрягаемый глагол. Присоединение местоимения не превращает инфинитив в личную форму настоящего времени."
+        }
+      }
+    }
+  },
+  "levantar": {
+    "meaning": {
+      "en": "lift / withdraw cash",
+      "uk": "піднімати / знімати готівку",
+      "ru": "поднимать / снимать наличные"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "levanto"
+        ],
+        [
+          "tu",
+          "levantas"
+        ],
+        [
+          "ele / ela / você",
+          "levanta"
+        ],
+        [
+          "nós",
+          "levantamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "levantam"
+        ]
+      ]
+    },
+    "forms": {
+      "levantar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "levantar is the infinitive: “lift / withdraw cash”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "levantar — інфінітив: «піднімати / знімати готівку». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "levantar — инфинитив: «поднимать / снимать наличные». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "mandar": {
+    "meaning": {
+      "en": "send / tell someone to",
+      "uk": "надсилати / веліти",
+      "ru": "посылать / велеть"
+    },
+    "tables": {
+      "imperative": [
+        [
+          "tu",
+          "manda"
+        ],
+        [
+          "você / o senhor / a senhora",
+          "mande"
+        ],
+        [
+          "nós",
+          "mandemos"
+        ],
+        [
+          "vocês",
+          "mandem"
+        ]
+      ]
+    },
+    "forms": {
+      "manda": {
+        "tables": [
+          "imperative"
+        ],
+        "note": {
+          "en": "Manda comes from mandar (‘send’) and here is an affirmative command for informal tu: ‘send / say hello’. A regular -ar tu command matches the ele/ela present form, manda; the polite command would be mande. Context makes it an instruction, not a statement ‘he/she sends’.",
+          "uk": "Manda походить від mandar («надсилати») і тут є стверджувальним наказом для неформального tu: «передай». У правильного дієслова на -ar наказ для tu збігається з теперішньою формою ele/ela: manda; ввічлива форма — mande. Контекст визначає прохання, а не твердження «він/вона надсилає».",
+          "ru": "Manda происходит от mandar («посылать») и здесь является утвердительным приказом для неформального tu: «передай». У правильного глагола на -ar приказ для tu совпадает с настоящей формой ele/ela: manda; вежливая форма — mande. Контекст определяет просьбу, а не утверждение «он/она посылает»."
+        }
+      }
+    }
+  },
+  "falar": {
+    "meaning": {
+      "en": "speak / talk",
+      "uk": "говорити",
+      "ru": "говорить"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "falo"
+        ],
+        [
+          "tu",
+          "falas"
+        ],
+        [
+          "ele / ela / você",
+          "fala"
+        ],
+        [
+          "nós",
+          "falamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "falam"
+        ]
+      ]
+    },
+    "forms": {
+      "falar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "falar is the infinitive: “speak / talk”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "falar — інфінітив: «говорити». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "falar — инфинитив: «говорить». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      },
+      "falo": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "falo is the eu (“I”) form of falar (“speak / talk”) in the present indicative. Compare eu falo, tu falas and ele/ela/você fala: the verb changes with its subject. This form already identifies the speaker, so eu can be omitted. With this regular -ar verb, remove -ar and add -o: fal- + -o → falo.",
+          "uk": "falo — форма falar («говорити») для eu («я») у теперішньому часі дійсного способу. Порівняйте eu falo, tu falas та ele/ela/você fala: дієслово змінюється залежно від особи. Ця форма вже вказує на мовця, тому eu можна опустити. Для цього правильного дієслова на -ar відкиньте -ar та додайте -o: fal- + -o → falo.",
+          "ru": "falo — форма falar («говорить») для eu («я») в настоящем времени изъявительного наклонения. Сравните eu falo, tu falas и ele/ela/você fala: глагол меняется в зависимости от лица. Эта форма уже указывает на говорящего, поэтому eu можно опустить. Для этого правильного глагола на -ar уберите -ar и добавьте -o: fal- + -o → falo."
+        }
+      },
+      "fala": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "fala is the third-person singular present of falar (“speak / talk”): ele/ela/você fala. It can mean “he/she/it” or address one person politely as “you”. The form alone does not distinguish these subjects; the situation does. Informal tu uses falas, and eu uses falo. With this regular -ar verb, remove -ar and add -a: fal- + -a → fala.",
+          "uk": "fala — третя особа однини теперішнього часу від falar («говорити»): ele/ela/você fala. Це може бути «він/вона/воно» або ввічливе звертання «Ви» до однієї людини. Сама форма не розрізняє ці значення — потрібен контекст. Для tu буде falas, для eu — falo. Для цього правильного дієслова на -ar відкиньте -ar та додайте -a: fal- + -a → fala.",
+          "ru": "fala — третье лицо единственного числа настоящего времени от falar («говорить»): ele/ela/você fala. Это может быть «он/она/оно» или вежливое обращение «Вы» к одному человеку. Сама форма не различает эти значения — нужен контекст. Для tu будет falas, для eu — falo. Для этого правильного глагола на -ar уберите -ar и добавьте -a: fal- + -a → fala."
+        }
+      }
+    }
+  },
+  "soletrar": {
+    "meaning": {
+      "en": "spell out",
+      "uk": "називати по літерах",
+      "ru": "произносить по буквам"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "soletro"
+        ],
+        [
+          "tu",
+          "soletras"
+        ],
+        [
+          "ele / ela / você",
+          "soletra"
+        ],
+        [
+          "nós",
+          "soletramos"
+        ],
+        [
+          "eles / elas / vocês",
+          "soletram"
+        ]
+      ]
+    },
+    "forms": {
+      "soletrar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "soletrar is the infinitive: “spell out”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "soletrar — інфінітив: «називати по літерах». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "soletrar — инфинитив: «произносить по буквам». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "aprender": {
+    "meaning": {
+      "en": "learn",
+      "uk": "вчити / навчатися",
+      "ru": "учить / учиться"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "aprendo"
+        ],
+        [
+          "tu",
+          "aprendes"
+        ],
+        [
+          "ele / ela / você",
+          "aprende"
+        ],
+        [
+          "nós",
+          "aprendemos"
+        ],
+        [
+          "eles / elas / vocês",
+          "aprendem"
+        ]
+      ]
+    },
+    "forms": {
+      "aprender": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "aprender is the infinitive: “learn”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "aprender — інфінітив: «вчити / навчатися». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "aprender — инфинитив: «учить / учиться». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "voltar": {
+    "meaning": {
+      "en": "return / come back",
+      "uk": "повертатися",
+      "ru": "возвращаться"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "volto"
+        ],
+        [
+          "tu",
+          "voltas"
+        ],
+        [
+          "ele / ela / você",
+          "volta"
+        ],
+        [
+          "nós",
+          "voltamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "voltam"
+        ]
+      ]
+    },
+    "forms": {
+      "volto": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "volto is the eu (“I”) form of voltar (“return / come back”) in the present indicative. Compare eu volto, tu voltas and ele/ela/você volta: the verb changes with its subject. This form already identifies the speaker, so eu can be omitted. With this regular -ar verb, remove -ar and add -o: volt- + -o → volto.",
+          "uk": "volto — форма voltar («повертатися») для eu («я») у теперішньому часі дійсного способу. Порівняйте eu volto, tu voltas та ele/ela/você volta: дієслово змінюється залежно від особи. Ця форма вже вказує на мовця, тому eu можна опустити. Для цього правильного дієслова на -ar відкиньте -ar та додайте -o: volt- + -o → volto.",
+          "ru": "volto — форма voltar («возвращаться») для eu («я») в настоящем времени изъявительного наклонения. Сравните eu volto, tu voltas и ele/ela/você volta: глагол меняется в зависимости от лица. Эта форма уже указывает на говорящего, поэтому eu можно опустить. Для этого правильного глагола на -ar уберите -ar и добавьте -o: volt- + -o → volto."
+        }
+      }
+    }
+  },
+  "esperar": {
+    "meaning": {
+      "en": "wait / hope",
+      "uk": "чекати / сподіватися",
+      "ru": "ждать / надеяться"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "espero"
+        ],
+        [
+          "tu",
+          "esperas"
+        ],
+        [
+          "ele / ela / você",
+          "espera"
+        ],
+        [
+          "nós",
+          "esperamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "esperam"
+        ]
+      ],
+      "imperative": [
+        [
+          "tu",
+          "espera"
+        ],
+        [
+          "você / o senhor / a senhora",
+          "espere"
+        ],
+        [
+          "nós",
+          "esperemos"
+        ],
+        [
+          "vocês",
+          "esperem"
+        ]
+      ]
+    },
+    "forms": {
+      "esperar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "esperar is the infinitive: “wait / hope”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "esperar — інфінітив: «чекати / сподіватися». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "esperar — инфинитив: «ждать / надеяться». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      },
+      "espere": {
+        "tables": [
+          "imperative"
+        ],
+        "note": {
+          "en": "Espere comes from esperar (‘wait’) and is a polite singular command to the listener. Regular -ar verbs use -e for this polite form, versus -a for informal tu: espere versus espera. Adding por favor makes the request courteous; the unstated subject is ‘you’, not ‘I’.",
+          "uk": "Espere походить від esperar («чекати») і є ввічливим наказом/проханням до одного співрозмовника. Правильні дієслова на -ar у цій ввічливій формі мають -e, а для неформального tu — -a: espere та espera. Por favor додає ввічливості; пропущений підмет — «Ви», а не «я».",
+          "ru": "Espere происходит от esperar («ждать») и является вежливым приказом/просьбой к одному собеседнику. Правильные глаголы на -ar в этой вежливой форме имеют -e, а для неформального tu — -a: espere и espera. Por favor добавляет вежливость; опущенное подлежащее — «Вы», а не «я»."
+        }
+      }
+    }
+  },
+  "mostrar": {
+    "meaning": {
+      "en": "show",
+      "uk": "показувати",
+      "ru": "показывать"
+    },
+    "tables": {
+      "imperative": [
+        [
+          "tu",
+          "mostra"
+        ],
+        [
+          "você / o senhor / a senhora",
+          "mostre"
+        ],
+        [
+          "nós",
+          "mostremos"
+        ],
+        [
+          "vocês",
+          "mostrem"
+        ]
+      ]
+    },
+    "forms": {
+      "mostra-me": {
+        "tables": [
+          "imperative"
+        ],
+        "note": {
+          "en": "Mostra-me is an informal tu command of mostrar (‘show’), with -me meaning ‘to me’. Remove the -s from tu mostras to get the affirmative command mostra; the polite form would be mostre-me. Me is the recipient, while the implied subject ‘you’ performs the showing.",
+          "uk": "Mostra-me — неформальний наказ для tu від mostrar («показувати»), із -me у значенні «мені». Відкиньте -s у tu mostras, щоб отримати стверджувальний наказ mostra; ввічлива форма — mostre-me. Me позначає отримувача, а показувати має пропущений підмет «ти».",
+          "ru": "Mostra-me — неформальный приказ для tu от mostrar («показывать»), с -me в значении «мне». Уберите -s в tu mostras, чтобы получить утвердительный приказ mostra; вежливая форма — mostre-me. Me обозначает получателя, а показывать должно опущенное подлежащее «ты»."
+        }
+      }
+    }
+  },
+  "entrar": {
+    "meaning": {
+      "en": "enter / come in",
+      "uk": "входити",
+      "ru": "входить"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "entro"
+        ],
+        [
+          "tu",
+          "entras"
+        ],
+        [
+          "ele / ela / você",
+          "entra"
+        ],
+        [
+          "nós",
+          "entramos"
+        ],
+        [
+          "eles / elas / vocês",
+          "entram"
+        ]
+      ]
+    },
+    "forms": {
+      "entrar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "entrar is the infinitive: “enter / come in”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "entrar — інфінітив: «входити». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "entrar — инфинитив: «входить». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "trabalhar": {
+    "meaning": {
+      "en": "work",
+      "uk": "працювати",
+      "ru": "работать"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "trabalho"
+        ],
+        [
+          "tu",
+          "trabalhas"
+        ],
+        [
+          "ele / ela / você",
+          "trabalha"
+        ],
+        [
+          "nós",
+          "trabalhamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "trabalham"
+        ]
+      ]
+    },
+    "forms": {
+      "trabalha": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "trabalha is the third-person singular present of trabalhar (“work”): ele/ela/você trabalha. It can mean “he/she/it” or address one person politely as “you”. The form alone does not distinguish these subjects; the situation does. Informal tu uses trabalhas, and eu uses trabalho. With this regular -ar verb, remove -ar and add -a: trabalh- + -a → trabalha.",
+          "uk": "trabalha — третя особа однини теперішнього часу від trabalhar («працювати»): ele/ela/você trabalha. Це може бути «він/вона/воно» або ввічливе звертання «Ви» до однієї людини. Сама форма не розрізняє ці значення — потрібен контекст. Для tu буде trabalhas, для eu — trabalho. Для цього правильного дієслова на -ar відкиньте -ar та додайте -a: trabalh- + -a → trabalha.",
+          "ru": "trabalha — третье лицо единственного числа настоящего времени от trabalhar («работать»): ele/ela/você trabalha. Это может быть «он/она/оно» или вежливое обращение «Вы» к одному человеку. Сама форма не различает эти значения — нужен контекст. Для tu будет trabalhas, для eu — trabalho. Для этого правильного глагола на -ar уберите -ar и добавьте -a: trabalh- + -a → trabalha."
+        }
+      },
+      "trabalhamos": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "trabalhamos comes from trabalhar (“work”) and is the present-tense nós (“we”) form. The -mos ending of the verb identifies the first-person plural, so nós is usually optional. Compare eu trabalho (“I”) with nós trabalhamos (“we”). With this regular -ar verb, remove -ar and add -amos: trabalh- + -amos → trabalhamos.",
+          "uk": "trabalhamos походить від trabalhar («працювати») і є формою теперішнього часу для nós («ми»). Закінчення дієслова -mos вказує на першу особу множини, тому nós зазвичай можна опустити. Порівняйте eu trabalho («я») та nós trabalhamos («ми»). Для цього правильного дієслова на -ar відкиньте -ar та додайте -amos: trabalh- + -amos → trabalhamos.",
+          "ru": "trabalhamos происходит от trabalhar («работать») и является формой настоящего времени для nós («мы»). Окончание глагола -mos указывает на первое лицо множественного числа, поэтому nós обычно можно опустить. Сравните eu trabalho («я») и nós trabalhamos («мы»). Для этого правильного глагола на -ar уберите -ar и добавьте -amos: trabalh- + -amos → trabalhamos."
+        }
+      },
+      "trabalham": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "trabalham is the plural present form of trabalhar (“work”) for eles/elas (“they”) or vocês (“you”, several people). Compare singular ele/ela/você trabalha with plural eles/elas/vocês trabalham. Context tells you whether it means “they” or “you”. With this regular -ar verb, remove -ar and add -am: trabalh- + -am → trabalham.",
+          "uk": "trabalham — форма множини теперішнього часу від trabalhar («працювати») для eles/elas («вони») або vocês («ви», кілька людей). Порівняйте однину ele/ela/você trabalha та множину eles/elas/vocês trabalham. Контекст підказує, чи це «вони», чи «ви». Для цього правильного дієслова на -ar відкиньте -ar та додайте -am: trabalh- + -am → trabalham.",
+          "ru": "trabalham — форма множественного числа настоящего времени от trabalhar («работать») для eles/elas («они») или vocês («вы», несколько людей). Сравните единственное число ele/ela/você trabalha и множественное eles/elas/vocês trabalham. Контекст подсказывает, значит ли это «они» или «вы». Для этого правильного глагола на -ar уберите -ar и добавьте -am: trabalh- + -am → trabalham."
+        }
+      }
+    }
+  },
+  "lamentar": {
+    "meaning": {
+      "en": "regret / be sorry",
+      "uk": "шкодувати / співчувати",
+      "ru": "сожалеть / сочувствовать"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "lamento"
+        ],
+        [
+          "tu",
+          "lamentas"
+        ],
+        [
+          "ele / ela / você",
+          "lamenta"
+        ],
+        [
+          "nós",
+          "lamentamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "lamentam"
+        ]
+      ]
+    },
+    "forms": {
+      "lamento": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "lamento is the eu (“I”) form of lamentar (“regret / be sorry”) in the present indicative. Compare eu lamento, tu lamentas and ele/ela/você lamenta: the verb changes with its subject. This form already identifies the speaker, so eu can be omitted. With this regular -ar verb, remove -ar and add -o: lament- + -o → lamento.",
+          "uk": "lamento — форма lamentar («шкодувати / співчувати») для eu («я») у теперішньому часі дійсного способу. Порівняйте eu lamento, tu lamentas та ele/ela/você lamenta: дієслово змінюється залежно від особи. Ця форма вже вказує на мовця, тому eu можна опустити. Для цього правильного дієслова на -ar відкиньте -ar та додайте -o: lament- + -o → lamento.",
+          "ru": "lamento — форма lamentar («сожалеть / сочувствовать») для eu («я») в настоящем времени изъявительного наклонения. Сравните eu lamento, tu lamentas и ele/ela/você lamenta: глагол меняется в зависимости от лица. Эта форма уже указывает на говорящего, поэтому eu можно опустить. Для этого правильного глагола на -ar уберите -ar и добавьте -o: lament- + -o → lamento."
+        }
+      }
+    }
+  },
+  "perceber": {
+    "meaning": {
+      "en": "understand / notice",
+      "uk": "розуміти / помічати",
+      "ru": "понимать / замечать"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "percebo"
+        ],
+        [
+          "tu",
+          "percebes"
+        ],
+        [
+          "ele / ela / você",
+          "percebe"
+        ],
+        [
+          "nós",
+          "percebemos"
+        ],
+        [
+          "eles / elas / vocês",
+          "percebem"
+        ]
+      ]
+    },
+    "forms": {
+      "perceber": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "perceber is the infinitive: “understand / notice”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "perceber — інфінітив: «розуміти / помічати». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "perceber — инфинитив: «понимать / замечать». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      },
+      "percebo": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "percebo is the eu (“I”) form of perceber (“understand / notice”) in the present indicative. Compare eu percebo, tu percebes and ele/ela/você percebe: the verb changes with its subject. This form already identifies the speaker, so eu can be omitted. With this regular -er verb, remove -er and add -o: perceb- + -o → percebo.",
+          "uk": "percebo — форма perceber («розуміти / помічати») для eu («я») у теперішньому часі дійсного способу. Порівняйте eu percebo, tu percebes та ele/ela/você percebe: дієслово змінюється залежно від особи. Ця форма вже вказує на мовця, тому eu можна опустити. Для цього правильного дієслова на -er відкиньте -er та додайте -o: perceb- + -o → percebo.",
+          "ru": "percebo — форма perceber («понимать / замечать») для eu («я») в настоящем времени изъявительного наклонения. Сравните eu percebo, tu percebes и ele/ela/você percebe: глагол меняется в зависимости от лица. Эта форма уже указывает на говорящего, поэтому eu можно опустить. Для этого правильного глагола на -er уберите -er и добавьте -o: perceb- + -o → percebo."
+        }
+      }
+    }
+  },
+  "fumar": {
+    "meaning": {
+      "en": "smoke",
+      "uk": "курити",
+      "ru": "курить"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "fumo"
+        ],
+        [
+          "tu",
+          "fumas"
+        ],
+        [
+          "ele / ela / você",
+          "fuma"
+        ],
+        [
+          "nós",
+          "fumamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "fumam"
+        ]
+      ]
+    },
+    "forms": {
+      "fumar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "fumar is the infinitive: “smoke”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "fumar — інфінітив: «курити». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "fumar — инфинитив: «курить». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "avariar": {
+    "meaning": {
+      "en": "break down",
+      "uk": "ламатися",
+      "ru": "ломаться"
+    },
+    "tables": {
+      "preterite": [
+        [
+          "eu",
+          "avariei"
+        ],
+        [
+          "tu",
+          "avariaste"
+        ],
+        [
+          "ele / ela / você",
+          "avariou"
+        ],
+        [
+          "nós",
+          "avariámos / avariamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "avariaram"
+        ]
+      ]
+    },
+    "forms": {
+      "avariou": {
+        "tables": [
+          "preterite"
+        ],
+        "note": {
+          "en": "Avariou is the third-person singular completed past of avariar (‘break down’). For a regular -ar verb, use the stem avari- plus -ou. Here o carro or o computador is the subject: it broke down. Eu would use avariei; with several machines, use avariaram.",
+          "uk": "Avariou — третя особа однини завершеного минулого від avariar («ламатися»). Для правильного дієслова на -ar це основа avari- плюс -ou. Тут підмет — o carro або o computador: він зламався. Для eu буде avariei, а для кількох пристроїв — avariaram.",
+          "ru": "Avariou — третье лицо единственного числа завершённого прошедшего от avariar («ломаться»). Для правильного глагола на -ar это основа avari- плюс -ou. Здесь подлежащее — o carro или o computador: он сломался. Для eu будет avariei, а для нескольких устройств — avariaram."
+        }
+      }
+    }
+  },
+  "subir": {
+    "meaning": {
+      "en": "go up",
+      "uk": "підніматися",
+      "ru": "подниматься"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "subo"
+        ],
+        [
+          "tu",
+          "sobes"
+        ],
+        [
+          "ele / ela / você",
+          "sobe"
+        ],
+        [
+          "nós",
+          "subimos"
+        ],
+        [
+          "eles / elas / vocês",
+          "sobem"
+        ]
+      ]
+    },
+    "forms": {
+      "subir": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "subir is the infinitive: “go up”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "subir — інфінітив: «підніматися». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "subir — инфинитив: «подниматься». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "descer": {
+    "meaning": {
+      "en": "go down",
+      "uk": "спускатися",
+      "ru": "спускаться"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "desço"
+        ],
+        [
+          "tu",
+          "desces"
+        ],
+        [
+          "ele / ela / você",
+          "desce"
+        ],
+        [
+          "nós",
+          "descemos"
+        ],
+        [
+          "eles / elas / vocês",
+          "descem"
+        ]
+      ]
+    },
+    "forms": {
+      "descer": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "descer is the infinitive: “go down”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "descer — інфінітив: «спускатися». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "descer — инфинитив: «спускаться». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "partir": {
+    "meaning": {
+      "en": "depart / leave",
+      "uk": "вирушати / відправлятися",
+      "ru": "отправляться / уезжать"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "parto"
+        ],
+        [
+          "tu",
+          "partes"
+        ],
+        [
+          "ele / ela / você",
+          "parte"
+        ],
+        [
+          "nós",
+          "partimos"
+        ],
+        [
+          "eles / elas / vocês",
+          "partem"
+        ]
+      ]
+    },
+    "forms": {
+      "parte": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "parte is the third-person singular present of partir (“depart / leave”): ele/ela/você parte. It can mean “he/she/it” or address one person politely as “you”. The form alone does not distinguish these subjects; the situation does. Informal tu uses partes, and eu uses parto. With this regular -ir verb, remove -ir and add -e: part- + -e → parte.",
+          "uk": "parte — третя особа однини теперішнього часу від partir («вирушати / відправлятися»): ele/ela/você parte. Це може бути «він/вона/воно» або ввічливе звертання «Ви» до однієї людини. Сама форма не розрізняє ці значення — потрібен контекст. Для tu буде partes, для eu — parto. Для цього правильного дієслова на -ir відкиньте -ir та додайте -e: part- + -e → parte.",
+          "ru": "parte — третье лицо единственного числа настоящего времени от partir («отправляться / уезжать»): ele/ela/você parte. Это может быть «он/она/оно» или вежливое обращение «Вы» к одному человеку. Сама форма не различает эти значения — нужен контекст. Для tu будет partes, для eu — parto. Для этого правильного глагола на -ir уберите -ir и добавьте -e: part- + -e → parte."
+        }
+      }
+    }
+  },
+  "carregar": {
+    "meaning": {
+      "en": "load / top up / carry",
+      "uk": "завантажувати / поповнювати / нести",
+      "ru": "загружать / пополнять / нести"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "carrego"
+        ],
+        [
+          "tu",
+          "carregas"
+        ],
+        [
+          "ele / ela / você",
+          "carrega"
+        ],
+        [
+          "nós",
+          "carregamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "carregam"
+        ]
+      ]
+    },
+    "forms": {
+      "carregar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "carregar is the infinitive: “load / top up / carry”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "carregar — інфінітив: «завантажувати / поповнювати / нести». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "carregar — инфинитив: «загружать / пополнять / нести». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "puxar": {
+    "meaning": {
+      "en": "pull / move towards you",
+      "uk": "тягнути / пересувати до себе",
+      "ru": "тянуть / передвигать к себе"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "puxo"
+        ],
+        [
+          "tu",
+          "puxas"
+        ],
+        [
+          "ele / ela / você",
+          "puxa"
+        ],
+        [
+          "nós",
+          "puxamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "puxam"
+        ]
+      ]
+    },
+    "forms": {
+      "puxar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "puxar is the infinitive: “pull / move towards you”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "puxar — інфінітив: «тягнути / пересувати до себе». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "puxar — инфинитив: «тянуть / передвигать к себе». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "virar": {
+    "meaning": {
+      "en": "turn",
+      "uk": "повертати",
+      "ru": "поворачивать"
+    },
+    "tables": {
+      "imperative": [
+        [
+          "tu",
+          "vira"
+        ],
+        [
+          "você / o senhor / a senhora",
+          "vire"
+        ],
+        [
+          "nós",
+          "viremos"
+        ],
+        [
+          "vocês",
+          "virem"
+        ]
+      ]
+    },
+    "forms": {
+      "vire": {
+        "tables": [
+          "imperative"
+        ],
+        "note": {
+          "en": "Vire is the polite singular command of virar (‘turn’), built from vir- plus -e. Informal tu uses vira; ‘I turn’ is viro. A direction such as vire à direita is an instruction to the listener, so its subject ‘you’ is normally left unstated.",
+          "uk": "Vire — ввічливий наказ до однієї людини від virar («повертати»), утворений з vir- та -e. Для неформального tu буде vira, а «я повертаю» — viro. Напрямок vire à direita є вказівкою співрозмовнику, тому підмет «Ви» зазвичай не називають.",
+          "ru": "Vire — вежливый приказ к одному человеку от virar («поворачивать»), образованный из vir- и -e. Для неформального tu будет vira, а «я поворачиваю» — viro. Направление vire à direita является указанием собеседнику, поэтому подлежащее «Вы» обычно не называют."
+        }
+      }
+    }
+  },
+  "baixar": {
+    "meaning": {
+      "en": "lower / turn down",
+      "uk": "знижувати / стишувати",
+      "ru": "понижать / убавлять"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "baixo"
+        ],
+        [
+          "tu",
+          "baixas"
+        ],
+        [
+          "ele / ela / você",
+          "baixa"
+        ],
+        [
+          "nós",
+          "baixamos"
+        ],
+        [
+          "eles / elas / vocês",
+          "baixam"
+        ]
+      ]
+    },
+    "forms": {
+      "baixar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "baixar is the infinitive: “lower / turn down”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "baixar — інфінітив: «знижувати / стишувати». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "baixar — инфинитив: «понижать / убавлять». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "parar": {
+    "meaning": {
+      "en": "stop",
+      "uk": "зупинятися / зупиняти",
+      "ru": "останавливаться / останавливать"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "paro"
+        ],
+        [
+          "tu",
+          "paras"
+        ],
+        [
+          "ele / ela / você",
+          "para"
+        ],
+        [
+          "nós",
+          "paramos"
+        ],
+        [
+          "eles / elas / vocês",
+          "param"
+        ]
+      ]
+    },
+    "forms": {
+      "parar": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "parar is the infinitive: “stop”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "parar — інфінітив: «зупинятися / зупиняти». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "parar — инфинитив: «останавливаться / останавливать». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "encher": {
+    "meaning": {
+      "en": "fill",
+      "uk": "наповнювати",
+      "ru": "наполнять"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "encho"
+        ],
+        [
+          "tu",
+          "enches"
+        ],
+        [
+          "ele / ela / você",
+          "enche"
+        ],
+        [
+          "nós",
+          "enchemos"
+        ],
+        [
+          "eles / elas / vocês",
+          "enchem"
+        ]
+      ]
+    },
+    "forms": {
+      "encher": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "encher is the infinitive: “fill”. It names the action without identifying I, you or we. After a modal verb or a preposition, the infinitive is often used; the conjugated verb or the context supplies the subject. Compare its present-tense forms below.",
+          "uk": "encher — інфінітив: «наповнювати». Це початкова форма дії, яка сама не вказує на «я», «ти» чи «ми». Після модального дієслова або прийменника часто вживається інфінітив; особу визначає дієслово в особовій формі або контекст. Нижче порівняйте форми теперішнього часу.",
+          "ru": "encher — инфинитив: «наполнять». Это начальная форма действия, которая сама не указывает на «я», «ты» или «мы». После модального глагола или предлога часто используется инфинитив; лицо определяет спрягаемый глагол или контекст. Ниже сравните формы настоящего времени."
+        }
+      }
+    }
+  },
+  "sentar-se": {
+    "meaning": {
+      "en": "sit down",
+      "uk": "сідати",
+      "ru": "садиться"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "sento-me"
+        ],
+        [
+          "tu",
+          "sentas-te"
+        ],
+        [
+          "ele / ela / você",
+          "senta-se"
+        ],
+        [
+          "nós",
+          "sentamo-nos"
+        ],
+        [
+          "eles / elas / vocês",
+          "sentam-se"
+        ]
+      ]
+    },
+    "forms": {
+      "sentar-me": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "sentar-me contains the infinitive sentar (“sit down”) and the attached pronoun -me. Here -me means “myself” and -nos means “ourselves”: sentar-se is reflexive, while posso/podemos identifies who can sit down. A pronoun attached to an infinitive does not turn it into a personal present-tense form.",
+          "uk": "sentar-me містить інфінітив sentar («сідати») і приєднаний займенник -me. Тут -me означає «себе» для «я», а -nos — «себе» для «ми»: sentar-se — зворотне дієслово, а posso/podemos вказує, хто може сісти. Приєднання займенника не робить інфінітив особовою формою теперішнього часу.",
+          "ru": "sentar-me содержит инфинитив sentar («садиться») и присоединённое местоимение -me. Здесь -me означает «себя» для «я», а -nos — «себя» для «мы»: sentar-se — возвратный глагол, а posso/podemos указывает, кто может сесть. Присоединение местоимения не превращает инфинитив в личную форму настоящего времени."
+        }
+      },
+      "sentar-nos": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "sentar-nos contains the infinitive sentar (“sit down”) and the attached pronoun -nos. Here -me means “myself” and -nos means “ourselves”: sentar-se is reflexive, while posso/podemos identifies who can sit down. A pronoun attached to an infinitive does not turn it into a personal present-tense form.",
+          "uk": "sentar-nos містить інфінітив sentar («сідати») і приєднаний займенник -nos. Тут -me означає «себе» для «я», а -nos — «себе» для «ми»: sentar-se — зворотне дієслово, а posso/podemos вказує, хто може сісти. Приєднання займенника не робить інфінітив особовою формою теперішнього часу.",
+          "ru": "sentar-nos содержит инфинитив sentar («садиться») и присоединённое местоимение -nos. Здесь -me означает «себя» для «я», а -nos — «себя» для «мы»: sentar-se — возвратный глагол, а posso/podemos указывает, кто может сесть. Присоединение местоимения не превращает инфинитив в личную форму настоящего времени."
+        }
+      }
+    }
+  },
+  "preocupar-se": {
+    "meaning": {
+      "en": "worry",
+      "uk": "хвилюватися",
+      "ru": "беспокоиться"
+    },
+    "tables": {
+      "negativeImperative": [
+        [
+          "tu",
+          "não te preocupes"
+        ],
+        [
+          "você / o senhor / a senhora",
+          "não se preocupe"
+        ],
+        [
+          "nós",
+          "não nos preocupemos"
+        ],
+        [
+          "vocês",
+          "não se preocupem"
+        ]
+      ]
+    },
+    "forms": {
+      "preocupe": {
+        "tables": [
+          "negativeImperative"
+        ],
+        "note": {
+          "en": "In não se preocupe, preocupe comes from preocupar-se (‘worry’) and is a polite singular negative command: ‘don’t worry’. The -ar verb uses the subjunctive -e form for this request. Não puts the reflexive se before the verb; compare informal não te preocupes. This is addressed to ‘you’, not a description of ‘I’.",
+          "uk": "У não se preocupe форма preocupe походить від preocupar-se («хвилюватися») і є ввічливим заперечним наказом до однієї людини: «не хвилюйтеся». Дієслово на -ar у цьому проханні має форму кон’юнктива на -e. Через não зворотне se стоїть перед дієсловом; неформальний варіант — não te preocupes. Це звертання до «Ви», а не опис «я».",
+          "ru": "В não se preocupe форма preocupe происходит от preocupar-se («беспокоиться») и является вежливым отрицательным приказом к одному человеку: «не беспокойтесь». Глагол на -ar в этой просьбе имеет форму сослагательного наклонения на -e. Из-за não возвратное se стоит перед глаголом; неформальный вариант — não te preocupes. Это обращение к «Вы», а не описание «я»."
+        }
+      },
+      "preocupes": {
+        "tables": [
+          "negativeImperative"
+        ],
+        "note": {
+          "en": "In não te preocupes, preocupes is the tu form of the present subjunctive used as a negative command of preocupar-se (‘worry’). A negative tu command does not use the affirmative preocupa-te: compare preocupa-te with não te preocupes. The final -s belongs to tu, and não places te before the verb. The polite version is não se preocupe.",
+          "uk": "У não te preocupes форма preocupes — це tu теперішнього кон’юнктива, вжите як заперечний наказ від preocupar-se («хвилюватися»). Для заперечного наказу tu не беруть стверджувальне preocupa-te: порівняйте preocupa-te та não te preocupes. Кінцеве -s належить до tu, а через não займенник te стоїть перед дієсловом. Ввічливий варіант — não se preocupe.",
+          "ru": "В não te preocupes форма preocupes — это tu настоящего сослагательного наклонения, использованное как отрицательный приказ от preocupar-se («беспокоиться»). Для отрицательного приказа tu не берут утвердительное preocupa-te: сравните preocupa-te и não te preocupes. Конечное -s относится к tu, а из-за não местоимение te стоит перед глаголом. Вежливый вариант — não se preocupe."
+        }
+      }
+    }
+  },
+  "importar-se": {
+    "meaning": {
+      "en": "mind / care",
+      "uk": "заперечувати / перейматися",
+      "ru": "возражать / беспокоиться"
+    },
+    "tables": {
+      "present": [
+        [
+          "eu",
+          "importo-me"
+        ],
+        [
+          "tu",
+          "importas-te"
+        ],
+        [
+          "ele / ela / você",
+          "importa-se"
+        ],
+        [
+          "nós",
+          "importamo-nos"
+        ],
+        [
+          "eles / elas / vocês",
+          "importam-se"
+        ]
+      ]
+    },
+    "forms": {
+      "importo": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "Importo is the eu (‘I’) present form of importar-se (‘mind / care’): import- + -o. The affirmative is importo-me, but não moves the pronoun in front: não me importo. Here me belongs to the pronominal verb, while importo identifies ‘I’; it is not a separate subject. Compare tu importas-te and você importa-se.",
+          "uk": "Importo — теперішня форма importar-se («заперечувати / перейматися») для eu («я»): import- + -o. Стверджувальний варіант — importo-me, але через não займенник переходить уперед: não me importo. Тут me — частина займенникового дієслова, а importo вказує на «я»; me не є окремим підметом. Порівняйте tu importas-te та você importa-se.",
+          "ru": "Importo — настоящая форма importar-se («возражать / беспокоиться») для eu («я»): import- + -o. Утвердительный вариант — importo-me, но из-за não местоимение переходит вперёд: não me importo. Здесь me — часть местоименного глагола, а importo указывает на «я»; me не является отдельным подлежащим. Сравните tu importas-te и você importa-se."
+        }
+      }
+    }
+  },
+  "haver": {
+    "meaning": {
+      "en": "there be / exist (impersonal use)",
+      "uk": "існувати / бути (безособове вживання)",
+      "ru": "существовать / быть (безличное употребление)"
+    },
+    "tables": {
+      "present": [
+        [
+          "impessoal",
+          "há"
+        ]
+      ]
+    },
+    "forms": {
+      "há": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "Há comes from haver in its impersonal existence meaning: ‘there is / there are’. It stays singular even when the following noun is plural: há um erro, há mesas. There is no person ‘I’ or ‘you’ hidden here, and há is not the regular eu form. The existence construction has no personal subject.",
+          "uk": "Há походить від haver у безособовому значенні існування: «є / існує». Форма залишається в однині навіть із наступним іменником у множині: há um erro, há mesas. Тут не приховано «я» чи «Ви», і há не є звичайною формою для eu. У цій конструкції існування немає особового підмета.",
+          "ru": "Há происходит от haver в безличном значении существования: «есть / имеется». Форма остаётся в единственном числе даже со следующим существительным во множественном: há um erro, há mesas. Здесь не скрыто «я» или «Вы», и há не является обычной формой для eu. У этой конструкции существования нет личного подлежащего."
+        }
+      }
+    }
+  },
+  "passar-se": {
+    "meaning": {
+      "en": "happen / be going on",
+      "uk": "відбуватися",
+      "ru": "происходить"
+    },
+    "tables": {
+      "present": [
+        [
+          "isto / isso",
+          "passa-se"
+        ],
+        [
+          "estas coisas",
+          "passam-se"
+        ]
+      ]
+    },
+    "forms": {
+      "passa": {
+        "tables": [
+          "present"
+        ],
+        "note": {
+          "en": "Passa comes from passar-se (‘happen’) in se passa: third-person singular present, referring to what is happening. The question word que draws se before the verb; a statement can use isso passa-se. É que is a question frame, while se passa supplies the event. This does not identify the speaker ‘I’; compare plural passam-se with singular passa-se.",
+          "uk": "Passa походить від passar-se («відбуватися») у se passa: третя особа однини теперішнього часу, що стосується того, що відбувається. Питальне que ставить se перед дієсловом; у твердженні можливе isso passa-se. É que — питальна рамка, а se passa передає подію. Це не форма мовця «я»; порівняйте множину passam-se та однину passa-se.",
+          "ru": "Passa происходит от passar-se («происходить») в se passa: третье лицо единственного числа настоящего времени, относящееся к происходящему. Вопросительное que ставит se перед глаголом; в утверждении возможно isso passa-se. É que — вопросительная рамка, а se passa передаёт событие. Это не форма говорящего «я»; сравните множественное passam-se и единственное passa-se."
+        }
+      }
+    }
+  }
+}

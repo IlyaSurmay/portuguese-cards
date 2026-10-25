@@ -9,6 +9,8 @@ import { cachedAudioCount, downloadAudio } from './offline'
 import { usePwa } from './usePwa'
 import { useReminders } from './useReminders'
 import { languages } from './translations'
+import { VerbNotes } from './VerbNotes'
+import verbDataUrl from './verb-explanations.json?url'
 import './App.css'
 
 const audioUrls = [...new Set(cardsData.map(card => card.audioSrc).filter(Boolean))]
@@ -37,6 +39,9 @@ function App() {
   const [audioStorageError, setAudioStorageError] = useState(false)
   const audioRef = useRef(null)
   const explanationRef = useRef(null)
+  const [verbData, setVerbData] = useState(null)
+  const [verbLoading, setVerbLoading] = useState(false)
+  const [verbLoadError, setVerbLoadError] = useState(false)
   const downloadRef = useRef(null)
   const pwa = usePwa()
   const reminder = useReminders(language, pwa)
@@ -156,6 +161,20 @@ function App() {
     if (!dialog) return
     dialog.showModal()
     dialog.scrollTop = 0
+    if (explanation.verbs.length && !verbData && !verbLoading) loadVerbNotes()
+  }
+
+  async function loadVerbNotes() {
+    setVerbLoading(true)
+    setVerbLoadError(false)
+    const controller = new AbortController()
+    const timeout = setTimeout(() => controller.abort(), 20000)
+    try {
+      const response = await fetch(verbDataUrl, { signal: controller.signal })
+      if (!response.ok) throw new Error('Verb notes unavailable')
+      setVerbData(await response.json())
+    } catch { setVerbLoadError(true) }
+    finally { clearTimeout(timeout); setVerbLoading(false) }
   }
 
   async function playAudio() {
@@ -316,6 +335,15 @@ function App() {
               </div>)}</dl>
               <h3>{text.grammarNote}</h3>
               <p lang={language}>{explanation.grammar[language]}</p>
+              {explanation.structure && <p lang={language}>{explanation.structure[language]}</p>}
+              {explanation.verbs.length > 0 && <section className="verb-explanations" aria-labelledby="verb-explanations-title">
+                <h3 id="verb-explanations-title">{text.verbForms}</h3>
+                {verbData ? <VerbNotes key={currentCard.id} entries={explanation.verbs} data={verbData} language={language} text={text} />
+                  : verbLoadError ? <div role="alert">
+                    <p>{text.verbLoadError}</p>
+                    <button type="button" onClick={loadVerbNotes} disabled={verbLoading}>{text.retryExplanation}</button>
+                  </div> : <p role="status">{text.verbLoading}</p>}
+              </section>}
               <h3>{text.anotherExample}</h3>
               <div className="phrase-example">
                 <p lang="pt-PT">{explanation.example.pt}</p>

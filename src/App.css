@@ -34,6 +34,15 @@ html:has(.phrase-explanation[open]) { overflow: hidden; }
 .phrase-parts dd { margin: 0.15rem 0 0; }
 .phrase-example { border-left: 3px solid var(--accent); padding-left: 0.75rem; }
 .phrase-example p:first-child { font-weight: 600; }
+.verb-note { padding: 1rem 0; border-bottom: 1px solid var(--border); }
+.verb-note h4 { margin: 0; font-size: 1rem; }
+.verb-note .verb-meaning { color: var(--muted); margin-top: 0.25rem; }
+.verb-comparison summary { cursor: pointer; min-height: 44px; display: list-item; align-content: center; color: var(--accent); }
+.verb-comparison table { width: 100%; table-layout: fixed; border-collapse: collapse; margin: 0.5rem 0 1rem; font-size: 0.85rem; }
+.verb-comparison caption { text-align: left; font-weight: 600; padding: 0.5rem 0; }
+.verb-comparison th, .verb-comparison td { text-align: left; vertical-align: top; padding: 0.5rem; border-bottom: 1px solid var(--border); overflow-wrap: anywhere; }
+.verb-comparison th { font-weight: 500; }
+.verb-comparison .current-verb-form { background: color-mix(in srgb, var(--accent) 12%, var(--surface)); font-weight: 600; }
 @media (max-width: 600px) { .phrase-explanation { margin: auto auto max(0.75rem, env(safe-area-inset-bottom)); } }
 .flashcard-container { display: grid; grid-template-columns: 44px minmax(0, 1fr) 44px; gap: 0.5rem; align-items: center; margin-bottom: 1rem; }
 .side-button { padding: 0; min-width: 44px; background: var(--surface); }

@@ -1,5 +1,10 @@
 export const languages = {
   en: {
+    verbForms: 'Verbs and conjugations', compareVerbForms: 'Compare forms',
+    verbLoading: 'Opening verb notes…', verbLoadError: 'Could not open the verb notes. Check your connection and try again.', retryExplanation: 'Try again',
+    tensePresent: 'Present', tenseImperfect: 'Past: imperfect', tensePreterite: 'Completed past: pretérito perfeito',
+    tenseImperative: 'Affirmative commands', tenseNegativeImperative: 'Negative commands', verbSubject: 'Subject / person', verbForm: 'Verb form',
+    verbPronouns: 'eu = I · tu = you (informal, singular) · ele/ela = he/she · você = you (singular) · nós = we · eles/elas = they · vocês = you (plural)',
     dailyReminder: 'Daily reminder', reminderDescription: 'One reminder each day. Tap the notification to open your cards. Your progress stays on this device.',
     reminderTime: 'Reminder time', reminderTimeZone: 'Time zone', reminderNext: 'Next reminder',
     reminderEnable: 'Enable reminders', reminderDisable: 'Turn off reminders', reminderSaveTime: 'Save time',
@@ -61,6 +66,11 @@ export const languages = {
     backupImportedUnsaved: 'Backup opened, but your browser could not save it. Export your progress before closing.',
   },
   uk: {
+    verbForms: 'Дієслова та їхні форми', compareVerbForms: 'Порівняти форми',
+    verbLoading: 'Відкриваємо пояснення дієслів…', verbLoadError: 'Не вдалося відкрити пояснення дієслів. Перевірте інтернет і спробуйте ще раз.', retryExplanation: 'Спробувати ще раз',
+    tensePresent: 'Теперішній час', tenseImperfect: 'Минулий час: імперфект', tensePreterite: 'Завершений минулий: pretérito perfeito',
+    tenseImperative: 'Стверджувальні накази та прохання', tenseNegativeImperative: 'Заперечні накази та прохання', verbSubject: 'Підмет / особа', verbForm: 'Форма дієслова',
+    verbPronouns: 'eu = я · tu = ти · ele/ela = він/вона · você = Ви (одна людина) · nós = ми · eles/elas = вони · vocês = ви (кілька людей)',
     dailyReminder: 'Щоденне нагадування', reminderDescription: 'Одне нагадування щодня. Натисніть сповіщення, щоб відкрити картки. Прогрес залишається на пристрої.',
     reminderTime: 'Час нагадування', reminderTimeZone: 'Часовий пояс', reminderNext: 'Наступне нагадування',
     reminderEnable: 'Увімкнути нагадування', reminderDisable: 'Вимкнути нагадування', reminderSaveTime: 'Зберегти час',
@@ -122,6 +132,11 @@ export const languages = {
     backupImportedUnsaved: 'Копію відкрито, але браузер не зберіг її. Експортуйте прогрес перед закриттям.',
   },
   ru: {
+    verbForms: 'Глаголы и спряжение', compareVerbForms: 'Сравнить формы',
+    verbLoading: 'Открываем объяснения глаголов…', verbLoadError: 'Не удалось открыть объяснения глаголов. Проверьте интернет и попробуйте ещё раз.', retryExplanation: 'Попробовать ещё раз',
+    tensePresent: 'Настоящее время', tenseImperfect: 'Прошедшее время: имперфект', tensePreterite: 'Завершённое прошедшее: pretérito perfeito',
+    tenseImperative: 'Утвердительные приказы и просьбы', tenseNegativeImperative: 'Отрицательные приказы и просьбы', verbSubject: 'Подлежащее / лицо', verbForm: 'Форма глагола',
+    verbPronouns: 'eu = я · tu = ты · ele/ela = он/она · você = Вы (один человек) · nós = мы · eles/elas = они · vocês = вы (несколько людей)',
     dailyReminder: 'Ежедневное напоминание', reminderDescription: 'Одно напоминание каждый день. Нажмите уведомление, чтобы открыть карточки. Прогресс остаётся на устройстве.',
     reminderTime: 'Время напоминания', reminderTimeZone: 'Часовой пояс', reminderNext: 'Следующее напоминание',
     reminderEnable: 'Включить напоминания', reminderDisable: 'Выключить напоминания', reminderSaveTime: 'Сохранить время',
