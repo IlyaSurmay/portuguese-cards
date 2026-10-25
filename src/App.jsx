@@ -348,7 +348,7 @@ function App() {
           {audioError && <p className="error-text" role="alert">{text.audioError}</p>}
           {!browsing && (isFlipped ? <div className="review-actions">
             <button className="again-button" onClick={() => answer('again')}>{text.again}<small>{text.minutes}</small></button>
-            <button className="remembered-button" onClick={() => answer('remembered')}>{text.remembered}<small>{INTERVAL_DAYS[Math.min(currentProgress.stage, INTERVAL_DAYS.length - 1)]} {text.days}</small></button>
+            <button className="remembered-button" onClick={() => answer('remembered')}>{text.remembered}<small>{new Intl.NumberFormat(language, { style: 'unit', unit: 'day', unitDisplay: 'long' }).format(INTERVAL_DAYS[Math.min(currentProgress.stage, INTERVAL_DAYS.length - 1)])}</small></button>
           </div> : <div className="reveal-section"><p className="muted">{text.rateHint}</p><button className="primary" onClick={() => setIsFlipped(true)}>{text.reveal}</button></div>)}
         </> : <div className="empty-state" role="status">
           <h2>{text.allDone}</h2>
