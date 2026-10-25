@@ -44,7 +44,7 @@ function validRecord(record) {
 // Only progress is persisted; phrases, translations and recordings always come from the current deck.
 export function validateSnapshot(value, deck) {
   if (!value || value.app !== BACKUP_APP || value.version !== 2
-    || !['uk', 'ru'].includes(value.language)
+    || !['uk', 'ru', 'en'].includes(value.language)
     || !value.progress || typeof value.progress !== 'object' || Array.isArray(value.progress)) {
     throw new Error('Invalid backup')
   }

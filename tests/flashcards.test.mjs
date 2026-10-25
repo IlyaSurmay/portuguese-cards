@@ -29,10 +29,32 @@ test('the deck has 200 permanent unique IDs, complete translations and HTTPS rec
   assert.equal(deck[199].id, 'pt-200')
   for (const card of deck) {
     assert.match(card.id, /^pt-\d{3}$/)
-    for (const field of ['portuguese', 'ukrainian', 'russian']) assert.ok(card[field]?.trim())
+    for (const field of ['portuguese', ...Object.values(languages).map(text => text.field)]) assert.ok(card[field]?.trim())
     assert.equal(new URL(card.audioSrc).protocol, 'https:')
   }
-  assert.deepEqual(Object.keys(languages.uk).sort(), Object.keys(languages.ru).sort())
+  for (const text of Object.values(languages)) {
+    assert.deepEqual(Object.keys(text).sort(), Object.keys(languages.uk).sort())
+    for (const value of Object.values(text)) assert.ok(typeof value === 'string' && value.trim())
+  }
+})
+
+test('all translation languages share progress and survive saving and backup restore', () => {
+  const progress = { [deck[0].id]: reviewCard(undefined, 'remembered', now) }
+  const fake = storage()
+  withStorage(fake, () => {
+    for (const language of ['uk', 'ru', 'en', 'ru']) {
+      assert.equal(saveSession(progress, language, deck).ok, true)
+      const session = loadSession(deck)
+      assert.equal(session.issue, null)
+      assert.equal(session.language, language)
+      assert.deepEqual(session.progress, progress)
+      const backup = validateSnapshot(JSON.parse(JSON.stringify(makeSnapshot(session.progress, language))), deck)
+      assert.equal(restoreBackup(backup.progress, backup.language, deck), true)
+      assert.deepEqual(loadSession(deck).progress, progress)
+      assert.equal(loadSession(deck).language, language)
+    }
+  })
+  assert.throws(() => validateSnapshot(makeSnapshot(progress, 'xx'), deck))
 })
 
 test('remembered reviews follow all six intervals and remain capped at 60 days', () => {

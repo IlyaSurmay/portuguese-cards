@@ -1,6 +1,6 @@
 # Portuguese Cards
 
-Installable React + Vite flashcards for everyday Portuguese, with Ukrainian and Russian translations, recorded pronunciation, offline study, and scheduled reviews.
+Installable React + Vite flashcards for everyday Portuguese, with Ukrainian, Russian and English translations, recorded pronunciation, offline study, and scheduled reviews.
 
 ## Study
 
@@ -11,9 +11,9 @@ Reveal a card's translation, then rate your recall:
 - Previously studied cards that are due appear before new phrases. Future reviews wait until their due time.
 - **Browse all** lets you look through the deck without changing its schedule.
 
-The summary shows cards due now, cards studied, cards at level 5 or above, and answers in the current session. Review times refresh every 30 seconds and when returning to the app. Language selection and progress are shared across Ukrainian and Russian.
+The summary shows cards due now, cards studied, cards at level 5 or above, and answers in the current session. Review times refresh every 30 seconds and when returning to the app. Choose the translation language in Settings; all three languages share the same card progress and review schedule.
 
-Use **ⓘ** beside the card counter to open a phrase breakdown: Portuguese building blocks with Ukrainian or Russian meanings, a short grammar note, and a different example with its translation. All 200 cards have bundled explanations focused on European Portuguese. Opening or closing an explanation does not flip, grade, or reschedule a card. No AI service, API key, or network request is needed to read them.
+Use **ⓘ** beside the card counter to open a phrase breakdown: Portuguese building blocks with meanings in your selected language, a short grammar note, and a different example with its translation. All 200 cards have bundled explanations focused on European Portuguese. English notes are written for English speakers, covering omitted subjects, gender and articles, contractions, polite verb forms, false friends and idiomatic translations. Opening or closing an explanation does not flip, grade, or reschedule a card. No AI service, API key, or network request is needed to read them.
 
 Each card has a permanent `id`. Never regenerate these IDs when correcting text or reordering the deck. Existing five-tap progress is migrated to the corresponding review level; those cards are initially due because the old format did not record review dates. The legacy save is retained for recovery.
 
@@ -24,7 +24,7 @@ Open **https://portuguese-cards.vercel.app/** with an internet connection and wa
 - **iPhone / iPad:** Safari → Share → Add to Home Screen.
 - **Android:** use the install button when offered, or the browser menu → Install app / Add to Home screen.
 
-After the first successful load, the app shell, all phrases, both translations, and all explanations are cached. Recordings cache automatically as they are played. In **Settings**, download all remaining recordings for offline audio. Downloads can be stopped and resumed, and retries skip completed files. Failed downloads are reported. The service worker supports byte-range playback for Safari.
+After the first successful load, the app shell, all phrases, all three translations, and all explanations are cached. Recordings cache automatically as they are played. In **Settings**, download all remaining recordings for offline audio. Downloads can be stopped and resumed, and retries skip completed files. Failed downloads are reported. The service worker supports byte-range playback for Safari.
 
 A new build displays an update prompt rather than interrupting a study session. Applying it replaces the offline shell while retaining progress and downloaded audio.
 
@@ -74,7 +74,7 @@ npm run preview
 Service workers are enabled in production builds; use `npm run preview` to test installation and offline behavior. The Vite build emits `sw.js` with a versioned precache list. `vercel.json` ensures browsers revalidate updates to the worker and manifest.
 
 - `src/tatabogatacards.json`: stable IDs, phrases, translations and audio URLs.
-- `src/phrase-explanations.json`: hand-authored chunks, grammar notes and examples in both languages, keyed by the same stable card IDs. Keep its coverage in sync with the deck. Source spelling issues are explained in the notes; original phrases are retained for legacy progress migration.
+- `src/phrase-explanations.json`: hand-authored chunks, grammar notes and examples in all three languages, keyed by the same stable card IDs. Keep its coverage in sync with the deck. Source spelling issues are explained in the notes; original phrases are retained for legacy progress migration.
 - `src/flashcards.js`: scheduling, migration, storage and backup validation.
 - `src/offline.js`: resumable audio downloads.
 - `src/service-worker.js`: offline shell, audio caching and range responses.
@@ -82,6 +82,6 @@ Service workers are enabled in production builds; use `npm run preview` to test 
 - `server/reminder-core.mjs`: time-zone scheduling, ownership, retries and delivery receipts.
 - `server/reminder-services.mjs`: private Blob, Web Push and Queues adapters.
 - `api/reminders.js` and `api/send-reminder.js`: subscription API and queued daily delivery.
-- `src/translations.js`: Ukrainian/Russian interface text.
+- `src/translations.js`: Ukrainian/Russian/English interface text.
 
 Regression tests cover migration, review scheduling, backup safety, storage failures, merging across tabs, offline launch, audio ranges, resumable downloads, reminder scheduling across DST, notification display/clicks, ownership checks, retries and cancellation. Real-device Add to Home Screen behavior should also be checked on Safari/iOS and Chrome/Android when changing installation settings.

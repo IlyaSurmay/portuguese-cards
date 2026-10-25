@@ -41,7 +41,25 @@ test('subscription validation rejects arbitrary URLs, credentials, and invalid e
     assert.throws(() => validateSubscription({ ...subscription, endpoint }))
   }
   assert.throws(() => validateSubscription({ ...subscription, keys: { ...subscription.keys, p256dh: 'x'.repeat(87) } }))
-  for (const input of [{ ...preferences, time: '25:00' }, { ...preferences, timeZone: 'Not/AZone' }, { ...preferences, language: 'en' }]) assert.throws(() => validatePreferences(input))
+  for (const input of [{ ...preferences, time: '25:00' }, { ...preferences, timeZone: 'Not/AZone' }, { ...preferences, language: 'xx' }]) assert.throws(() => validatePreferences(input))
+})
+
+test('switching an enabled reminder to English updates tests and future daily notifications', async () => {
+  const f = fixture()
+  await f.service.save(id, token, preferences)
+  const previousJob = f.jobs[0].message
+  const english = await f.service.save(id, token, { ...preferences, language: 'en' })
+  assert.equal(english.language, 'en')
+  assert.equal((await f.service.status(id, token)).language, 'en')
+  await f.service.test(id, token)
+  assert.equal(f.pushes[0].payload.body, 'Reminders are working. Time for a few Portuguese cards!')
+  f.advance(previousJob.dueAt)
+  await f.service.deliver(previousJob)
+  assert.equal(f.pushes.length, 1, 'the old language job must not deliver')
+  await f.service.deliver(f.jobs.at(-1).message)
+  assert.equal(f.pushes[1].payload.body, 'Time for a few Portuguese cards.')
+  assert.equal(f.values.get(id).value.language, 'en')
+  assert.notEqual(notificationPayload('uk').body, notificationPayload('ru').body)
 })
 
 test('enabling queues a durable job; duplicate delivery sends once and schedules tomorrow', async () => {

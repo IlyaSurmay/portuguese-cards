@@ -368,7 +368,7 @@ function App() {
           <label className="language-control">
             {text.language}
             <select value={language} onChange={event => persist(progressRef.current, event.target.value)}>
-              <option value="uk" lang="uk">Українська</option><option value="ru" lang="ru">Русский</option>
+              <option value="uk" lang="uk">Українська</option><option value="ru" lang="ru">Русский</option><option value="en" lang="en">English</option>
             </select>
           </label>
         </section>

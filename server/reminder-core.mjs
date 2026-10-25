@@ -40,12 +40,14 @@ export function validatePreferences({ time, timeZone, language }) {
   if (typeof time !== 'string' || !/^([01]\d|2[0-3]):[0-5]\d$/.test(time)) throw new ReminderError('invalidTime')
   if (typeof timeZone !== 'string' || timeZone.length > 80) throw new ReminderError('invalidTimeZone')
   try { new Intl.DateTimeFormat('en', { timeZone }).format() } catch { throw new ReminderError('invalidTimeZone') }
-  if (!['uk', 'ru'].includes(language)) throw new ReminderError('invalidLanguage')
+  if (!['uk', 'ru', 'en'].includes(language)) throw new ReminderError('invalidLanguage')
   return { time, timeZone, language }
 }
 
 export function notificationPayload(language, test = false) {
-  const body = language === 'ru'
+  const body = language === 'en'
+    ? test ? 'Reminders are working. Time for a few Portuguese cards!' : 'Time for a few Portuguese cards.'
+    : language === 'ru'
     ? test ? 'Напоминания работают. Самое время повторить несколько карточек!' : 'Пора выучить несколько португальских фраз.'
     : test ? 'Нагадування працюють. Саме час повторити кілька карток!' : 'Час вивчити кілька португальських фраз.'
   return { title: 'Portuguese Cards', body, tag: test ? 'portuguese-cards-test' : 'portuguese-cards-daily', url: '/' }

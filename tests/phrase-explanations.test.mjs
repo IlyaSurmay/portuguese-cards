@@ -1,21 +1,23 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import { readFileSync } from 'node:fs'
+import { languages } from '../src/translations.js'
 
 const read = name => JSON.parse(readFileSync(new URL(`../src/${name}.json`, import.meta.url)))
 const deck = read('tatabogatacards')
 const explanations = read('phrase-explanations')
 
-test('every card has a complete explanation in both languages under its permanent ID', () => {
+test('every card has a complete explanation in every translation language under its permanent ID', () => {
   assert.deepEqual(Object.keys(explanations).sort(), deck.map(card => card.id).sort())
   for (const card of deck) {
     const note = explanations[card.id]
     assert.ok(note.parts.length >= 2, card.id)
-    for (const locale of ['uk', 'ru']) {
+    for (const locale of Object.keys(languages)) {
       for (const value of [note.grammar[locale], note.example[locale], ...note.parts.map(part => part[locale])]) {
         assert.equal(typeof value, 'string', card.id)
         assert.ok(value.trim().length > 0, card.id)
-        assert.match(value, /[а-яіїєґё]/iu, card.id)
+        assert.match(value, locale === 'en' ? /[a-z]/iu : /[а-яіїєґё]/iu, card.id)
+        if (locale === 'en') assert.doesNotMatch(value, /[а-яіїєґё]/iu, card.id)
         assert.doesNotMatch(value, /TODO|TBD|placeholder|lorem ipsum/i, card.id)
       }
     }
@@ -43,7 +45,7 @@ test('building blocks quote the actual phrase and each example adds a different 
 test('source spelling issues are corrected in notes without breaking legacy phrase matching', () => {
   assert.ok(deck.find(card => card.id === 'pt-018').portuguese.includes('alégico'))
   assert.ok(deck.find(card => card.id === 'pt-079').portuguese.includes('rúbrica'))
-  for (const locale of ['uk', 'ru']) {
+  for (const locale of Object.keys(languages)) {
     assert.ok(explanations['pt-018'].grammar[locale].includes('alérgico/alérgica'))
     assert.ok(explanations['pt-079'].grammar[locale].includes('rubrica'))
     assert.ok(explanations['pt-110'].grammar[locale].includes('meia hora'))
