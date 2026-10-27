@@ -73,7 +73,7 @@ test('remembered reviews follow all six intervals and remain capped at 60 days',
 test('again resets the interval and schedules a ten-minute retry without erasing review history', () => {
   const before = { stage: 5, reviews: 9, lapses: 2, lastReviewedAt: now - DAY, dueAt: now }
   const record = reviewCard(before, 'again', now)
-  assert.deepEqual(record, { stage: 0, reviews: 10, lapses: 3, lastReviewedAt: now, dueAt: now + AGAIN_DELAY })
+  assert.deepEqual(record, { stage: 0, reviews: 10, lapses: 3, lastReviewedAt: now, dueAt: now + AGAIN_DELAY, updatedAt: now })
   assert.equal(reviewCard(record, 'remembered', now + AGAIN_DELAY).dueAt, now + AGAIN_DELAY + DAY)
   assert.throws(() => reviewCard(record, 'invalid', now))
 })

@@ -6,12 +6,15 @@ English is the default for new sessions. Existing saved language choices are kep
 
 ## Study
 
-Reveal a card's translation, then rate your recall:
+Rate your recall directly from the Portuguese side, or reveal the translation first if you want to check it:
 
 - **Remembered** schedules the next review in 1, 3, 7, 14, 30, then 60 days. Later successful reviews stay at 60 days.
 - **Again** resets the review level and brings the card back in 10 minutes.
 - Previously studied cards that are due appear before new phrases. Future reviews wait until their due time.
-- **Browse all** lets you look through the deck without changing its schedule.
+- Swipe **right** for Remembered or **left** for Again. Both grading buttons are always available before revealing the translation. Tap the card to flip it. Vertical scrolling, small drags and cancelled gestures do not grade a card.
+- **Undo** is available for 8 seconds after the latest answer. It restores the previous level, counts and review date and returns to that card. A new card returns to its unstudied state. A newer review from another tab is kept.
+- **Browse all** and the arrows let you look through cards without grading them. Swiping is disabled in Browse all.
+- Cards get a stable new mix each local day, without changing under your finger. **Mix cards** changes the order immediately. Reviewed cards due on older days still come first; within each due day and among new cards, the order varies.
 
 The summary shows cards due now, cards studied, cards at level 5 or above, and answers in the current session. Review times refresh every 30 seconds and when returning to the app. Choose the translation language in Settings; all three languages share the same card progress and review schedule.
 
@@ -55,7 +58,7 @@ The private store and queue have free usage allowances on Vercel; normal limits 
 
 Progress is local to this browser/installation and origin. Always use the canonical URL above. There is no automatic device sync. Browser storage can be cleared or evicted, and an installed iOS web app may use different storage from its browser tab.
 
-Export a JSON backup before changing devices, installing the app, or clearing site data. Import validates the file and shows a preview before applying it. It merges each card's most recent review, preserving unrelated progress. Both older successful reviews and newer lapses are handled by review timestamp. Unsupported or malformed backups are rejected without changing progress.
+Export a JSON backup before changing devices, installing the app, or clearing site data. Import validates the file and shows a preview before applying it. It merges each card's most recent change, preserving unrelated progress. Records use an optional updatedAt timestamp so Undo wins over stale reviews; older backups fall back to the review timestamp. Unsupported or malformed backups are rejected without changing progress.
 
 Only versioned progress and language preference are saved in `portuguese-cards-progress-v2`; card content comes from the bundled deck. Save failures display a warning and keep study working in memory. Unreadable saves are left untouched until an explicit backup restore. Export remains available when browser storage fails.
 
@@ -79,7 +82,9 @@ Service workers are enabled in production builds; use `npm run preview` to test 
 - `src/phrase-explanations.json`: hand-authored chunks, grammar notes and examples in all three languages, keyed by the same stable card IDs. Keep its coverage in sync with the deck. Source spelling issues are explained in the notes; original phrases are retained for legacy progress migration.
 - `src/verb-explanations.json`: localized analysis and conjugation tables for every verb form linked from the phrase explanations. The extra notes load on first use and are precached for offline access.
 - `src/VerbNotes.jsx`: accessible, expandable conjugation comparisons.
-- `src/flashcards.js`: scheduling, migration, storage and backup validation.
+- `src/flashcards.js`: scheduling, Undo, migration, storage and backup validation. Undo stores an unstudied record with an updatedAt timestamp for new cards so stale tabs cannot resurrect the removed grade.
+- `src/studyQueue.js`: stable daily mixing; due reviews retain priority by calendar day.
+- `src/useCardSwipe.js` and `src/swipe.js`: pointer gestures, scroll-safe direction detection and grading thresholds.
 - `src/offline.js`: resumable audio downloads.
 - `src/service-worker.js`: offline shell, audio caching and range responses.
 - `src/useReminders.js` and `src/reminders.js`: opt-in notification controls and device settings.

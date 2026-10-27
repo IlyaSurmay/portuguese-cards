@@ -1,10 +1,12 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef, useMemo } from 'react'
 import cardsData from './tatabogatacards.json'
 import phraseExplanations from './phrase-explanations.json'
 import {
   PROGRESS_KEY, INTERVAL_DAYS, dueCards, loadSession, makeSnapshot, mergeProgress,
-  newProgress, restoreBackup, reviewCard, saveSession, validateSnapshot,
+  newProgress, restoreBackup, reviewCard, saveSession, undoReview, validateSnapshot,
 } from './flashcards'
+import { mixDeck, studyDay } from './studyQueue'
+import { useCardSwipe } from './useCardSwipe'
 import { cachedAudioCount, downloadAudio } from './offline'
 import { usePwa } from './usePwa'
 import { useReminders } from './useReminders'
@@ -29,6 +31,9 @@ function App() {
   const [showStats, setShowStats] = useState(false)
   const [sortByProgress, setSortByProgress] = useState(false)
   const [sessionCount, setSessionCount] = useState(0)
+  const [mixRound, setMixRound] = useState(0)
+  const [lastAnswer, setLastAnswer] = useState(null)
+  const [undoNotice, setUndoNotice] = useState(null)
   const [isPlaying, setIsPlaying] = useState(false)
   const [audioError, setAudioError] = useState(false)
   const [pendingBackup, setPendingBackup] = useState(null)
@@ -46,11 +51,26 @@ function App() {
   const pwa = usePwa()
   const reminder = useReminders(language, pwa)
   const text = languages[language]
-  const due = dueCards(cardsData, progress, now)
-  const queue = browsing ? cardsData : due
+  const day = studyDay(now)
+  const orderedDeck = useMemo(() => mixDeck(cardsData, `${day}:${mixRound}`), [day, mixRound])
+  const due = dueCards(orderedDeck, progress, now)
+  const queue = browsing ? orderedDeck : due
   const currentCard = queue.find(card => card.id === currentId) ?? queue[0]
   const explanation = currentCard ? phraseExplanations[currentCard.id] : null
   const currentProgress = currentCard ? progress[currentCard.id] ?? newProgress() : null
+  const swipe = useCardSwipe(currentCard?.id, Boolean(currentCard) && !browsing && !showStats, answer, () => setIsFlipped(value => !value))
+
+  useEffect(() => { if (currentCard) setCurrentId(currentCard.id) }, [currentCard])
+  useEffect(() => {
+    if (!lastAnswer) return
+    const timeout = setTimeout(() => setLastAnswer(null), Math.max(0, lastAnswer.expiresAt - Date.now()))
+    return () => clearTimeout(timeout)
+  }, [lastAnswer])
+  useEffect(() => {
+    if (!undoNotice) return
+    const timeout = setTimeout(() => setUndoNotice(null), 4000)
+    return () => clearTimeout(timeout)
+  }, [undoNotice])
   const studied = Object.values(progress).filter(record => record.reviews > 0).length
   const stable = Object.values(progress).filter(record => record.stage >= 5).length
   const nextDueAt = Math.min(...Object.values(progress).filter(record => record.dueAt > now).map(record => record.dueAt))
@@ -138,15 +158,47 @@ function App() {
   }
 
   function answer(value) {
-    if (!currentCard || !isFlipped || browsing) return
+    if (!currentCard || browsing || showStats) return
     stopAudio()
     const timestamp = Date.now()
-    const next = { ...progressRef.current, [currentCard.id]: reviewCard(progressRef.current[currentCard.id], value, timestamp) }
-    persist(next)
+    const loaded = loadSession(cardsData)
+    const records = mergeProgress(loaded.progress, progressRef.current)
+    const previous = records[currentCard.id]
+    const reviewed = reviewCard(previous, value, timestamp)
+    persist({ ...records, [currentCard.id]: reviewed })
+    setLastAnswer({ id: currentCard.id, previous, reviewed, answer: value, expiresAt: timestamp + 8000 })
+    setUndoNotice(null)
     setNow(timestamp)
     setCurrentId(null)
     setIsFlipped(false)
     setSessionCount(count => count + 1)
+  }
+
+  function undoAnswer() {
+    if (!lastAnswer || Date.now() >= lastAnswer.expiresAt) { setLastAnswer(null); return }
+    const loaded = loadSession(cardsData)
+    const records = mergeProgress(loaded.progress, progressRef.current)
+    const restored = undoReview(records[lastAnswer.id], lastAnswer.reviewed, lastAnswer.previous)
+    setLastAnswer(null)
+    if (!restored) { applyProgress(records); setUndoNotice('undoConflict'); return }
+    stopAudio()
+    persist({ ...records, [lastAnswer.id]: restored })
+    setBrowsing(false)
+    setShowStats(false)
+    setCurrentId(lastAnswer.id)
+    setIsFlipped(false)
+    setNow(Date.now())
+    setSessionCount(count => Math.max(0, count - 1))
+    setUndoNotice('answerUndone')
+  }
+
+  function mixCards() {
+    stopAudio()
+    const nextRound = mixRound + 1
+    const mixed = mixDeck(cardsData, `${day}:${nextRound}`)
+    setMixRound(nextRound)
+    setCurrentId((browsing ? mixed : dueCards(mixed, progressRef.current, Date.now()))[0]?.id ?? null)
+    setIsFlipped(false)
   }
 
   function toggleStats() {
@@ -269,7 +321,7 @@ function App() {
   )
 
   return (
-    <main className="app-container">
+    <main className={`app-container ${lastAnswer || undoNotice ? 'has-review-toast' : ''}`}>
       <header className="app-header">
         <div><h1>{text.title}</h1><p>{text.subtitle}</p></div>
       </header>
@@ -354,13 +406,17 @@ function App() {
           </dialog>}
           <div className="flashcard-container">
             <button onClick={() => navigate(-1)} className="side-button" aria-label={text.previous}>←</button>
-            <button type="button" className={`flashcard ${isFlipped ? 'flipped' : ''}`}
-              onClick={() => setIsFlipped(value => !value)} aria-label={text.flip}
+            <button type="button" className={`flashcard ${isFlipped ? 'flipped' : ''} ${swipe.offset ? 'is-swiping' : ''}`}
+              style={{ '--swipe-x': `${Math.max(-40, Math.min(40, swipe.offset * 0.35))}px`, '--swipe-rotation': `${Math.max(-4, Math.min(4, swipe.offset / 30))}deg` }}
+              {...swipe.handlers} aria-label={text.flip}
               aria-describedby={isFlipped ? 'card-translation' : 'card-portuguese'} aria-pressed={isFlipped}>
               <span className="flashcard-inner">
                 <span className="flashcard-front" aria-hidden={isFlipped}><span id="card-portuguese" className="flashcard-text" lang="pt-PT">{currentCard.portuguese}</span></span>
                 <span className="flashcard-back" aria-hidden={!isFlipped}><span id="card-translation" className="flashcard-text" lang={language}>{currentCard[text.field]}</span></span>
               </span>
+              {swipe.offset !== 0 && <span aria-hidden="true" className={`swipe-feedback ${swipe.offset > 0 ? 'remembered' : 'again'} ${swipe.ready ? 'ready' : ''}`}>
+                {swipe.offset > 0 ? text.remembered : text.again}
+              </span>}
             </button>
             <button onClick={() => navigate(1)} className="side-button" aria-label={text.next}>→</button>
           </div>
@@ -374,15 +430,23 @@ function App() {
             <span aria-hidden="true">{isPlaying ? '■' : '▶'}</span>{' '}{!currentCard.audioSrc ? text.audioUnavailable : isPlaying ? text.stopAudio : text.playAudio}
           </button>
           {audioError && <p className="error-text" role="alert">{text.audioError}</p>}
-          {!browsing && (isFlipped ? <div className="review-actions">
+          {!browsing && <>
+          <div className="review-actions">
             <button className="again-button" onClick={() => answer('again')}>{text.again}<small>{text.minutes}</small></button>
             <button className="remembered-button" onClick={() => answer('remembered')}>{text.remembered}<small>{new Intl.NumberFormat(language, { style: 'unit', unit: 'day', unitDisplay: 'long' }).format(INTERVAL_DAYS[Math.min(currentProgress.stage, INTERVAL_DAYS.length - 1)])}</small></button>
-          </div> : <div className="reveal-section"><p className="muted">{text.rateHint}</p><button className="primary" onClick={() => setIsFlipped(true)}>{text.reveal}</button></div>)}
+          </div>
+          {!isFlipped && <div className="reveal-section"><button onClick={() => setIsFlipped(true)}>{text.reveal}</button></div>}
+          <p className="swipe-hint muted">{text.swipeHint}</p>
+          </>}
         </> : <div className="empty-state" role="status">
           <h2>{text.allDone}</h2>
           {Number.isFinite(nextDueAt) && <p>{text.nextDue}: {formatDate(nextDueAt)}</p>}
         </div>}
-        <div className="browse-control"><button onClick={toggleBrowsing}>{browsing ? text.returnReviews : text.browse}</button></div>
+        <div className="browse-control">
+          <button onClick={toggleBrowsing}>{browsing ? text.returnReviews : text.browse}</button>
+          <button onClick={mixCards} disabled={queue.length < 2}>{text.mixCards}</button>
+        </div>
+        <p className="queue-hint muted">{text.queueHint}</p>
       </section>}
 
       {!showStats && <section className="study-summary" aria-label={text.learningProgress}>
@@ -456,6 +520,10 @@ function App() {
         </section>
         <p className="muted">{text.scheduleHint}</p>
       </details>
+      {(lastAnswer || undoNotice) && <div className="review-toast">
+        <span role="status">{lastAnswer ? lastAnswer.answer === 'remembered' ? text.markedRemembered : text.markedAgain : text[undoNotice]}</span>
+        {lastAnswer && <button type="button" onClick={undoAnswer}>{text.undo}</button>}
+      </div>}
       <footer><a href="https://portuguese-cards.vercel.app/">portuguese-cards.vercel.app</a></footer>
     </main>
   )

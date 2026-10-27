@@ -15,6 +15,7 @@ export function reviewCard(previous = newProgress(), answer, now = Date.now()) {
     lapses: previous.lapses + (answer === 'again' ? 1 : 0),
     dueAt: now + (answer === 'again' ? AGAIN_DELAY : INTERVAL_DAYS[stage - 1] * DAY),
     lastReviewedAt: now,
+    updatedAt: Math.max(now, (previous.updatedAt ?? previous.lastReviewedAt ?? 0) + 1),
   }
 }
 
@@ -37,6 +38,7 @@ function validRecord(record) {
     && Number.isSafeInteger(record.reviews) && record.reviews >= 0
     && Number.isSafeInteger(record.lapses) && record.lapses >= 0 && record.lapses <= record.reviews
     && record.stage <= record.reviews
+    && (record.updatedAt === undefined || (Number.isSafeInteger(record.updatedAt) && record.updatedAt >= (record.lastReviewedAt ?? 0) && record.updatedAt <= 8640000000000000))
     && Number.isSafeInteger(record.dueAt) && record.dueAt >= 0 && record.dueAt <= 8640000000000000
     && (record.lastReviewedAt === null || (Number.isSafeInteger(record.lastReviewedAt) && record.lastReviewedAt >= 0 && record.lastReviewedAt <= 8640000000000000))
 }
@@ -57,6 +59,7 @@ export function validateSnapshot(value, deck) {
     progress[id] = {
       stage: record.stage, reviews: record.reviews, lapses: record.lapses,
       dueAt: record.dueAt, lastReviewedAt: record.lastReviewedAt,
+      ...(record.updatedAt === undefined ? {} : { updatedAt: record.updatedAt }),
     }
   }
   if (skipped && !Object.keys(progress).length) throw new Error('Backup belongs to another deck')
@@ -67,12 +70,20 @@ export function makeSnapshot(progress, language) {
   return { app: BACKUP_APP, version: 2, language, progress }
 }
 
-// A newer lapse must win over an older success, even though its stage is lower.
+// Undo is a new change even when it restores an older review date or a new card.
+const changedAt = record => record?.updatedAt ?? record?.lastReviewedAt ?? 0
+
+export function undoReview(current, reviewed, previous, now = Date.now()) {
+  const fields = ['stage', 'reviews', 'lapses', 'dueAt', 'lastReviewedAt']
+  if (!current || changedAt(current) !== changedAt(reviewed) || fields.some(field => current[field] !== reviewed[field])) return null
+  return { ...(previous ?? newProgress()), updatedAt: Math.max(now, changedAt(reviewed) + 1) }
+}
+
 export function mergeProgress(current, incoming) {
   const merged = { ...current }
   for (const [id, record] of Object.entries(incoming)) {
     const previous = merged[id]
-    if (!previous || (record.lastReviewedAt ?? 0) >= (previous.lastReviewedAt ?? 0)) merged[id] = record
+    if (!previous || changedAt(record) >= changedAt(previous)) merged[id] = record
   }
   return merged
 }
@@ -125,6 +136,10 @@ export function dueCards(deck, progress, now) {
     const left = progress[a.id], right = progress[b.id]
     // Review previously studied, due cards before introducing new phrases.
     if (Boolean(left?.reviews) !== Boolean(right?.reviews)) return left?.reviews ? -1 : 1
-    return (left?.dueAt ?? 0) - (right?.dueAt ?? 0)
+    // Keep older overdue days first; retain the supplied mix within the same day.
+    if (!left?.reviews) return 0
+    const leftDay = new Date(left.dueAt).setHours(0, 0, 0, 0)
+    const rightDay = new Date(right.dueAt).setHours(0, 0, 0, 0)
+    return leftDay - rightDay
   })
 }
