@@ -106,7 +106,7 @@ test('legacy migration preserves shuffled counts and learned cards, and keeps th
     assert.equal(session.migrate, true)
     assert.equal(saveSession(session.progress, 'ru', deck).ok, true)
     assert.equal(fake.getItem('flashcards'), JSON.stringify(saved))
-    assert.equal(JSON.parse(fake.getItem(PROGRESS_KEY)).version, 2)
+    assert.equal(JSON.parse(fake.getItem(PROGRESS_KEY)).version, 3)
   })
 })
 

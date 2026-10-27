@@ -8,6 +8,11 @@
 .language-control { display: flex; flex-direction: column; gap: 0.25rem; font-size: 0.85rem; }
 .language-control select { min-height: 44px; padding: 0.4rem 0.7rem; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); color: inherit; }
 .status-row { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; margin: 1.25rem 0; font-size: 0.8rem; color: var(--muted); }
+.study-mode { display: flex; gap: 0.35rem; padding: 0.25rem; border: 1px solid var(--border); border-radius: 12px; background: var(--surface); }
+.study-mode button { flex: 1; min-width: 0; padding: 0.55rem 0.5rem; font-size: 0.85rem; line-height: 1.3; border-color: transparent; overflow-wrap: anywhere; }
+.study-mode button[aria-pressed="true"] { background: var(--accent); color: var(--surface); font-weight: 600; }
+.mode-hint { margin: 0.4rem 0 0.75rem; font-size: 0.75rem; }
+.tools-hint { text-align: center; margin: 0.4rem 0; font-size: 0.75rem; }
 .online-badge, .offline-badge { border-radius: 20px; padding: 0.15rem 0.6rem; background: #d6eade; color: #155c48; }
 .offline-badge { background: #fff0c8; color: #744d0c; }
 .summary { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.5rem; border: 1px solid var(--border); border-radius: 14px; padding: 1rem 0.5rem; background: var(--surface); }

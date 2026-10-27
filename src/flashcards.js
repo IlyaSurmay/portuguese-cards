@@ -1,5 +1,7 @@
 export const PROGRESS_KEY = 'portuguese-cards-progress-v2'
 export const BACKUP_APP = 'portuguese-cards'
+export const SNAPSHOT_VERSION = 3
+export const STUDY_MODES = ['forward', 'inverse']
 export const DAY = 24 * 60 * 60 * 1000
 export const AGAIN_DELAY = 10 * 60 * 1000
 export const INTERVAL_DAYS = [1, 3, 7, 14, 30, 60]
@@ -45,29 +47,46 @@ function validRecord(record) {
 
 // Only progress is persisted; phrases, translations and recordings always come from the current deck.
 export function validateSnapshot(value, deck) {
-  if (!value || value.app !== BACKUP_APP || value.version !== 2
+  if (!value || value.app !== BACKUP_APP || ![2, SNAPSHOT_VERSION].includes(value.version)
     || !['uk', 'ru', 'en'].includes(value.language)
-    || !value.progress || typeof value.progress !== 'object' || Array.isArray(value.progress)) {
+    || (value.version === SNAPSHOT_VERSION && !STUDY_MODES.includes(value.studyMode))) {
     throw new Error('Invalid backup')
   }
   const known = new Set(deck.map(card => card.id))
-  const progress = {}
   let skipped = 0
-  for (const [id, record] of Object.entries(value.progress)) {
-    if (!validRecord(record)) throw new Error('Invalid progress record')
-    if (!known.has(id)) { skipped++; continue }
-    progress[id] = {
-      stage: record.stage, reviews: record.reviews, lapses: record.lapses,
-      dueAt: record.dueAt, lastReviewedAt: record.lastReviewedAt,
-      ...(record.updatedAt === undefined ? {} : { updatedAt: record.updatedAt }),
+  function validateRecords(records) {
+    if (!records || typeof records !== 'object' || Array.isArray(records)) throw new Error('Invalid progress')
+    const result = {}
+    for (const [id, record] of Object.entries(records)) {
+      if (!validRecord(record)) throw new Error('Invalid progress record')
+      if (!known.has(id)) { skipped++; continue }
+      result[id] = {
+        stage: record.stage, reviews: record.reviews, lapses: record.lapses,
+        dueAt: record.dueAt, lastReviewedAt: record.lastReviewedAt,
+        ...(record.updatedAt === undefined ? {} : { updatedAt: record.updatedAt }),
+      }
     }
+    return result
   }
-  if (skipped && !Object.keys(progress).length) throw new Error('Backup belongs to another deck')
-  return { progress, language: value.language, skipped }
+  const progress = validateRecords(value.progress)
+  const inverseProgress = validateRecords(value.version === 2 ? {} : value.inverseProgress)
+  if (skipped && !Object.keys(progress).length && !Object.keys(inverseProgress).length) throw new Error('Backup belongs to another deck')
+  return { progress, inverseProgress, studyMode: value.version === 2 ? 'forward' : value.studyMode, language: value.language, skipped }
 }
 
-export function makeSnapshot(progress, language) {
-  return { app: BACKUP_APP, version: 2, language, progress }
+export function makeSnapshot(progress, language, { inverseProgress = {}, studyMode = 'forward' } = {}) {
+  return { app: BACKUP_APP, version: SNAPSHOT_VERSION, language, studyMode, progress, inverseProgress }
+}
+
+export function progressByMode(snapshot) {
+  return { forward: snapshot.progress, inverse: snapshot.inverseProgress }
+}
+
+export function mergeStudyProgress(current, incoming) {
+  return {
+    forward: mergeProgress(current.forward, incoming.forward),
+    inverse: mergeProgress(current.inverse, incoming.inverse),
+  }
 }
 
 // Undo is a new change even when it restores an older review date or a new card.
@@ -91,7 +110,10 @@ export function mergeProgress(current, incoming) {
 export function loadSession(deck) {
   try {
     const raw = localStorage.getItem(PROGRESS_KEY)
-    if (raw !== null) return { ...validateSnapshot(JSON.parse(raw), deck), issue: null, migrate: false }
+    if (raw !== null) {
+      const snapshot = JSON.parse(raw)
+      return { ...validateSnapshot(snapshot, deck), issue: null, migrate: snapshot.version === 2 }
+    }
     const legacy = localStorage.getItem('flashcards')
     const savedLanguage = localStorage.getItem('flashcards-language')
     let language = 'en'
@@ -101,32 +123,34 @@ export function loadSession(deck) {
     } catch { /* Preferences do not invalidate progress. */ }
     return {
       progress: legacy === null ? {} : migrateLegacy(deck, JSON.parse(legacy)), language,
+      inverseProgress: {}, studyMode: 'forward',
       issue: null, migrate: true,
     }
   } catch {
     // Keep unreadable data untouched. Export remains available for this session;
     // importing a valid backup is the explicit recovery path.
-    return { progress: {}, language: 'en', issue: 'read', migrate: false }
+    return { progress: {}, inverseProgress: {}, studyMode: 'forward', language: 'en', issue: 'read', migrate: false }
   }
 }
 
-export function saveSession(progress, language, deck) {
+export function saveSession(progress, language, deck, { inverseProgress = {}, studyMode = 'forward' } = {}) {
   try {
     const raw = localStorage.getItem(PROGRESS_KEY)
-    const stored = raw === null ? {} : validateSnapshot(JSON.parse(raw), deck).progress
-    const merged = mergeProgress(stored, progress)
-    localStorage.setItem(PROGRESS_KEY, JSON.stringify(makeSnapshot(merged, language)))
-    return { ok: true, progress: merged }
+    const stored = raw === null ? { progress: {}, inverseProgress: {} } : validateSnapshot(JSON.parse(raw), deck)
+    const merged = mergeStudyProgress(progressByMode(stored), { forward: progress, inverse: inverseProgress })
+    const snapshot = makeSnapshot(merged.forward, language, { inverseProgress: merged.inverse, studyMode })
+    localStorage.setItem(PROGRESS_KEY, JSON.stringify(snapshot))
+    return { ok: true, progress: merged.forward, inverseProgress: merged.inverse }
   } catch {
-    return { ok: false, progress }
+    return { ok: false, progress, inverseProgress }
   }
 }
 
-export function restoreBackup(progress, language, deck) {
+export function restoreBackup(progress, language, deck, options) {
   try {
     // Validation happens before replacement; corrupt existing data stays intact until this explicit action.
-    const snapshot = validateSnapshot(makeSnapshot(progress, language), deck)
-    localStorage.setItem(PROGRESS_KEY, JSON.stringify(makeSnapshot(snapshot.progress, snapshot.language)))
+    const snapshot = validateSnapshot(makeSnapshot(progress, language, options), deck)
+    localStorage.setItem(PROGRESS_KEY, JSON.stringify(makeSnapshot(snapshot.progress, snapshot.language, snapshot)))
     return true
   } catch { return false }
 }

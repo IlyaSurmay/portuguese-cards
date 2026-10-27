@@ -6,17 +6,21 @@ English is the default for new sessions. Existing saved language choices are kep
 
 ## Study
 
-Rate your recall directly from the Portuguese side, or reveal the translation first if you want to check it:
+Use the switch above the cards to choose **Portuguese first** (recognize the meaning) or **Translation first** (recall the original Portuguese). The last chosen direction is remembered. Translation first uses the language selected in Settings. Tap the card or **Show Portuguese** to check your answer; Portuguese audio and explanations are enabled after the reveal and disabled again when returning to the prompt. Changing direction or language resets the card to its prompt and stops audio.
+
+Each direction has its own review schedule, levels and counts. Existing progress belongs to Portuguese first; Translation first starts unstudied. The summary, progress list and due queue reflect the selected direction. Translation languages share progress within each direction.
+
+Rate your recall directly from either prompt, or reveal the answer first if you want to check it:
 
 - **Remembered** schedules the next review in 1, 3, 7, 14, 30, then 60 days. Later successful reviews stay at 60 days.
 - **Again** resets the review level and brings the card back in 10 minutes.
 - Previously studied cards that are due appear before new phrases. Future reviews wait until their due time.
-- Both grading buttons are always available before revealing the translation. Tap the card to flip it. Swipe grading is currently disabled, and cards use native page scrolling without custom gesture handling.
-- **Undo** is available for 8 seconds after the latest answer. It restores the previous level, counts and review date and returns to that card. A new card returns to its unstudied state. A newer review from another tab is kept.
+- Both grading buttons are always available before revealing the answer. Tap the card to flip it. Swipe grading is currently disabled, and cards use native page scrolling without custom gesture handling.
+- **Undo** is available for 8 seconds after the latest answer. It restores the previous level, counts and review date and returns to that card and direction, even if you switched modes. A new card returns to its unstudied state. A newer review from another tab is kept.
 - **Browse all** and the arrows let you look through cards without grading them.
 - Cards get a stable new mix each local day, without changing under your finger. **Mix cards** changes the order immediately. Reviewed cards due on older days still come first; within each due day and among new cards, the order varies.
 
-The summary shows cards due now, cards studied, cards at level 5 or above, and answers in the current session. Review times refresh every 30 seconds and when returning to the app. Choose the translation language in Settings; all three languages share the same card progress and review schedule.
+The summary shows cards due now, cards studied, cards at level 5 or above, and answers in the current session for the selected direction. Review times refresh every 30 seconds and when returning to the app. Choose the translation language in Settings.
 
 Use **ⓘ** beside the card counter to open a phrase breakdown: Portuguese building blocks with meanings in your selected language, a short grammar note, and a different example with its translation. All 200 cards have bundled explanations focused on European Portuguese. English notes are written for English speakers, covering omitted subjects, gender and articles, contractions, polite verb forms, false friends and idiomatic translations. The verb section identifies each base verb, person, tense, regular endings or irregular stem changes, and attached pronouns. **Compare forms** opens tables for the relevant tense or command; notes explain when a form is ambiguous, such as eu/você podia. All three languages include the same analysis. Cards without a conjugated verb explain the omitted structure instead. Opening or closing an explanation does not flip, grade, or reschedule a card. No AI service, API key, or network request is needed to read them.
 
@@ -58,9 +62,9 @@ The private store and queue have free usage allowances on Vercel; normal limits 
 
 Progress is local to this browser/installation and origin. Always use the canonical URL above. There is no automatic device sync. Browser storage can be cleared or evicted, and an installed iOS web app may use different storage from its browser tab.
 
-Export a JSON backup before changing devices, installing the app, or clearing site data. Import validates the file and shows a preview before applying it. It merges each card's most recent change, preserving unrelated progress. Records use an optional updatedAt timestamp so Undo wins over stale reviews; older backups fall back to the review timestamp. Unsupported or malformed backups are rejected without changing progress.
+Export a JSON backup before changing devices, installing the app, or clearing site data. Backups include both directions, the chosen mode and language. Import validates the file and shows a preview before applying it. It merges each card's most recent change independently in each direction, preserving unrelated progress. Records use an optional updatedAt timestamp so Undo wins over stale reviews; older backups fall back to the review timestamp. Version 2 saves and backups are accepted as Portuguese-first progress and never erase existing inverse records. Unsupported or malformed backups are rejected without changing progress.
 
-Only versioned progress and language preference are saved in `portuguese-cards-progress-v2`; card content comes from the bundled deck. Save failures display a warning and keep study working in memory. Unreadable saves are left untouched until an explicit backup restore. Export remains available when browser storage fails.
+Only versioned progress, mode and language preferences are saved in `portuguese-cards-progress-v2`; card content comes from the bundled deck. The storage key is retained for migration, but the snapshot format is now version 3 with `progress` (Portuguese first), `inverseProgress` and `studyMode`. An older app tab rejects version 3 rather than silently overwriting inverse progress; update that tab before continuing study. Save failures display a warning and keep both directions working in memory. Unreadable saves are left untouched until an explicit backup restore. Export remains available when browser storage fails.
 
 ## Development
 
