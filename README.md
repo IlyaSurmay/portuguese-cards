@@ -11,9 +11,9 @@ Rate your recall directly from the Portuguese side, or reveal the translation fi
 - **Remembered** schedules the next review in 1, 3, 7, 14, 30, then 60 days. Later successful reviews stay at 60 days.
 - **Again** resets the review level and brings the card back in 10 minutes.
 - Previously studied cards that are due appear before new phrases. Future reviews wait until their due time.
-- Swipe **right** for Remembered or **left** for Again. Both grading buttons are always available before revealing the translation. Tap the card to flip it. Vertical scrolling, small drags and cancelled gestures do not grade a card.
+- Both grading buttons are always available before revealing the translation. Tap the card to flip it. Swipe grading is currently disabled, and cards use native page scrolling without custom gesture handling.
 - **Undo** is available for 8 seconds after the latest answer. It restores the previous level, counts and review date and returns to that card. A new card returns to its unstudied state. A newer review from another tab is kept.
-- **Browse all** and the arrows let you look through cards without grading them. Swiping is disabled in Browse all.
+- **Browse all** and the arrows let you look through cards without grading them.
 - Cards get a stable new mix each local day, without changing under your finger. **Mix cards** changes the order immediately. Reviewed cards due on older days still come first; within each due day and among new cards, the order varies.
 
 The summary shows cards due now, cards studied, cards at level 5 or above, and answers in the current session. Review times refresh every 30 seconds and when returning to the app. Choose the translation language in Settings; all three languages share the same card progress and review schedule.
@@ -84,7 +84,7 @@ Service workers are enabled in production builds; use `npm run preview` to test 
 - `src/VerbNotes.jsx`: accessible, expandable conjugation comparisons.
 - `src/flashcards.js`: scheduling, Undo, migration, storage and backup validation. Undo stores an unstudied record with an updatedAt timestamp for new cards so stale tabs cannot resurrect the removed grade.
 - `src/studyQueue.js`: stable daily mixing; due reviews retain priority by calendar day.
-- `src/useCardSwipe.js` and `src/swipe.js`: pointer gestures, scroll-safe direction detection and grading thresholds.
+- `src/useCardSwipe.js` and `src/swipe.js`: inactive gesture helpers, not imported by the app while swipe grading is disabled.
 - `src/offline.js`: resumable audio downloads.
 - `src/service-worker.js`: offline shell, audio caching and range responses.
 - `src/useReminders.js` and `src/reminders.js`: opt-in notification controls and device settings.

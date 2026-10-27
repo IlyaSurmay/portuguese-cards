@@ -108,16 +108,8 @@ footer { font-size: 0.8rem; text-align: center; padding-top: 2rem; overflow-wrap
 @media (prefers-color-scheme: dark) { .error-text { color: #ffb3ab; } }
 @media (prefers-reduced-motion: reduce) { .flashcard-inner { transition: none; } }
 
-/* Grading gestures keep vertical scrolling and zooming available. */
-.flashcard { position: relative; touch-action: pan-y pinch-zoom; user-select: none; -webkit-user-select: none; transition: transform 0.16s ease-out; }
-.flashcard.is-swiping { transform: translateX(var(--swipe-x)) rotate(var(--swipe-rotation)); transition: none; }
-.swipe-feedback { position: absolute; z-index: 1; top: 0.75rem; left: 0.75rem; right: 0.75rem; padding: 0.5rem; border: 2px solid; border-radius: 10px; font-weight: 700; opacity: 0.8; pointer-events: none; }
-.swipe-feedback.remembered { background: #d6eade; border-color: #468365; color: #155c48; }
-.swipe-feedback.again { background: #fff0dd; border-color: #c68b35; color: #6a3a10; }
-.swipe-feedback.ready { opacity: 1; }
-.swipe-hint, .queue-hint { text-align: center; margin: 0.6rem 0; }
+.queue-hint { text-align: center; margin: 0.6rem 0; }
 .browse-control { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem; }
 .review-toast { position: fixed; z-index: 5; left: max(0.75rem, env(safe-area-inset-left)); right: max(0.75rem, env(safe-area-inset-right)); bottom: max(0.75rem, env(safe-area-inset-bottom)); max-width: 48rem; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; padding: 0.75rem 1rem; border: 1px solid var(--border); border-radius: 14px; color: inherit; background: var(--surface); box-shadow: 0 4px 24px #12272233; }
 .review-toast button { flex-shrink: 0; color: var(--accent); font-weight: 600; }
 .has-review-toast { padding-bottom: calc(6rem + env(safe-area-inset-bottom)); }
-@media (prefers-reduced-motion: reduce) { .flashcard { transition: none; } }

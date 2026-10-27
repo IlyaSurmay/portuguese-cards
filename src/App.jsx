@@ -6,7 +6,6 @@ import {
   newProgress, restoreBackup, reviewCard, saveSession, undoReview, validateSnapshot,
 } from './flashcards'
 import { mixDeck, studyDay } from './studyQueue'
-import { useCardSwipe } from './useCardSwipe'
 import { cachedAudioCount, downloadAudio } from './offline'
 import { usePwa } from './usePwa'
 import { useReminders } from './useReminders'
@@ -58,7 +57,6 @@ function App() {
   const currentCard = queue.find(card => card.id === currentId) ?? queue[0]
   const explanation = currentCard ? phraseExplanations[currentCard.id] : null
   const currentProgress = currentCard ? progress[currentCard.id] ?? newProgress() : null
-  const swipe = useCardSwipe(currentCard?.id, Boolean(currentCard) && !browsing && !showStats, answer, () => setIsFlipped(value => !value))
 
   useEffect(() => { if (currentCard) setCurrentId(currentCard.id) }, [currentCard])
   useEffect(() => {
@@ -406,17 +404,13 @@ function App() {
           </dialog>}
           <div className="flashcard-container">
             <button onClick={() => navigate(-1)} className="side-button" aria-label={text.previous}>←</button>
-            <button type="button" className={`flashcard ${isFlipped ? 'flipped' : ''} ${swipe.offset ? 'is-swiping' : ''}`}
-              style={{ '--swipe-x': `${Math.max(-40, Math.min(40, swipe.offset * 0.35))}px`, '--swipe-rotation': `${Math.max(-4, Math.min(4, swipe.offset / 30))}deg` }}
-              {...swipe.handlers} aria-label={text.flip}
+            <button type="button" className={`flashcard ${isFlipped ? 'flipped' : ''}`}
+              onClick={() => setIsFlipped(value => !value)} aria-label={text.flip}
               aria-describedby={isFlipped ? 'card-translation' : 'card-portuguese'} aria-pressed={isFlipped}>
               <span className="flashcard-inner">
                 <span className="flashcard-front" aria-hidden={isFlipped}><span id="card-portuguese" className="flashcard-text" lang="pt-PT">{currentCard.portuguese}</span></span>
                 <span className="flashcard-back" aria-hidden={!isFlipped}><span id="card-translation" className="flashcard-text" lang={language}>{currentCard[text.field]}</span></span>
               </span>
-              {swipe.offset !== 0 && <span aria-hidden="true" className={`swipe-feedback ${swipe.offset > 0 ? 'remembered' : 'again'} ${swipe.ready ? 'ready' : ''}`}>
-                {swipe.offset > 0 ? text.remembered : text.again}
-              </span>}
             </button>
             <button onClick={() => navigate(1)} className="side-button" aria-label={text.next}>→</button>
           </div>
@@ -436,7 +430,6 @@ function App() {
             <button className="remembered-button" onClick={() => answer('remembered')}>{text.remembered}<small>{new Intl.NumberFormat(language, { style: 'unit', unit: 'day', unitDisplay: 'long' }).format(INTERVAL_DAYS[Math.min(currentProgress.stage, INTERVAL_DAYS.length - 1)])}</small></button>
           </div>
           {!isFlipped && <div className="reveal-section"><button onClick={() => setIsFlipped(true)}>{text.reveal}</button></div>}
-          <p className="swipe-hint muted">{text.swipeHint}</p>
           </>}
         </> : <div className="empty-state" role="status">
           <h2>{text.allDone}</h2>

@@ -1,6 +1,5 @@
 export const languages = {
   en: {
-    swipeHint: 'Swipe left: Again · Swipe right: Remembered · Tap to check the translation',
     mixCards: 'Mix cards', queueHint: 'A fresh mix each day. Older overdue reviews come first.',
     undo: 'Undo', markedRemembered: 'Marked as remembered.', markedAgain: 'Scheduled to repeat in 10 minutes.',
     answerUndone: 'Answer undone. The previous schedule is restored.', undoConflict: 'This card has since been reviewed. Its latest result was kept.',
@@ -70,7 +69,6 @@ export const languages = {
     backupImportedUnsaved: 'Backup opened, but your browser could not save it. Export your progress before closing.',
   },
   uk: {
-    swipeHint: 'Ліворуч: Ще раз · Праворуч: Пам’ятаю · Натисніть, щоб перевірити переклад',
     mixCards: 'Перемішати картки', queueHint: 'Новий порядок щодня. Давніші прострочені повторення — першими.',
     undo: 'Скасувати', markedRemembered: 'Позначено як «Пам’ятаю».', markedAgain: 'Повторення через 10 хвилин.',
     answerUndone: 'Відповідь скасовано. Попередній розклад відновлено.', undoConflict: 'Цю картку вже повторили ще раз. Збережено останній результат.',
@@ -140,7 +138,6 @@ export const languages = {
     backupImportedUnsaved: 'Копію відкрито, але браузер не зберіг її. Експортуйте прогрес перед закриттям.',
   },
   ru: {
-    swipeHint: 'Влево: Ещё раз · Вправо: Помню · Нажмите, чтобы проверить перевод',
     mixCards: 'Перемешать карточки', queueHint: 'Новый порядок каждый день. Более давние просроченные повторения — первыми.',
     undo: 'Отменить', markedRemembered: 'Отмечено как «Помню».', markedAgain: 'Повторение через 10 минут.',
     answerUndone: 'Ответ отменён. Прежнее расписание восстановлено.', undoConflict: 'Эту карточку уже повторили ещё раз. Сохранён последний результат.',
