@@ -16,7 +16,7 @@ Rate your recall directly from either prompt, or reveal the answer first if you 
 - **Again** resets the review level and brings the card back in 10 minutes.
 - Previously studied cards that are due appear before new phrases. Future reviews wait until their due time.
 - Both grading buttons are always available before revealing the answer. Tap the card to flip it. Swipe grading is currently disabled, and cards use native page scrolling without custom gesture handling.
-- **Undo** is available for 8 seconds after the latest answer. It restores the previous level, counts and review date and returns to that card and direction, even if you switched modes. A new card returns to its unstudied state. A newer review from another tab is kept.
+- **Undo** appears beside **Browse all cards** and **Mix cards** for 8 seconds after the latest answer. It stays in the page layout so no toast covers the study buttons. It restores the previous level, counts and review date and returns to that card and direction, even if you switched modes. A new card returns to its unstudied state. A newer review from another tab is kept.
 - **Browse all** and the arrows let you look through cards without grading them.
 - Cards get a stable new mix each local day, without changing under your finger. **Mix cards** changes the order immediately. Reviewed cards due on older days still come first; within each due day and among new cards, the order varies.
 

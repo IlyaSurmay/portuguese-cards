@@ -171,7 +171,7 @@ function App() {
     const previous = records[studyMode][currentCard.id]
     const reviewed = reviewCard(previous, value, timestamp)
     persist({ ...records, [studyMode]: { ...records[studyMode], [currentCard.id]: reviewed } })
-    setLastAnswer({ id: currentCard.id, mode: studyMode, previous, reviewed, answer: value, expiresAt: timestamp + 8000 })
+    setLastAnswer({ id: currentCard.id, mode: studyMode, previous, reviewed, expiresAt: timestamp + 8000 })
     setUndoNotice(null)
     setNow(timestamp)
     setCurrentId(null)
@@ -358,7 +358,7 @@ function App() {
   )
 
   return (
-    <main className={`app-container ${lastAnswer || undoNotice ? 'has-review-toast' : ''}`}>
+    <main className="app-container">
       <header className="app-header">
         <div><h1>{text.title}</h1><p>{text.subtitle}</p></div>
       </header>
@@ -487,7 +487,9 @@ function App() {
         <div className="browse-control">
           <button onClick={toggleBrowsing}>{browsing ? text.returnReviews : text.browse}</button>
           <button onClick={mixCards} disabled={queue.length < 2}>{text.mixCards}</button>
+          {lastAnswer && <button type="button" onClick={undoAnswer}>{text.undo}</button>}
         </div>
+        {undoNotice && <p className="queue-hint muted" role="status">{text[undoNotice]}</p>}
         <p className="queue-hint muted">{text.queueHint}</p>
       </section>}
 
@@ -563,10 +565,6 @@ function App() {
         </section>
         <p className="muted">{text.scheduleHint}</p>
       </details>
-      {(lastAnswer || undoNotice) && <div className="review-toast">
-        <span role="status">{lastAnswer ? lastAnswer.answer === 'remembered' ? text.markedRemembered : text.markedAgain : text[undoNotice]}</span>
-        {lastAnswer && <button type="button" onClick={undoAnswer}>{text.undo}</button>}
-      </div>}
       <footer><a href="https://portuguese-cards.vercel.app/">portuguese-cards.vercel.app</a></footer>
     </main>
   )
