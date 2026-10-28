@@ -479,7 +479,6 @@ function App() {
             <button className="remembered-button" onClick={() => answer('remembered')}>{text.remembered}<small>{new Intl.NumberFormat(language, { style: 'unit', unit: 'day', unitDisplay: 'long' }).format(INTERVAL_DAYS[Math.min(currentProgress.stage, INTERVAL_DAYS.length - 1)])}</small></button>
           </div>
           </>}
-          {!isFlipped && <div className="reveal-section"><button onClick={() => setIsFlipped(true)}>{inverse ? text.revealPortuguese : text.reveal}</button></div>}
         </> : <div className="empty-state" role="status">
           <h2>{text.allDone}</h2>
           {Number.isFinite(nextDueAt) && <p>{text.nextDue}: {formatDate(nextDueAt)}</p>}

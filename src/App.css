@@ -77,7 +77,7 @@ html:has(.phrase-explanation[open]) { overflow: hidden; }
 .review-actions small { display: block; font-size: 0.75rem; font-weight: 400; }
 .again-button { background: #fff0dd; border-color: #e7bd7c; color: #6a3a10; }
 .remembered-button, .primary { background: #146b60; border-color: #146b60; color: #fff; }
-.reveal-section, .browse-control { text-align: center; margin-top: 1rem; }
+.browse-control { text-align: center; margin-top: 1rem; }
 .muted { color: var(--muted); font-size: 0.85rem; }
 .empty-state { padding: 3rem 1rem; text-align: center; background: var(--surface); border: 1px solid var(--border); border-radius: 16px; }
 .cards-list { display: grid; gap: 0.75rem; margin: 1rem 0; }

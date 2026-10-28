@@ -6,7 +6,7 @@ English is the default for new sessions. Existing saved language choices are kep
 
 ## Study
 
-Use the switch above the cards to choose **Portuguese first** (recognize the meaning) or **Translation first** (recall the original Portuguese). The last chosen direction is remembered. Translation first uses the language selected in Settings. Tap the card or **Show Portuguese** to check your answer; Portuguese audio and explanations are enabled after the reveal and disabled again when returning to the prompt. Changing direction or language resets the card to its prompt and stops audio.
+Use the switch above the cards to choose **Portuguese first** (recognize the meaning) or **Translation first** (recall the original Portuguese). The last chosen direction is remembered. Translation first uses the language selected in Settings. Tap the card to check your answer; there is no separate reveal button. In Translation first, Portuguese audio and explanations are enabled after the reveal and disabled again when returning to the prompt. Changing direction or language resets the card to its prompt and stops audio.
 
 Each direction has its own review schedule, levels and counts. Existing progress belongs to Portuguese first; Translation first starts unstudied. The summary, progress list and due queue reflect the selected direction. Translation languages share progress within each direction.
 
